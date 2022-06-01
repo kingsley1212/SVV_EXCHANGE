@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">
+    <ImageView
+        android:id="@+id/pay_logo_iv"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@mipmap/pay_unionpay_icon" />
+
+    <TextView
+        android:id="@+id/pay_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_weight="1"
+        android:text="@string/OtcBuyOrSellFrag_bank_zhuanz"
+        android:textColor="@color/main_little_title"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/bank_selector"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:src="@drawable/btn_selector" />
+</LinearLayout>

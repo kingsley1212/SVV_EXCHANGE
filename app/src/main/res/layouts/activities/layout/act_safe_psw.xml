@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/main_bg_color"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_top_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/et_safe_psw_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?attr/mf_item_bg"
+        android:hint="@string/safepsw14"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="?attr/mt_title_tc"
+        android:textColorHint="@color/c_text_hint_color"
+        android:textSize="14sp"/>
+
+    <View
+        style="@style/divider_line"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+    <EditText
+        android:id="@+id/et_old_safe_psw"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:background="?attr/mf_item_bg"
+        android:hint="@string/safepsw5"
+        android:inputType="textPassword"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="?attr/mt_title_tc"
+        android:textColorHint="@color/c_text_hint_color"
+        android:textSize="14sp"/>
+
+    <View
+        style="@style/divider_line"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/et_safe_psw"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?attr/mf_item_bg"
+        android:hint="@string/login_inputpassword"
+        android:inputType="textPassword"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="?attr/mt_title_tc"
+        android:textColorHint="@color/c_text_hint_color"
+        android:textSize="14sp"/>
+
+    <View
+        style="@style/divider_line"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/et_safe_repsw"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?attr/mf_item_bg"
+        android:hint="@string/login_inputrepassword"
+        android:inputType="textPassword"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textColor="?attr/mt_title_tc"
+        android:textColorHint="@color/c_text_hint_color"
+        android:textSize="14sp"/>
+
+    <View
+        style="@style/divider_line"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_verify_code"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?attr/mf_item_bg"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/tv_send_code"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_get_check_code"
+            android:gravity="center"
+            android:text="@string/login_get_checkcode"
+            android:textColor="#ff4a7cf6"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:id="@+id/et_safe_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tv_send_code"
+            android:background="@null"
+            android:hint="@string/login_input_checkcode"
+            android:inputType="number"
+            android:textColor="?attr/mt_title_tc"
+            android:textColorHint="@color/c_text_hint_color"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/commit_safepsw"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="40dp"
+        android:background="?attr/btn_bg"
+        android:gravity="center"
+        android:text="@string/complete"
+        android:textColor="@color/c_white"/>
+
+</LinearLayout>

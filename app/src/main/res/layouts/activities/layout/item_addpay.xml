@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_pay_logo"
+            android:layout_marginLeft="15dp"
+            android:layout_width="17dp"
+            android:layout_height="17dp" />
+        <TextView
+            android:id="@+id/tv_pay_name"
+            android:layout_marginLeft="10dp"
+            android:text="@string/zfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/c_1a456d"/>
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/c_dcedfd" />
+
+</LinearLayout>

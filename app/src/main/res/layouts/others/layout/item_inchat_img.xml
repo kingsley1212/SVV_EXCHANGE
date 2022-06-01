@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/sys_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_sysmesage_bg"
+        android:textColor="@color/c_444444" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:padding="10dp"
+        android:id="@+id/other_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.svv.jys.code.module.server.chatserver.view.UserImgStatusView
+                android:layout_alignParentBottom="true"
+                android:id="@+id/other_userImg_s"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp" />
+
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/ic_tangguo"
+                android:layout_toRightOf="@id/other_userImg_s"
+                android:background="@drawable/shape_chat_my"
+                android:id="@+id/other_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp" />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/other_maddtime"
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/c_9fb8cf"
+            android:textSize="12sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+<LinearLayout
+    android:visibility="gone"
+    android:padding="10dp"
+    android:id="@+id/my_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        >
+
+        <com.svv.jys.code.module.server.chatserver.view.UserImgStatusView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/my_userImg_s"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp" />
+
+
+
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_toLeftOf="@+id/my_userImg_s"
+            android:background="@drawable/shape_chat_other"
+            android:id="@+id/my_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_gravity="right"
+        android:id="@+id/my_maddtime"
+        android:layout_marginRight="50dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/c_9fb8cf"
+        android:textSize="12sp"
+        android:text="2019-10-10"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+</LinearLayout>

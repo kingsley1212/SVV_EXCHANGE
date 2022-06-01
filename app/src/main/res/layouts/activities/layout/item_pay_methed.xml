@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_pay_bg"
+        android:background="@mipmap/zfb_bg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <ImageView
+            android:id="@+id/iv_pay_kaiguan"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="61dp"
+            android:layout_height="33dp"
+            android:src="@mipmap/ic_pay_kai_"/>
+       <ImageView
+           android:id="@+id/iv_pay_logo"
+           android:layout_marginTop="17dp"
+           android:layout_marginLeft="25dp"
+           android:layout_width="28dp"
+           android:layout_height="28dp"
+           android:src="@mipmap/ic_pay_zfb"/>
+        <TextView
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@id/iv_pay_kaiguan"
+            android:id="@+id/tv_payment_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/iv_pay_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zfb"
+            android:textSize="15sp"
+            android:textColor="@color/c_white"/>
+        <TextView
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_pay_kaiguan"
+            android:id="@+id/tv_pay_zhanghao"
+            android:layout_below="@id/tv_payment_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/iv_pay_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1366666666"
+            android:textSize="15sp"
+            android:textColor="@color/c_white"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

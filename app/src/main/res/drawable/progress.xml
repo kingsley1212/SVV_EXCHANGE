@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="20dp" />
+            <gradient
+                android:endColor="#ffc3c3c3"
+                android:startColor="#ffc3c3c3" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp" />
+                <gradient
+                    android:endColor="#ddd"
+                    android:startColor="#ddd" />
+            </shape>
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <scale
+            android:scaleWidth="100%">
+            <shape>
+                <corners android:radius="20dp" />
+                <gradient
+                    android:endColor="#ffff683f"
+                    android:startColor="#ffff595d" />
+            </shape>
+        </scale>
+
+        <!--下面这个会把中间的变为直角-->
+        <!--<clip
+            android:clipOrientation="horizontal"
+            android:gravity="right">
+            <shape>
+                <corners android:radius="5dp" />
+                <gradient
+                    android:endColor="#FF6400"
+                    android:startColor="#FF6400" />
+            </shape>
+        </clip>-->
+    </item>
+</layer-list>

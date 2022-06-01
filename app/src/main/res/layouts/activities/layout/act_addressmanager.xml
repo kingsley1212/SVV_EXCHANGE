@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_bg_jys"
+    android:id="@+id/ll_address">
+    <include layout="@layout/include_top_title_bar"
+        android:id="@+id/include_title"/>
+    <TextView
+        android:textColor="@color/c_white"
+        android:background="@drawable/btn_universal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tv_add_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_title"
+        android:layout_above="@id/tv_add_address"
+        android:layout_marginTop="10dp">
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/rv_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <include layout="@layout/include_nodata"
+            android:id="@+id/no_data"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

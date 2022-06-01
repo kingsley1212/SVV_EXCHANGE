@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/bg_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="19dp"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/btn_universal">
+
+        <TextView
+            android:id="@+id/assetname_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+
+            android:textColor="@color/c_ffffff"
+            android:textSize="24sp"
+            android:visibility="gone"
+            />
+         <LinearLayout
+             android:id="@+id/asset_eye_ll"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:layout_gravity="right"
+             android:layout_marginRight="20dp">
+             <ImageView
+                 android:layout_width="15dp"
+                 android:layout_height="15dp"
+                 android:src="@drawable/selector_eye"
+                 />
+         </LinearLayout>
+        <TextView
+            android:id="@+id/unti_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="@string/assat_equivalent"
+            android:textColor="@color/c_ffffff"
+            android:textSize="13sp"
+            android:layout_marginTop="8dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_btc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/c_ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_money_cny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/c_ffffff"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

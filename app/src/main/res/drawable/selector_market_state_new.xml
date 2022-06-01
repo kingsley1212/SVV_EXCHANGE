@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--行情页的 上涨下跌效果-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true">
+        <!--下跌状态块效果-->
+        <shape>
+           <solid android:color="#40ff5755"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+    <item
+        android:state_selected="false">
+        <!--上涨状态块效果-->
+        <shape>
+          <solid android:color="#401ede89"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+
+</selector>

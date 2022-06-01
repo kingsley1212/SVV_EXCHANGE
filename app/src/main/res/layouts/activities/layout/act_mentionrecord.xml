@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include layout="@layout/include_top_title_bar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/xrv_mentionrecord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <include layout="@layout/include_nodata"
+            android:visibility="gone"
+            android:id="@+id/no_data_ly"/>
+    </FrameLayout>
+</LinearLayout>

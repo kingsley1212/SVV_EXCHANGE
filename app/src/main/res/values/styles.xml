@@ -1,0 +1,339 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/app_bg</item>
+    </style>
+
+
+    <!-- *************************显示模式************************* -->
+    <!-- 日间模式 -->
+    <style name="ThemeDay" parent="AppTheme">
+        <item name="main_bg_color">@color/main_bg</item>
+        <item name="main_tab_color">@color/c_ffffff</item>
+        <item name="main_tab_tx_color">@drawable/selector_tab_text</item>
+        <item name="main_tab_1">@drawable/selector_tab_1</item>
+        <item name="main_tab_2">@drawable/selector_tab_2</item>
+        <item name="main_tab_3">@drawable/selector_tab_3</item>
+        <item name="main_tab_4">@drawable/selector_tab_4</item>
+        <item name="main_tab_5">@drawable/selector_tab_5</item>
+        <item name="hp_centerview_bg">@drawable/shape_hp_centerview_bg</item>
+        <item name="hp_centerview_bg_2">@color/c_ffffff</item>
+        <item name="hp_centerview_img1">@mipmap/ba_hp_c2_notx</item>
+        <item name="hp_centerview_tc_1">@color/c_000000</item>
+        <item name="hp_centerview_tc_2">@color/c_4d4c4c</item>
+        <item name="hp_centerview_myassetitem_bg">@color/c_ffffff</item>
+        <item name="hp_centerview_myassetitem_tc_1">@color/c_2c2c2c</item>
+
+        <item name="cb_title_bg">@color/c_ffffff</item>
+        <item name="cb_title_tc">@color/c_2459e5</item>
+        <item name="cb_center_bg">@color/c_ffffff</item>
+        <item name="cb_center_stroke_1">@drawable/shape_stroke</item>
+        <item name="cb_center_selector_1">@drawable/selector_press_1</item>
+
+        <item name="mt_title_tc">@color/c_656565</item>
+        <item name="mt_title_bg">@color/c_ffffff</item>
+        <item name="mt_title_tab_bg">@color/c_ffffff</item>
+        <item name="mt_title_tab_tc_uns">@color/c_656565</item>
+        <item name="mt_title_tab_tc_s">@color/c_2459e5</item>
+        <item name="mt_item_bg">@color/c_ffffff</item>
+        <item name="mt_item_buy_tc">@color/c_2c2c2c</item>
+        <item name="mt_item_sell_tc">@color/c_c3c3c3</item>
+        <item name="mt_item_tc_1">@color/c_c3c3c3</item>
+        <item name="mt_item_tc_2">@color/c_ffffff</item>
+
+        <item name="mf_top_bg">@mipmap/ic_top_bg</item>
+        <item name="mf_item_bg">@color/c_ffffff</item>
+        <item name="mf_item_tc">@color/c_2c2c2c</item>
+        <item name="mf_item_logo_1">@mipmap/ic_myself_item1</item>
+        <item name="mf_item_logo_2">@mipmap/ic_myself_item2</item>
+        <item name="mf_item_logo_3">@mipmap/ic_myself_item3</item>
+        <item name="mf_item_logo_4">@mipmap/ic_myself_item4</item>
+        <item name="mf_item_logo_5">@mipmap/ic_myself_item5</item>
+        <item name="mf_item_logo_6">@mipmap/ic_myself_item6</item>
+        <item name="mf_item_logo_7">@mipmap/ic_myself_item7</item>
+        <item name="mf_item_logo_8">@mipmap/ic_myself_item8</item>
+        <item name="mf_item_logo_9">@mipmap/ic_myself_item9</item>
+        <item name="linecolor_1">@color/c_ebebeb</item>
+        <item name="linecolor_2">@color/c_c3c3c3</item>
+        <item name="linecolor_3">@color/c_c3c3c3</item>
+        <item name="nonmal_tc_1">@color/c_2459e5</item>
+        <item name="nonmal_tc_2">@color/c_2c2c2c</item>
+        <item name="nonmal_tc_3">@color/c_c3c3c3</item>
+        <item name="title_bg">@drawable/shape_titlebar_gradient</item>
+        <item name="btn_bg">@drawable/selector_commonbutton</item>
+        <item name="sell_buy_btn">@drawable/selector_commonbutton</item>
+        <item name="btn_bg_nocorner">@drawable/selector_commonbutton_nocorner</item>
+        <item name="add_pay_btn">@drawable/selector_commonbutton_nocorner</item>
+        <item name="text_white_hei1">@color/c_505050</item>
+        <item name="text_white_hei2">@color/c_444444</item>
+        <item name="tab_select">@color/c_2459e5</item>
+        <item name="assat_top">@drawable/selector_myassettop</item>
+        <item name="assat_vp_bg">@drawable/shape_myassat_1</item>
+        <item name="assat_search_tv">@color/c_a9adb7</item>
+        <item name="assat_item">@color/c_656565</item>
+        <item name="hei_2c">@color/c_2c2c2c</item>
+        <item name="lt_top_bg">@drawable/shape_myassat_1</item>
+        <item name="lt_top_bg1">@mipmap/ic_myasset_bg</item>
+        <item name="huhuan_pic">@mipmap/huhuan</item>
+        <item name="slide_text">@drawable/slide1</item>
+        <item name="collect">@drawable/selector_coinbusiness_save</item>
+        <item name="mune_pic">@mipmap/ic_barbusiness_menu</item>
+        <item name="pop_touming">@color/c_80888888</item>
+        <item name="jiyi">@color/c_text_normal</item>
+        <item name="news">@mipmap/ic_news</item>
+        <item name="assat_item1">@color/c_656565</item>
+        <item name="fabi">@drawable/fabi_white</item>
+        <item name="fabi_title_sell">@drawable/selector_fabi_sell_white</item>
+        <item name="fabi_title_buy">@drawable/selector_fabi_buy_white</item>
+        <item name="fabi_add">@mipmap/fabi_add_white</item>
+        <item name="fabi_title_bg">@color/c_ffffff</item>
+        <item name="fabi_order">@mipmap/fabi_order_white</item>
+        <item name="fabu">@color/c_656565</item>
+        <item name="order_type">@color/c_2459e5</item>
+        <item name="fabu_jiaoyi_num">@color/c_4969f2</item>
+        <item name="fabi_btn_bg">@drawable/selector_commonbutton_nocorner</item>
+        <item name="kai_guan">@drawable/selector_kai_guan</item>
+        <item name="chat_img">@mipmap/chatimg_white</item>
+        <item name="chat_send_tx">@color/c_999999</item>
+        <item name="chat_send_bg">@drawable/chat_send_bg_white</item>
+        <item name="adv_pic">@mipmap/adv_white</item>
+        <item name="adv_shangjia">@drawable/xiajia_bg_white</item>
+    </style>
+    <!-- 夜间模式 -->
+    <style name="ThemeNight" parent="AppTheme">
+        <item name="main_bg_color">@color/main_bg_night</item>
+        <item name="main_tab_color">@color/c_28263b</item>
+        <item name="main_tab_tx_color">@drawable/selector_tab_text_night</item>
+        <item name="main_tab_1">@drawable/selector_tab_1_night</item>
+        <item name="main_tab_2">@drawable/selector_tab_2_night</item>
+        <item name="main_tab_3">@drawable/selector_tab_3_night</item>
+        <item name="main_tab_4">@drawable/selector_tab_4_night</item>
+        <item name="main_tab_5">@drawable/selector_tab_5_night</item>
+
+        <item name="hp_centerview_bg">@drawable/shape_hp_centerview_bg_night</item>
+        <item name="hp_centerview_bg_2">@color/main_bg_night</item>
+        <item name="hp_centerview_img1">@mipmap/ba_hp_c2_notx_night</item>
+        <item name="hp_centerview_tc_1">@color/c_ffffff</item>
+        <item name="hp_centerview_tc_2">@color/c_ffffff</item>
+        <item name="hp_centerview_myassetitem_bg">@color/c_27263b</item>
+        <item name="hp_centerview_myassetitem_tc_1">@color/c_bbbbbb</item>
+
+        <item name="cb_title_bg">@color/c_27263b</item>
+        <item name="cb_title_tc">@color/c_ffffff</item>
+        <item name="cb_center_bg">@color/c_27263b</item>
+        <item name="cb_center_stroke_1">@color/c_1f1a20</item>
+        <item name="cb_center_selector_1">@drawable/selector_press_1_night</item>
+
+        <item name="mt_title_tc">@color/c_ffffff</item>
+        <item name="mt_title_bg">@color/c_27263b</item>
+        <item name="mt_title_tab_bg">@color/c_27263b</item>
+        <item name="mt_title_tab_tc_uns">@color/c_ffffff</item>
+        <item name="mt_title_tab_tc_s">@color/c_ff595d</item>
+        <item name="mt_item_bg">@color/c_27263b</item>
+        <item name="mt_item_buy_tc">@color/c_ffffff</item>
+        <item name="mt_item_sell_tc">@color/c_ffffff</item>
+        <item name="mt_item_tc_1">@color/c_ffffff</item>
+        <item name="mt_item_tc_2">@color/c_ffffff</item>
+
+        <item name="mf_top_bg">@color/c_27263b</item>
+        <item name="mf_item_bg">@color/c_27263b</item>
+        <item name="mf_item_tc">@color/c_ffffff</item>
+        <item name="mf_item_logo_1">@mipmap/ic_myself_item1_night</item>
+        <item name="mf_item_logo_2">@mipmap/ic_myself_item2_night</item>
+        <item name="mf_item_logo_3">@mipmap/ic_myself_item3_night</item>
+        <item name="mf_item_logo_4">@mipmap/ic_myself_item4_night</item>
+        <item name="mf_item_logo_5">@mipmap/ic_myself_item5_night</item>
+        <item name="mf_item_logo_6">@mipmap/ic_myself_item6_night</item>
+        <item name="mf_item_logo_7">@mipmap/ic_myself_item7_night</item>
+        <item name="mf_item_logo_8">@mipmap/ic_myself_item8_night</item>
+        <item name="mf_item_logo_9">@mipmap/ic_myself_item9_night</item>
+        <item name="linecolor_1">@color/c_1e1a20</item>
+        <item name="linecolor_2">@color/c_ffffff</item>
+        <item name="linecolor_3">@color/c_1f1a20</item>
+
+        <item name="nonmal_tc_1">@color/c_ffffff</item>
+        <item name="nonmal_tc_2">@color/c_ffffff</item>
+        <item name="nonmal_tc_3">@color/c_ffffff</item>
+        <item name="title_bg">@drawable/shape_title_hei</item>
+        <item name="btn_bg">@drawable/shape_btn_hei</item>
+        <item name="sell_buy_btn">@drawable/shape_btn_hei_sell_buy</item>
+        <item name="btn_bg_nocorner">@drawable/shape_btn_hei_nocorner</item>
+        <item name="add_pay_btn">@drawable/shape_btn_hei_nocorner_add</item>
+        <item name="text_white_hei1">@color/c_ffffff</item>
+        <item name="text_white_hei2">@color/c_ffffff</item>
+        <item name="tab_select">@color/c_ff595d</item>
+        <item name="assat_top">@drawable/selector_myassettop_hei</item>
+        <item name="assat_vp_bg">@drawable/myassat_hei</item>
+        <item name="assat_search_tv">@color/c_ffffff</item>
+        <item name="assat_item">@color/c_ffffff</item>
+        <item name="hei_2c">@color/c_ffffff</item>
+        <item name="lt_top_bg">@drawable/lt_hei</item>
+        <item name="lt_top_bg1">@drawable/shape_lt_hei</item>
+        <item name="huhuan_pic">@mipmap/huhuan2</item>
+        <item name="slide_text">@drawable/slide2</item>
+        <item name="collect">@drawable/selector_coinbusiness_save1</item>
+        <item name="mune_pic">@mipmap/ic_barbusiness_menu1</item>
+        <item name="pop_touming">@color/c_801e1a20</item>
+        <item name="jiyi">@color/c_ffffff</item>
+        <item name="news">@mipmap/news_hei</item>
+        <item name="assat_item1">@color/c_bbbbbb</item>
+        <item name="fabi">@drawable/fabi_hei</item>
+        <item name="fabi_title_buy">@drawable/selector_fabi_buy</item>
+        <item name="fabi_title_sell">@drawable/selector_fabi_sell</item>
+        <item name="fabi_add">@mipmap/fabi_add</item>
+        <item name="fabi_title_bg">@color/c_27263b</item>
+        <item name="fabi_order">@mipmap/fabi_order</item>
+        <item name="fabu">@color/c_999999</item>
+        <item name="order_type">@color/c_fd504e</item>
+        <item name="fabu_jiaoyi_num">@color/c_6e7797</item>
+        <item name="fabi_btn_bg">@drawable/shape_btn_hei_fabi</item>
+        <item name="kai_guan">@drawable/selector_kai_guan_hei</item>
+        <item name="chat_img">@mipmap/chatimg_hei</item>
+        <item name="chat_send_tx">@color/c_6e7797</item>
+        <item name="chat_send_bg">@drawable/chat_send_bg_hei</item>
+        <item name="adv_pic">@mipmap/adv_hei</item>
+        <item name="adv_shangjia">@drawable/xiajia_bg_hei</item>
+    </style>
+    <!-- *************************显示模式************************* -->
+
+
+    <!--缩放弹出-->
+    <style name="PopMenuAnimation2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <!-- 猫加载框样式 -->
+    <style name="cart_dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!--标头底部分割线-->
+    <style name="title_bottom_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">#CC444444</item>
+    </style>
+    <!--每项item的布局风格-->
+    <style name="item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <!--右箭头-->
+    <style name="right_arrow_style">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:src">@mipmap/ic_arrowright</item>
+    </style>
+
+    <style name="divider_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_color1</item>
+    </style>
+
+    <style name="divider_line_horizontal">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#ffebebeb</item>
+    </style>
+
+
+    <style name="divider_line_horizontal_nocolor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+    <style name="divider_line_vertical_nocolor">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TabLayoutStyle">
+        <item name="android:textSize">18sp</item>
+
+    </style>
+    <!--<item name="android:textStyle">bold</item>-->
+    <style name="TabLayoutStyle2">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="TranslucentTheme_Day" parent="ThemeDay">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <style name="TranslucentTheme_Night" parent="ThemeNight">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarStyle">@color/c_transparent</item>
+    </style>
+
+
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+
+
+    <!--发布左右分割线-->
+    <style name="fabu_lr_line_style">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">#eff0f2</item>
+    </style>
+
+
+    <!--聊天分割线-->
+    <style name="chat_divide_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#e8e8e8</item>
+    </style>
+
+    <!-- 自定义的dialog 外部不能点击-->
+    <style name="ccdialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--<item name="android:windowSoftInputMode">adjustResize|stateAlwaysVisible</item>-->
+
+    </style>
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,2367 @@
+<resources>
+    <string name="app_name">SVV</string>
+
+    <string name="yes">Yes </string>
+        
+    <string name="no">No</string>
+        
+    <string name="again_finish"> Press again to exit </string>
+        
+    <string name="complete">Complete</string>
+        
+    <string name="nodata">No Record </string>
+        
+    <string name="nodata_no_sj">No Data </string>
+        <string name="myself_presion_center">Personal Center</string>
+    <string name="suochagn_zhagnhu">Lock account</string>
+    <string name="xx_RMB">$1$s¥</string>
+        
+    <string name="up_xx_percent">+$1$s%</string>
+        
+    <string name="down_xx_percent">-$1$s%</string>
+        
+    <string name="app_is_downloading">APP is downloading, please wait. </string>
+        
+    <string name="app_download_error">Download failed, please open the app again and download again. </string>
+        
+    <string name="app_download_path"> has been downloaded to "File Management" </string>
+        
+    <string name="no_more_data">No more data</string>
+        
+    <string name="data_defult">---</string>
+        
+    <string name="fbprice_data">≈%1$s </string>
+        
+    <string name="data_not_yet"> data has not been obtained yet </string>
+        
+    <string name="getting_data"> Is getting data </string>
+        
+    <string name="email">Mailbox </string>
+        
+    <string name="setting">Settings </string>
+        
+    <string name="simplified_chinese">Simplified Chinese</string>
+        
+    <string name="simplified">Simplified </string>
+        
+    <string name="chinese_traditional">Traditional Chinese</string>
+        
+    <string name="complex_font">Traditional </string>
+        
+    <string name="ok">Good</string>
+
+    <string name="common">Commonly used</string>
+
+        
+    <string name="business_xiangjia">Limit</string>
+        
+    <string name="business_shijia"> Market</string>
+        
+    <string name="business_trade_all">All </string>
+        
+    <string name="business_trade_not"> In the transaction </string>
+        
+    <string name="business_trade_yet">Completed </string>
+
+        
+    <string name="business_zuiyoujia">Optimal price</string>
+        
+    <string name="business_zuiyoujia2"> Current Optimal price </string>
+        
+    <string name="business_inputnum">Please enter the volume </string>
+
+        
+    <string name="ys_plus">+</string>
+        
+    <string name="ys_min">-</string>
+
+        <!--SplashAct-->
+        
+    <string name="splashact_select_explore"> Please open it in your browser. </string>
+        
+    <string name="splashact_welcome_text1">The world\'s leading </string>
+        
+    <string name="splashact_welcome_text2">fashion health brand </string>
+
+        <!-- PopupVersionSelectView.java -->
+        
+    <string name="versionupdate">The new version is available, it is recommended to update </string>
+        
+    <string name="wifitip"> update download will use traffic, confirm to do this in wifi environment or enough traffic!</string>
+
+        <!-- getNewMsg.java -->
+        
+    <string name="getnewmsg">You have a new message </string>
+        
+    <string name="getnewmsg_goto">Go to </string>
+        
+    <string name="getnewmsg_dis">ignore </string>
+        <!--MainAct-->
+        
+    <string name="mainact_tab1">Home </string>
+        
+    <string name="mainact_tab2"> Markets </string>
+        
+    <string name="mainact_tab3">Exchange </string>
+        
+    <string name="mainact_tab4">Fiat</string>
+        
+    <string name="mainact_tab6">Mine </string>
+        
+    <string name="mainact_tab5">Mine </string>
+        
+    <string name="mainact_more">More </string>
+        
+    <string name="mainact_test_system">test system </string>
+        
+    <string name="mainact_bounced_permissions">You need to manually open the bullet box permission, otherwise the order information cannot be prompted! </string>
+        
+    <string name="mainact_to_open"> go to open </string>
+
+    <string name="no_tishi">No longer prompt</string>
+
+        <!--RegisterAct-->
+        
+    <string name="login_regist">register </string>
+        
+    <string name="login_login">login </string>
+        
+    <string name="login_email_register">Mailbox registration </string>
+        
+    <string name="login_mobileregist">Phone registration </string>
+        
+    <string name="login_area">Nationality</string>
+        
+    <string name="login_area_code">中国 China</string>
+        
+    <string name="login_inputmobile">Please enter your mobile number </string>
+        
+    <string name="login_input_email">Please enter the email address </string>
+        
+    <string name="login_inputpassword">Please enter the new password</string>
+        
+    <string name="login_inputrepassword">Please confirm the new password </string>
+        
+    <string name="login_checkcode">verification code </string>
+        
+    <string name="login_input_checkcode">Please enter the verification code </string>
+        
+    <string name="login_get_checkcode">Send</string>
+        
+    <string name="login_forgetpsw"><u>Forgot your password? </u></string>
+        
+    <string name="login_success"> Login success </string>
+        
+    <string name="login_fail"> login failed </string>
+        
+    <string name="login_update"> login password modification </string>
+        
+    <string name="login_forgetpw">Forgot your password? </string>
+        
+    <string name="login_protocal1">Read and agree </string>
+        
+    <string name="login_protocal2">Clicking Register means you agree to the agreement:《Registration Agreement》</string>
+
+        <!--UserLoginAct-->
+        
+    <string name="userlogin_title">Welcome to login </string>
+     <string name="register_please_register">Please register </string>
+    <string name="userlogin_forget_pw">forgot password ?</string>
+        
+    <string name="userlogin_register">registered </string>
+        
+    <string name="userlogin_input_username">Please enter your phone / email </string>
+        
+    <string name="userlogin_input_password">Please enter your password</string>
+        
+    <string name="userlogin_login">login </string>
+
+        <!--ForgetLoginPwAct-->
+        
+    <string name="forgetLoginPw_title">Retrieve password </string>
+        
+    <string name="forgetLoginPw_phone">Mobile recovery </string>
+        
+    <string name="forgetLoginPw_email">mailbox retrieval</string>
+        
+    <string name="forgetLoginPw_area"> country / area code: </string>
+        
+    <string name="forgetLoginPw_area_code">China +86</string>
+        
+    <string name="forgetLoginPw_input_mobile">Please enter your mobile number </string>
+        
+    <string name="forgetLoginPw_input_email">Please enter the email address </string>
+        
+    <string name="forgetLoginPw_input_email_input_code">Please enter the verification code </string>
+        
+    <string name="forgetLoginPw_check_code"> verification code </string>
+        
+    <string name="forgetLoginPw_input_password">Please enter the password </string>
+        
+    <string name="forgetLoginPw_input_re_password">Please enter the password again </string>
+        
+    <string name="forgetLoginPw_commit">submit </string>
+        
+    <string name="forgetLoginPw_time_meter"> can be resent after seconds </string>
+        
+    <string name="forgetLoginPw_code_success">Send verification code successfully </string>
+        
+    <string name="forgetLoginPw_code_fail">Failed to send verification code</string>
+        
+    <string name="forgetLoginPw_commit_success">Successfully modified </string>
+
+    <string name="forgetLoginPw_commit_fail"> modification failed </string>
+
+        
+    <string name="register_title">Phone registration </string>
+        
+    <string name="register_login">Login </string>
+        
+    <string name="register_country">Country / Area Code: </string>
+        
+    <string name="register_way"> Authentication method: </string>
+        
+    <string name="register_type">document type: </string>
+        
+    <string name="register_p1">ID card front: </string>
+        
+    <string name="register_p2">Document reverse photo: </string>
+        
+    <string name="register_p3">Certificate hand-held photo: </string>
+        
+    <string name="register_area_code">China +86</string>
+        
+    <string name="register_checkcode">Get verification code </string>
+        
+    <string name="register_agreementpassed">read and agree </string>
+        
+    <string name="register_agreementname"> User Registration Agreement </string>
+        
+    <string name="register_nextStep">Next </string>
+        
+    <string name="register_commit">Register </string>
+
+        
+    <string name="register_input_no">Please enter a member account </string>
+        
+    <string name="register_input_pwd">Please enter the login password </string>
+        
+    <string name="register_input_pwd_re">Please enter the login password again</string>
+        
+    <string name="register_input_paypwd">Please enter the fund password </string>
+        
+    <string name="register_input_paypwd_re">Please enter the funding password again </string>
+        
+    <string name="regster_input_mobile">Please enter your mobile number </string>
+        
+    <string name="regster_input_vcode">Please enter the invite code </string>
+        
+    <string name="regster_input_code">Please enter the verification code </string>
+
+        
+    <string name="register_commit_address">Please select country/region</string>
+        
+    <string name="register_commit_nocheck">Please agree to the registration agreement first</string>
+        
+    <string name="register_commit_nousername">Please enter a member account </string>
+        
+    <string name="register_commit_nousermobile">Please enter your mobile number </string>
+        
+    <string name="register_commit_nopwd">Please enter the login password </string>
+        
+    <string name="register_commit_pwdunsame"> Entering the login password twice is not the same </string>
+        
+    <string name="register_commit_nopaypwd">Please enter the funding password </string>
+        
+    <string name="register_commit_paypwdunsame">Two input funds password is not the same </string>
+        
+    <string name="register_commit_code">Please enter the verification code </string>
+
+        
+    <string name="register_code_success">Send verification code successfully </string>
+        
+    <string name="register_code_fail">Failed to send verification code</string>
+        
+    <string name="register_commit_success"> registration success </string>
+        
+    <string name="register_commit_fail"> registration failed </string>
+        
+    <string name="register_time_meter"> can be resent after seconds </string>
+
+        <!--myselffragment-->
+        
+    <string name="myselffragment_title">My </string>
+        
+    <string name="myselffragment_item1">Balances</string>
+        
+    <string name="myselffragment_item2">order management </string>
+        
+    <string name="myselffragment_item3">Authentication </string>
+        
+    <string name="myselffragment_item4">Security</string>
+        
+    <string name="mine_problem">FAQ </string>
+        
+    <string name="myselffragment_item5">Invite QR code</string>
+        
+    <string name="myselffragment_item6">Tip address </string>
+        
+    <string name="myselffragment_item7">About</string>
+        
+    <string name="myselffragment_item8">Exit </string>
+        
+    <string name="myselffragment_please_login">Please login </string>
+        
+    <string name="myselffragment_titl">Logout </string>
+        
+    <string name="myselffragment_conten"> Are you sure you want to log out?</string>
+        
+    <string name="myselffragment_left_text">Cancel </string>
+        
+    <string name="myselffragment_right_text">OK</string>
+        
+    <string name="MyselfFragment_yqCode"> invite code: </string>
+        
+    <string name="MyselfFragment_ctowc"> C2C</string>
+        
+    <string name="Login_out"> Logout </string>
+        
+    <string name="myselffragment_select_the_area">Select the area code </string>
+        
+    <string name="myselffragment_candy_activities">Candy Activity</string>
+        <!--AboutUsAct-->
+        
+    <string name="aboutus_title">About us</string>
+        
+    <string name="aboutus_item1">Contact phone </string>
+        
+    <string name="aboutus_item2">Email </string>
+        
+    <string name="aboutus_content">.@2018 digital currency transaction </string>
+
+        <!--MyAddressAct-->
+        
+    <string name="myaddressact_title">Add %s address</string>
+        
+    <string name="myaddressact_item1">Name </string>
+        
+    <string name="myaddressact_item1_hint">Your name</string>
+        
+    <string name="myaddressact_item2">Mobile Number </string>
+        
+    <string name="myaddressact_item2_hint">Mobile Number </string>
+        
+    <string name="myaddressact_item3">Where </string>
+        
+    <string name="myaddressact_item4">Detailed Address </string>
+        
+    <string name="myaddressact_item4_hint">Street, community door, brand </string>
+        
+    <string name="myaddressact_item5"> Set as default address </string>
+        
+    <string name="myaddressact_save">Save </string>
+        
+    <string name="myaddressact_please_input_bq">Please enter the address tag </string>
+        <!--ReimbursementAct-->
+        
+    <string name="ReimbursementAct_gj"> a total of: </string>
+        
+    <string name="ReimbursementAct_hk_sy">Remaining repayment: </string>
+        
+    <string name="ReimbursementAct_has_also"> has also returned: </string>
+
+        
+    <string name="shenyu">remaining </string>
+        <!--BuyOrSellAct-->
+        
+    <string name="BuyOrSellAct_buy"> Purchase </string>
+        
+    <string name="BuyOrSellAct_sell"> Sale </string>
+        
+    <string name="BuyOrSellAct_xiane">Limit </string>
+        
+    <string name="BuyOrSellAct_single_price"> Unit price </string>
+        
+    <string name="BuyOrSellAct_number"> Volume </string>
+        
+    <string name="BuyOrSellAct_input_money">Enter the amount or volume </string>
+        
+    <string name="BuyOrSellAct_cz_success">order created successfully </string>
+        
+    <string name="BuyOrSellAct_authentication">Certified Merchant </string>
+        
+    <string name="BuyOrSellAct_quota">Limit: </string>
+        
+    <string name="BuyOrSellAct_number1">Volume: </string>
+
+        <!--UserCenterAct-->
+        
+    <string name="usercenter_title">Security Center</string>
+        
+    <string name="usercenter_item1">avatar </string>
+        
+    <string name="usercenter_item2">nickname </string>
+
+    <string name="usercenter_item3">gender </string>
+        
+    <string name="usercenter_item4">personal signature</string>
+        
+    <string name="UserCenterAct_setting_sec_psw"> set nickname and security password </string>
+        
+    <string name="UserCenterAct_change_psw"> modify password </string>
+        
+    <string name="UserCenterAct_yes_renz"> has been certified! Pro</string>
+        
+    <string name="UserCenterAct_witle_height"> proud white </string>
+        
+    <string name="UserCenterAct_black_low"> low-key black </string>
+
+
+        <!--MyAssetAct-->
+        
+    <string name="myassetact_title">My assets </string>
+        
+    <string name="myassetact_tab1">leverage account</string>
+        
+    <string name="myassetact_tab2">transaction account </string>
+        
+    <string name="myassetact_tab3">Fiat</string>
+        
+    <string name="myassetact_list_item1">currency</string>
+        
+    <string name="myassetact_list_item2">available</string>
+        
+    <string name="myassetact_list_item3"> has borrowed </string>
+        
+    <string name="myassetact_tv1">Exchange</string>
+        
+    <string name="from"> from </string>
+        
+    <string name="arrive">to </string>
+        
+    <string name="myassetact_tv2">Please enter the number of transfers </string>
+        
+    <string name="myassetact_tv3">Available %1$s %2$s</string>
+        
+    <string name="myassetact_tv4"> When the account is transferred, the assets will arrive immediately and no handling fee will be charged.</string>
+        
+    <string name="myassetact_search">search </string>
+
+        <!--ChargeMoneyAct-->
+        
+    <string name="charge_act_tv1">address: </string>
+        
+    <string name="charge_act_tv2">address tag </string>
+        <!--assat-->
+        
+    <string name="assat_hz">asset total </string>
+        
+    <string name="assat_equivalent"> total assets (%1$s) </string>
+        
+    <string name="assat_search">Search for assets</string>
+        
+    <string name="assat_hide">Hide 0 assets </string>
+        
+    <string name="assat_can_use">Available</string>
+        
+    <string name="assat_cool_merry">freezed</string>
+        
+    <string name="assat_zhehe_usdt">Estimated (%s)</string>
+
+        <!--CountDetailAct-->
+        
+    <string name="countdetailact_btn1">debit </string>
+        
+    <string name="countdetailact_btn2">sell </string>
+        
+    <string name="countdetailact_btn3">go to deal</string>
+        
+    <string name="countdetailact_item_percent_xx">risk rate - %1$s</string>
+        
+    <string name="countdetailact_item_type">Type </string>
+        
+    <string name="countdetailact_item_coin1">BTC</string>
+        
+    <string name="countdetailact_item_coin2">USDT</string>
+        
+    <string name="countdetailact_item_type1">Available</string>
+        
+    <string name="countdetailact_item_type2">freezed</string>
+        
+    <string name="countdetailact_item_type3"> has borrowed </string>
+        
+    <string name="countdetailact_appeal">current application </string>
+        
+    <string name="countdetailact_appeal_all">all </string>
+        
+    <string name="countdetailact_coin_ubb">Currency: UBB</string>
+        
+    <string name="countdetailact_count">Volume: 0.00000</string>
+        
+    <string name="countdetailact_time">Time: 2018-10-10</string>
+        
+    <string name="countdetailact_type"> type: transfer </string>
+
+        <!--UserIdentifyAct-->
+        
+    <string name="useridentify_title">ID Verification</string>
+        
+    <string name="useridentify_content1">Ensure the security of the transaction and protect your legal rights, please complete the authentication! </string>
+        
+    <string name="useridentify_hint1">Please enter your first name</string>
+        
+    <string name="useridentify_hint2">Please enter your ID number </string>
+        
+    <string name="useridentify_content2">I promise to submit the information belongs to me, there is no misappropriation of other people\'s documents </string>
+        
+    <string name="UserIdentifyAct_input_code">Please enter the verification code </string>
+        
+    <string name="UserIdentifyAct_input_name_z">Please enter the real name </string>
+        
+    <string name="UserIdentifyAct_input_sfz">Please enter the ID number </string>
+        
+    <string name="UserIdentifyAct_image"> Please upload the pros and cons, holding the ID card three pictures </string>
+        
+    <string name="UserIdentifyAct_reset"> Do not upload the original picture or empty picture </string>
+        
+    <string name="UserIdentifyAct_xing">Please enter your last name </string>
+        
+    <string name="UserIdentifyAct_city">Please enter the city </string>
+        
+    <string name="UserIdentifyAct_address"> Please enter the detailed address </string>
+        
+    <string name="UserIdentifyAct_tony">Please agree to the agreement </string>
+        
+    <string name="UserIdentifyAct_wite_successs"> application is successful, please wait for review </string>
+        
+    <string name="useridentify_tv1">ID number </string>
+        
+    <string name="useridentify_tv2">last name </string>
+        
+    <string name="useridentify_tv3">city </string>
+        
+    <string name="useridentify_tv4">Detailed Address </string>
+        <!--MarketIntroduceAct-->
+        
+    <string name="marketintroduce_title">Main area </string>
+        
+    <string name="marketintroduce_content1"> blockchain asset transaction partition description </string>
+        
+    <string name="marketintroduce_content2">digital currency...</string>
+        
+    <string name="marketintroduce_content3">risk tips</string>
+        
+    <string name="marketintroduce_content4">Investment about...</string>
+        <!--SlideMenuAct-->
+        
+    <string name="SlideMenuAct_zixuan"> Optional </string>
+
+
+        <!--MarketBusinessFragment-->
+        
+    <string name="marketbusiness_title"> Markets </string>
+        
+    <string name="marketbusiness_tab1">coin net </string>
+        
+    <string name="marketbusiness_tab2">HADAX</string>
+        
+    <string name="marketbusiness_tab1_1">Optional </string>
+        
+    <string name="marketbusiness_tab1_2">USDT</string>
+        
+    <string name="marketbusiness_tab1_3">BTC</string>
+        
+    <string name="marketbusiness_tab1_4">ETH</string>
+        
+    <string name="marketbusiness_mainarea">main area </string>
+        
+    <string name="marketbusiness_mainarea_introduce">Introduction to the main area ></string>
+        
+    <string name="marketbusiness_liagn">24H </string>
+        
+    <string name="marketbusiness_tv1"> Currency </string>
+        
+    <string name="marketbusiness_tv2"> Latest Price </string>
+        
+    <string name="marketbusiness_tv3">24H</string>
+        <!--BusinessOrderAct-->
+        
+    <string name="BusinessOrderAct_time"> time: </string>
+        
+    <string name="BusinessOrderAct_sl">Volume: </string>
+    <string name="BusinessOrderAct_all_price"> total price: </string>
+        
+    <string name="BusinessOrderAct_single_price">Unit price: </string>
+        <!--XieyiAct-->
+        
+    <string name="XieyiAct_title">Registration Agreement </string>
+        <!--AddressManagerAct-->
+        
+    <string name="AddressManagerAct_ti_address"> address: </string>
+        
+    <string name="AddressManagerAct_address_bq"> address tag: </string>
+        
+    <string name="address">address </string>
+        
+    <string name="address_tv1">Enter or long press the paste address </string>
+        
+    <string name="address_tv2">Remarks </string>
+        
+    <string name="address_tv3">Enter address comment </string>
+        <!--HomeFragment-->
+        
+    <string name="homefragment_toptext_hint">Please enter the query content </string>
+        
+    <string name="homefragment_myasset">My assets </string>
+        
+    <string name="homefragment_currency_type1">BTC/USDT</string>
+        
+    <string name="homefragment_currency_type2">ETH/USDT</string>
+        
+    <string name="homefragment_currency_type3">HT/USDT</string>
+        
+    <string name="homefragment_currency_listtype1"> Rising Index </string>
+        
+    <string name="homefragment_currency_listtype2"> SGD list</string>
+        
+    <string name="homefragment_digital_currency_exchange"> digital assat exchange </string>
+        
+    <string name="homefragment_theme">Easily Buy</string>
+        
+    <string name="homefragment_invite_friends">Invite</string>
+        
+    <string name="homefragment_help_center">Help</string>
+        
+    <string name="homefragment_name"> Name </string>
+        
+    <string name="homefragment_recent_quotation"> Latest price </string>
+        
+    <string name="homefragment_write_ups_and_downs"> Ups/Downs </string>
+
+
+        <!--CoinBusinessFragment -->
+        
+    <string name="coinbusinessfragment_coinname">BTC/USDT</string>
+        
+    <string name="coinbusinessfragment_notlogin">login </string>
+        
+    <string name="coinbusinessfragment_buy">buy </string>
+        
+    <string name="coinbusinessfragment_sell">sell </string>
+        
+    <string name="coinbusinessfragment_count">volume</string>
+        
+    <string name="coinbusinessfragment_type1">Limit price </string>
+        
+    <string name="coinbusinessfragment_type2">handicap </string>
+        
+    <string name="coinbusinessfragment_type3">price </string>
+        
+    <string name="coinbusinessfragment_type4">volume</string>
+        
+    <string name="coinbusinessfragment_business_count">transaction amount </string>
+        
+    <string name="coinbusinessfragment_business_count_deep">depth</string>
+        
+    <string name="coinbusinessfragment_business_delegate">Current Orders</string>
+        
+    <string name="coinbusinessfragment_business_all">All </string>
+        
+    <string name="coinbusinessfragment_price">price: </string>
+        
+    <string name="coinbusinessfragment_number">Volume: </string>
+        
+    <string name="coinbusinessfragment_wt_all">trust total: </string>
+        
+    <string name="coinbusinessfragment_yi_business">transaction: </string>
+        
+    <string name="coinbusinessfragment_yi_state">transaction status: </string>
+        
+    <string name="coinbusinessfragment_yi_time">transaction time: </string>
+        
+    <string name="coinbusinessfragment_cx_success">Undo success</string>
+        
+    <string name="coinbusinessfragment_tip">tip </string>
+        
+    <string name="coinbusinessfragment_you_cxwt">Please confirm whether to cancel the delegate </string>
+        <!--BarBusinessFragment-->
+        
+    <string name="barbusinessfragment_risk_probability">risk rate: %1$s</string>
+        
+    <string name="barbusinessfragment_coin1">Available %1$s</string>
+        
+    <string name="barbusinessfragment_coin2">Available %1$s</string>
+        
+    <string name="barbusinessfragment_storage_price">Explosive price </string>
+        
+    <string name="barbusinessfragment_price">price: </string>
+        
+    <string name="barbusinessfragment_number">Volume: </string>
+        
+    <string name="barbusinessfragment_wt_all">trust total: </string>
+        
+    <string name="barbusinessfragment_yi_business"> has been traded: </string>
+        
+    <string name="barbusinessfragment_yi_state">transaction status: </string>
+        
+    <string name="barbusinessfragment_yi_time">transaction time: </string>
+        
+    <string name="barbusinessfragment_cx_success">Undo success </string>
+        
+    <string name="barbusinessfragment_tip">tip </string>
+        
+    <string name="barbusinessfragment_you_cxwt">You are sure to revoke this delegate </string>
+        
+    <string name="barbusinessfragment_transaction_status">transaction status: completed </string>
+        
+    <string name="barbusinessfragment_price1">price: 0.00056</string>
+
+        <!--CurrentEntrustAct-->
+        
+    <string name="CurrentEntrustAct_title">current delegate </string>
+        <!--Login registration prompt-->
+        
+    <string name="login_prompt">Please enter your username and password</string>
+        
+    <string name="register_succese"> registration success </string>
+        
+    <string name="register_psw_prompt">Please enter a password</string>
+        
+    <string name="register_psw_agian_prompt">Please enter the password again </string>
+        
+    <string name="register_code_prompt">Please enter the verification code </string>
+        
+    <string name="register_code_prompt1">Verification code is inconsistent</string>
+        
+    <string name="register_phone_prompt">Please enter the phone number </string>
+        
+    <string name="register_email_prompt">Please enter the mailbox number </string>
+        
+    <string name="register_protocol_prompt">need to agree to the agreement</string>
+        
+    <string name="register_code_succese_prompt">Verification code sent successfully </string>
+
+
+        <!-- PopupBusinessSubmit -->
+        
+    <string name="popupBusinessSubmit_title"> delegate confirmation </string>
+        
+    <string name="popupBusinessSubmit_tx1_buy"> purchase price: </string>
+        
+    <string name="popupBusinessSubmit_tx1_sell"> sale price: </string>
+        
+    <string name="popupBusinessSubmit_tx3_buy"> purchase volume: </string>
+        
+    <string name="popupBusinessSubmit_tx3_sell"> number of sales: </string>
+        
+    <string name="popupBusinessSubmit_tx4"> security password: </string>
+        
+    <string name="popupBusinessSubmit_cancle"> give up the delegate </string>
+        
+    <string name="popupBusinessSubmit_sure"> confirm the delegate </string>
+    <string name="popupBusinessSubmit_success"> purchase success </string>
+        
+    <string name="popupBusinessSubmit_fail"> purchase failed </string>
+        
+    <string name="popupBusiness_pwnull">Please enter secure password</string>
+
+        
+    <string name="homePage_getCode_error">Failed to parse the QR code</string>
+        
+    <string name="homePage_from_setting_come_back">Return from the settings page...</string>
+        
+    <string name="popupBusinessSubmit_tx5"> transaction amount: </string>
+        <!--QRCodeAct-->
+        
+    <string name="qrcode_title">My QR code </string>
+        
+    <string name="qrcode_pic_baocun">Save </string>
+        
+    <string name="qrcode_tishi"> whether to save the picture </string>
+        
+    <string name="qrcode_no">No </string>
+        
+    <string name="qrcode_sucesse">Save successfully!</string>
+        
+    <string name="qrcode_record">invite record </string>
+        
+    <string name="qrcode_commission_record">rebate record</string>
+        
+    <string name="qrcode_invited_friends">Invited friends</string>
+        
+    <string name="qrcode_paid_commission">commissions earned</string>
+
+        <!--MySelfFragment-->
+        
+    <string name="mysele_renz"> has been certified by real name! Pro</string>
+        
+    <string name="mysele_safe_ts">Please set a security password first</string>
+        
+    <string name="mysele_out"> exit </string>
+        
+    <string name="mysele_renz_wait"> has applied for certification, waiting for review </string>
+        
+    <string name="mysele_renz_jujue">Application rejected, please re-fill the real information </string>
+        
+    <string name="mysele_business">Business Order </string>
+        
+    <string name="shaishuna">Filter </string>
+        
+    <string name="mysele_coinlist_search">Search currency </string>
+        
+    <string name="mysele_coinshow_pricing_manner"> pricing method </string>
+        
+    <string name="mysele_keyword">Please enter a keyword </string>
+
+
+        <!--SafePswAct-->
+        
+    <string name="safepsw1"> modify the login password </string>
+        
+    <string name="safepsw2">Please enter the original login password </string>
+        
+    <string name="safepsw3">Set security password </string>
+        
+    <string name="safepsw4"> modify the security password </string>
+        
+    <string name="safepsw5">Please enter the original security password </string>
+        
+    <string name="safepsw6">Please enter a new security password </string>
+        
+    <string name="safepsw15">Please enter a secure password</string>
+        
+    <string name="safepsw7">Please enter the security password again </string>
+        
+    <string name="safepsw8">Please enter the verification code </string>
+        
+    <string name="safepsw9"> security password is set successfully </string>
+        
+    <string name="safepsw10"> login password modified successfully </string>
+        
+    <string name="safepsw11"> security password modified successfully </string>
+        
+    <string name="safepsw12">Please enter a new login password </string>
+        
+    <string name="safepsw13">Please enter the login password again </string>
+        
+    <string name="safepsw14">Please enter a nickname </string>
+
+        <!--order-->
+        
+    <string name="time">time </string>
+        
+    <string name="num">volume</string>
+        
+    <string name="price">price unit </string>
+        
+    <string name="total">total price </string>
+
+        <!--register-->
+        
+    <string name="register1">area code</string>
+        
+    <string name="register2">Please select nationality </string>
+        
+    <string name="register3">Please select country </string>
+        
+    <string name="register4">Please select the area code </string>
+        
+    <string name="register5">Please select nationality </string>
+
+        
+    <string name="forgetpsw1">Please enter the verification code </string>
+        
+    <string name="forgetpsw2">Please enter the password </string>
+        
+    <string name="forgetpsw3">Please enter the password again </string>
+        
+    <string name="forgetpsw4">Please enter the image verification code </string>
+        
+    <string name="forgetpsw5">Image verification code is inconsistent </string>
+        
+    <string name="forgetpsw6"> password recovery success </string>
+        
+    <string name="forgetpsw7">Please enter an account </string>
+        
+    <string name="forgetpsw8">Please enter the account you are looking for</string>
+        
+    <string name="forgetpsw9">If the account is not real-name authentication, the ID number can be left blank </string>
+    <!-- OtcBuyOrSellFragmentFrag-->
+        
+    <string name="OtcBuyOrSellFrag_xiane">limit </string>
+        
+    <string name="OtcBuyOrSellFrag_number">Volume: </string>
+        
+    <string name="OtcBuyOrSellFrag_chushou">sale </string>
+        
+    <string name="OtcBuyOrSellFrag_goumai">Buy </string>
+        
+    <string name="OtcBuyOrSellFrag_all_zffs">All payment methods</string>
+        
+    <string name="OtcBuyOrSellFrag_bank_zhuanz">bank card</string>
+        
+    <string name="OtcBuyOrSellFrag_zfb"> Alipay </string>
+        
+    <string name="OtcBuyOrSellFrag_vchact"> WeChat </string>
+        
+    <string name="OtcBuyOrSellFrag_xjck">Cash deposit </string>
+        
+    <string name="OtcBuyOrSellFrag_all">All </string>
+        <!--UserInfoAct-->
+        
+    <string name="UserInfoAct_xiane">limit </string>
+        
+    <string name="UserInfoAct_goumai"> purchase </string>
+        
+    <string name="UserInfoAct_chushou"> sale </string>
+        <!--address-->
+        
+    <string name="address1">Please fill in the area </string>
+        
+    <string name="address2">Please enter the coin address </string>
+        
+    <string name="address3"> address added successfully </string>
+        
+    <string name="address4">address management </string>
+        
+    <string name="address5">No address </string>
+        
+    <string name="address6">tip </string>
+        
+    <string name="address7">Do you delete the address </string>
+        
+    <string name="address8">delete successfully</string>
+        
+    <string name="address9">display QR code </string>
+
+        <!--assat-->
+        
+    <string name="assat1">log </string>
+        
+    <string name="assat2">scratch record </string>
+        
+    <string name="assat3">lending records</string>
+        
+    <string name="assat4">Transfer</string>
+        
+    <string name="assat5">successful transfer </string>
+        
+    <string name="assat6">Up to </string>
+        
+    <string name="assat7">Please enter the transfer amount </string>
+        
+    <string name="assat8">repayment </string>
+        
+    <string name="assat9">Please enter the repayment amount </string>
+        
+    <string name="assat10">payment success </string>
+        
+    <string name="assat11">lending success</string>
+        
+    <string name="assat12">Please enter the amount of loan </string>
+        
+    <string name="assat13">can borrow </string>
+        
+    <string name="assat14">interest rate</string>
+        
+    <string name="assat15">interest</string>
+        
+    <string name="assat16">has been returned </string>
+        
+    <string name="assat17">financial details</string>
+        
+    <string name="assat18">Deposit record </string>
+        
+    <string name="assat19">Tick money record</string>
+        
+    <string name="assat20">actual arrival </string>
+        
+    <string name="assat21">handling fee</string>
+        
+    <string name="assat22">status</string>
+        
+    <string name="assat23">Deposit</string>
+        
+    <string name="assat24">copy success </string>
+        
+    <string name="assat25">Generate QR code</string>
+        
+    <string name="assat26">copy address </string>
+        
+    <string name="assat27">Withdraw </string>
+        
+    <string name="assat28">Please enter the amount of coins </string>
+        
+    <string name="assat29">Please enter the phone verification code </string>
+        
+    <string name="assat30">Please enter the email verification code </string>
+        
+    <string name="assat31">You have not bound the phone number </string>
+        
+    <string name="assat32">You have not yet bound the mailbox number </string>
+        
+    <string name="assat33">supply success</string>
+        
+    <string name="assat34">the minimum number of coins </string>
+        
+    <string name="assat35">Verification code sent successfully </string>
+        
+    <string name="assat36">Enter or long press the paste address </string>
+        
+    <string name="assat37">number of arrivals </string>
+        
+    <string name="assat38">Fiat </string>
+        
+    <string name="assat39">buy </string>
+        
+    <string name="assat40">sale </string>
+        
+    <string name="assat41">order details </string>
+        
+    <string name="assat42">order </string>
+        
+    <string name="assat43">You are going to </string>
+        
+    <string name="assat44">payment reference number </string>
+        
+    <string name="assat45">1, your remittance will go directly to the seller\'s account, and the digital assets sold by the seller during the transaction will be protected by the platform.</string>
+    <string name="assat46">2, please complete the payment within the specified time, and be sure to click "I have paid", after the seller confirms the payment, the system will transfer the digital assets to your account. </string>
+        
+    <string name="assat47">3, if the buyer cancels the order 3 times on the same day, it will be restricted to the buy function of the day </string>
+        
+    <string name="assat48"> 1, the digital assets you sell have been frozen by the platform hosting. Please confirm that you have received the payment from the other party and click on "I have received payment" to pay for the digital asset! </string>
+        
+    <string name="assat49">2, please do not believe any reason to urge the release of the currency, confirm the receipt of the money and then release the digital assets to avoid losses! </string>
+        
+    <string name="assat50">3, after receiving the SMS, please be sure to log in to online banking or mobile banking to confirm whether the payment is credited, to avoid the release of digital assets due to fraudulent SMS messages! </string>
+        
+    <string name="asset1">Asset details</string>
+        
+    <string name="asset2">the number of coins </string>
+        
+    <string name="anquan_yanz">secure verification</string>
+
+        <!--google-->
+        
+    <string name="google1">Google Authenticator is a dynamic password tool that works like SMS dynamic verification. A dynamic verification code is generated every 30s after binding, and the verification code can be used for security verification of operations such as login and withdrawal. </string>
+        
+    <string name="google2">Android users log in to the app store or use the mobile browser to search for "Google Authenticator" downloads. </string>
+        
+    <string name="google3">Open Google Authenticator, scan the QR code below or manually enter the following key to add a verification token. </string>
+        
+    <string name="google4">Key is used to retrieve Google Authenticator when the phone is replaced or lost. Please make sure to save the following key backup before binding. </string>
+        
+    <string name="google5">Download Google Authenticator APP</string>
+        
+    <string name="google6">Add a key in Google Authenticator and back up </string>
+        
+    <string name="google7">Enter the 6-digit verification code in Google Authenticator</string>
+        
+    <string name="google8">key </string>
+        
+    <string name="google9">Please enter Google verification code</string>
+        
+    <string name="google10">binding </string>
+        
+    <string name="google11">Bind Google Authenticator</string>
+
+        <!--SellTypeAdsAct-->
+        
+    <string name="selltype_adsact_title">Publish sale ads</string>
+        
+    <string name="selltype_item0">Select currency </string>
+        
+    <string name="selltype_item1"> where </string>
+        
+    <string name="selltype_item2">trading currency</string>
+        
+    <string name="selltype_item3"> premium </string>
+        
+    <string name="selltype_item3hint"> according to the market premium ratio </string>
+        
+    <string name="selltype_item4">price </string>
+        
+    <string name="selltype_item5">lowest price </string>
+        
+    <string name="selltype_item5hint">The lowest price that can be sold </string>
+        
+    <string name="selltype_item6">minimum </string>
+        
+    <string name="selltype_item6hint">the minimum amount of each transaction amount </string>
+        
+    <string name="selltype_item7">maximum </string>
+        
+    <string name="selltype_item7hint">Maximum limit for each transaction amount </string>
+        
+    <string name="selltype_item8">payment</string>
+        
+    <string name="selltype_item9">receipt period </string>
+        
+    <string name="selltype_item10hint">Advertising message (can be seen before and after the
+    order)\nPlease explain the relevant terms of your transaction or note your payment method, such
+    as micro-signal, Alipay number, etc., so that the other party can quickly trade with you
+    </string>
+        
+    <string name="selltype_item11">Advanced Settings</string>
+        
+    <string name="selltype_item11_1"> (Optional) </string>
+        
+    <string name="selltype_publish">publish </string>
+        
+    <string name="otc_fs_act_tv1">premium price </string>
+        
+    <string name="otc_fs_act_tv2">fixed price </string>
+        <!--BuyTypeAdsAct-->
+        
+    <string name="buytypeads_title">Publish a purchase ad</string>
+        
+    <string name="buytypeads_item0">Select currency </string>
+        
+    <string name="buytypeads_item1"> where </string>
+        
+    <string name="buytypeads_home">Select location </string>
+        
+    <string name="buytypeads_item2"> currency </string>
+        
+    <string name="buytypeads_currency">Select currency </string>
+        
+    <string name="buytypeads_item3"> premium </string>
+        
+    <string name="buytypeads_item3hint"> according to the market premium ratio </string>
+        
+    <string name="buytypeads_item4">price </string>
+        
+    <string name="buytypeads_item5">lowest price</string>
+        
+    <string name="buytypeads_item5hint">the lowest price that can be sold </string>
+        
+    <string name="buytypeads_item6">minimum </string>
+        
+    <string name="buytypeads_item6hint">minimum limit for each transaction amount</string>
+        
+    <string name="buytypeads_item7">maximum </string>
+        
+    <string name="buytypeads_item7hint">Maximum limit for each transaction amount </string>
+    <string name="buytypeads_item8">payment method </string>
+        
+    <string name="buytypeads_item9">payment term </string>
+        
+    <string name="buytypeads_item9hint">Please enter the payment term </string>
+        
+    <string name="buytypeads_item9_unit">minutes</string>
+        
+    <string name="buytypeads_item10hint">Advertising message (can be seen before and after the order)\nPlease explain the relevant terms of your transaction or note your payment method, such as micro-signal, Alipay number, etc., so that the other party can quickly trade with you </string>
+        
+    <string name="buytypeads_item11">Advanced Settings</string>
+        
+    <string name="buytypeads_item11_1"> (Optional) </string>
+        
+    <string name="buytypeads_publish">publish </string>
+        
+    <string name="buytypeads_publish_overmax">The maximum premium cannot be higher than 99.99</string>
+        
+    <string name="buytypeads_publish_overmin">The minimum premium cannot be lower than -99.99</string>
+        
+    <string name="publish_success">release success </string>
+        
+    <string name="publish_fail">Publish failed</string>
+        
+    <string name="publish_num">number </string>
+        
+    <string name="OrderDetailAct_wo_fk"> marked as paid </string>
+        
+    <string name="OrderDetailAct_yi_shoukuan"> I have received the payment </string>
+        
+    <string name="OrderDetailAct_yes_shens">Confirm the appeal </string>
+        
+    <string name="OrderDetailAct_qux_shen"> cancel the appeal </string>
+        
+    <string name="OrderDetailAct_bank_kah"> bank card number </string>
+        
+    <string name="OrderDetailAct_zhagnhao"> account </string>
+        
+    <string name="OrderDetailAct_df_wfx"> the other party did not release </string>
+        
+    <string name="OrderDetailAct_df_wfk">the other party has not released money</string>
+        <!--DetailFrag-->
+        
+    <string name="DetailFrag_zw_jyjl">No record </string>
+        
+    <string name="DetailFrag_price">price: </string>
+        
+    <string name="DetailFrag_number"> Volume: </string>
+        
+    <string name="DetailFrag_all_weit"> delegate total: </string>
+        
+    <string name="DetailFrag_type_mr"> transaction type: buy </string>
+        
+    <string name="DetailFrag_turn_out"> transaction type: sell </string>
+        
+    <string name="DetailFrag_time"> time: </string>
+        
+    <string name="DetailFrag_fee"> handling fee: </string>
+        <!--EntrustFrag-->
+        
+    <string name="EntrustFrag_zw_jyjl">No Record </string>
+        
+    <string name="EntrustFrag_price">price: </string>
+        
+    <string name="EntrustFrag_number"> volume: </string>
+        
+    <string name="EntrustFrag_all_weit">trust total: </string>
+        
+    <string name="EntrustFrag_yes_business">traded: </string>
+        
+    <string name="EntrustFrag_time"> time: </string>
+        
+    <string name="EntrustFrag_tip"> prompt </string>
+        
+    <string name="EntrustFrag_are_you_sure"> you are sure to revoke this delegate </string>
+        
+    <string name="EntrustFrag_business_state"> transaction status: </string>
+        <!--OrderManagerAct-->
+        
+    <string name="OrderManagerAct_order_manege">order management </string>
+        
+    <string name="OrderManagerAct_face_wt">Current </string>
+        
+    <string name="OrderManagerAct_yesterday_wt">History </string>
+        
+    <string name="OrderManagerAct_allrocde">Record</string>
+        <!--BindActivity-->
+        
+    <string name="BindActivity_email_bind">Mailbox Binding</string>
+        
+    <string name="BindActivity_please_input_email">Please enter the mailbox number to be bound </string>
+        
+    <string name="BindActivity_mobile_bind"> phone binding </string>
+        
+    <string name="BindActivity_please_input_mobile">Please enter the phone number to be bound </string>
+        
+    <string name="BindActivity_bind_input_mobile">Please enter the number to be bound </string>
+        
+    <string name="BindActivity_please_quhao">Please select the area code </string>
+        
+    <string name="BindActivity_input_bind_number">Please enter the number to be bound </string>
+    <string name="BindActivity_input_psw">Please enter a secure password</string>
+        
+    <string name="BindActivity_input_code">Please enter the verification code </string>
+        
+    <string name="BindActivity_bind_success"> binding success </string>
+        <!--GoogleRenzAct-->
+        
+    <string name="GoogleRenzAct_bind_success"> binding success </string>
+        
+    <string name="GoogleRenzAct_please_gg_code">Please enter Google verification code </string>
+        <!--AddPayAct-->
+        
+    <string name="AddPayAct_bank_zz">Bank Transfer </string>
+        
+    <string name="AddPayAct_alpaly"> Alipay </string>
+        
+    <string name="AddPayAct_vchact_paly"> WeChat payment </string>
+        
+    <string name="AddPayAct_cash_ck">Cash deposit </string>
+        
+    <string name="AddPayAct_add_select">Add payment method </string>
+        
+    <string name="AddPayAct_change_paly"> modify the payment method </string>
+        
+    <string name="AddPayAct_add_bank">Bank card number </string>
+        
+    <string name="AddPayAct_input_username">Please enter the username </string>
+        
+    <string name="AddPayAct_please_input_bank">Please enter the bank of deposit </string>
+        
+    <string name="AddPayAct_input_kh_bank">Please enter the account branch </string>
+        
+    <string name="AddPayAct_input_zh">Please enter an account </string>
+        
+    <string name="AddPayAct_input_psw">Please enter a secure password</string>
+        
+    <string name="AddPayAct_bank_number">Bank card number </string>
+        
+    <string name="AddPayAct_input_bank_hao">Please enter the bank card number </string>
+        
+    <string name="AddPayAct_please_input">Please enter </string>
+        
+    <string name="AddPayAct_zhagnhao"> account </string>
+        <!--PayMethedAct-->
+        
+    <string name="PayMethedAct_pay_select">payment method </string>
+        
+    <string name="PayMethedAct_no_pay">No payment method</string>
+        
+    <string name="PayMethedAct_delete">delete </string>
+        
+    <string name="PayMethedAct_yes_detele">OK to delete the record </string>
+        
+    <string name="PayMethedAct_qux">Cancel </string>
+        
+    <string name="PayMethedAct_delete_success">delete successfully </string>
+
+
+        
+    <string name="otc_buy">buy </string>
+        
+    <string name="otc_my_adv">My ads</string>
+        
+    <string name="otc_adv_ts">tip </string>
+        
+    <string name="otc_adv_xiajia"> whether to remove the ad </string>
+        
+    <string name="otc_adv_shangjia">whether the advertisement is on the shelf </string>
+        
+    <string name="otc_adv_xiajia_succese">Successful advertising </string>
+        
+    <string name="otc_adv_shangjia_succese">Successful advertising </string>
+        
+    <string name="otc_sell">sale </string>
+        
+    <string name="otc_please_bz">Please select currency </string>
+        
+    <string name="otc_please_address">Please select the location </string>
+        
+    <string name="otc_please_select_b">Please select currency </string>
+        
+    <string name="otc_please_input_number">Please enter the amount</string>
+        
+    <string name="otc_please_yj">Please enter a premium price</string>
+        
+    <string name="otc_please_zuixiao">Please enter the minimum limit </string>
+        
+    <string name="otc_please_zuigao">Please enter the maximum limit </string>
+        
+    <string name="otc_please_zf_fangs">Please select the payment method </string>
+        
+    <string name="otc_please_jg">Please enter the price </string>
+        
+    <string name="otc_please_input_ly">Please enter a message</string>
+        
+    <string name="otc_please_fb_success">release success </string>
+
+        
+    <string name="otc_adv_type">Ad type: </string>
+        
+    <string name="otc_adv_coin">Currency: </string>
+        
+    <string name="otc_adv_limit">limit </string>
+        
+    <string name="otc_adv_price">unit price </string>
+        
+    <string name="otc_adv_num">volume</string>
+        
+    <string name="otc_adv_time">Create time </string>
+        
+    <string name="otc_adv_status_xiajia">Under </string>
+        
+    <string name="otc_adv_status_shangjia">Shelves</string>
+        
+    <string name="fanmang">System is busy </string>
+
+
+        
+    <string name="msg_code">SMS has been sent, please click later </string>
+        
+    <string name="msg_code_null">Content cannot be empty</string>
+
+        
+    <string name="picutil_shibai">Failed to get the image</string>
+
+        
+    <string name="permission_1">Please enter the scan code after authorization</string>
+
+    <string name="permission_2">Please allow authorization </string>
+
+
+        
+    <string name="addpay_method">payment method </string>
+        
+    <string name="addpay_method1">Bank Transfer </string>
+        
+    <string name="addpay_xingming">name </string>
+        
+    <string name="addpay_xingming1">name </string>
+        
+    <string name="addpay_et_xingming">Please enter a name </string>
+        
+    <string name="addpay_kai_bank"> bank account </string>
+        
+    <string name="addpay_kai_et_bank">Please enter the bank of deposit </string>
+        
+    <string name="addpay_kai_zhihang"> account branch </string>
+        
+    <string name="addpay_kai_et_zhihang">Please enter the account branch </string>
+        
+    <string name="addpay_bank_zhanghao">Bank card number </string>
+        
+    <string name="addpay_bank_et_zhanghao">Please enter the bank card number </string>
+        
+    <string name="addpay_bank_psw">secure password </string>
+        
+    <string name="addpay_bank_et_psw">Please enter a secure password</string>
+        
+    <string name="addpay_bank_queren">confirm </string>
+
+
+        
+    <string name="bind1">Please select the country / area code </string>
+        
+    <string name="bind2">Please select the area code </string>
+        
+    <string name="bind_psw">Please enter a secure password</string>
+        
+    <string name="bind">binding </string>
+
+        
+    <string name="otc_buy_sell_method">payment method </string>
+        
+    <string name="otc_buy_sell_money">Enter the amount </string>
+        
+    <string name="otc_buy_sell_num">Enter the number </string>
+        
+    <string name="otc_buy_sell_psw">Please enter a secure password</string>
+        
+    <string name="otc_buy_sell">Buy </string>
+
+
+        
+    <string name="countdetail_jie">Lending </string>
+        
+    <string name="countdetail_hua">Transfer </string>
+
+
+        
+    <string name="address_biaoqian">address tag </string>
+        
+    <string name="address_et_biaoqian">Enter or long press copy and paste address label </string>
+        
+    <string name="address_psw">Secure password </string>
+        
+    <string name="address_et_psw">Please enter a secure password</string>
+        
+    <string name="address_verify"> (make sure to fill out and check carefully) </string>
+
+
+        
+    <string name="myassat">My assets</string>
+
+        
+    <string name="order_detail_price">single price</string>
+        
+    <string name="order_detail_total">total price </string>
+        
+    <string name="order_detail_no">order number </string>
+        
+    <string name="order_detail_pay">bank payment</string>
+        
+    <string name="order_detail_type">Switch mode </string>
+        
+    <string name="order_detail_bankinfo">bank card information </string>
+        
+    <string name="order_detail_fenhang">branch </string>
+        
+    <string name="order_detail_shoukuan">payee </string>
+        
+    <string name="order_detail_bank_account">Bank card number </string>
+        
+    <string name="order_detail_fukuang_no">reference number </string>
+        
+    <string name="order_detail_bank_quxiao"> cancel the transaction </string>
+        
+    <string name="order_detail_shenshu">Confirm the appeal</string>
+        
+    <string name="order_detail_account_number">Please pay the other account </string>
+        
+    <string name="order_detail_tips">If you have already transferred the payment to the seller, please be sure to click the "My Payments" button in the lower right corner, otherwise there may be a loss of funds. </string>
+        
+    <string name="order_detail_quxiao_order"> cancel order </string>
+        
+    <string name="order_detail_text1">Please </string>
+        
+    <string name="order_detail_text2">payment to the other party </string>
+
+
+        
+    <string name="otc_fabu_num">Please enter the amount</string>
+        
+    <string name="otc_fabu_opponents_to_limit"> opponent limit </string>
+        
+    <string name="otc_fabu_single_limit">single limit </string>
+        
+    <string name="otc_fabu_credit_period">Please select the payment term </string>
+        
+    <string name="otc_fabu_remark">transaction notes </string>
+        
+    <string name="otc_fabu_remark_text">This is a placeholder for the ad message, the user customer introduces or comments for his ad</string>
+        
+    <string name="otc_fabu_release">release</string>
+        
+    <string name="otc_fabu_purchase_quantity">Please enter the purchase volume </string>
+        
+    <string name="otc_fabu_sell_quantity">Please enter the number of sales </string>
+
+        
+    <string name="otc_fabu_sell_buy">I want to buy </string>
+        
+    <string name="otc_fabu_sell_sell">I want to sell </string>
+    <string name="addpaymethod">Add payment method </string>
+
+        
+    <string name="my_codeqr">Friend Invitation </string>
+        
+    <string name="my_code_copy_lianjie">copy link </string>
+
+
+        
+    <string name="register_yaoqingma">Please enter the invite code (Optional) </string>
+
+        
+    <string name="select_pay_queren">confirm </string>
+
+        
+    <string name="trade_chongbi">add coins</string>
+        
+    <string name="trade_tibi">withdrawal coins</string>
+        
+    <string name="trade_keyong">Available </string>
+        
+    <string name="trade_dongjie">Freezed</string>
+        
+    <string name="trade_zhehe">Equivalent (CNY) </string>
+        
+    <string name="trade_record">financial record </string>
+        
+    <string name="tradechat_buy">buy </string>
+        
+    <string name="tradechat_sell">sell </string>
+        
+    <string name="tradechat_high"> high </string>
+        
+    <string name="tradechat_low">low </string>
+        
+    <string name="tradechat_24">24H amount </string>
+        
+    <string name="tradechat_time_division">timeshare </string>
+        
+    <string name="tradechat_fifteen_minutes">15 minutes </string>
+        
+    <string name="tradechat_one_hour">1 hour </string>
+        
+    <string name="tradechat_four_hours"> 4 hours </string>
+        
+    <string name="tradechat_a_day">1 day </string>
+        
+    <string name="tradechat_other">Other </string>
+
+    <string name="usercentre_safe_set">Security Settings</string>
+       
+    <string name="usercentre_paw_set"> security password settings </string>
+        
+    <string name="usercentre_login_ppsw"> modify the login password </string>
+        
+    <string name="usercentre_bindemail"> binding mailbox </string>
+        
+    <string name="usercentre_bindphone"> binding mobile phone </string>
+        
+    <string name="usercentre_google">Google Authenticator</string>
+        
+    <string name="usercentre_pay">payment method </string>
+        
+    <string name="usercentre_fengge">Switch style </string>
+        
+    <string name="usercentre_languange">Switch language </string>
+        
+    <string name="usercentre_help">Help Center</string>
+
+        
+    <string name="identity_xingshi">Please enter the last name </string>
+        
+    <string name="identity_city">Please enter the city </string>
+        
+    <string name="identity_address">Please enter the detailed address </string>
+        
+    <string name="identity_shuoming"> upload the pros and cons, holding three pictures </string>
+        
+    <string name="identity_tv1">document upload </string>
+        
+    <string name="UseriDentify_code_send"> ID card upload: </string>
+        
+    <string name="UseriDentify_zhengmian"> upload ID card front </string>
+        
+    <string name="UseriDentify_fanmian"> upload ID card reverse </string>
+        
+    <string name="UseriDentify_qingxidu"> keep the picture clearly readable</string>
+        
+    <string name="UseriDentify_shouchi"> upload handheld photos </string>
+        
+    <string name="UseriDentify_shili"> example: </string>
+      
+    <string name="userinfo_phone_renz">Mobile Authentication</string>
+        
+    <string name="userinfo_email_renz">mailbox authentication</string>
+        
+    <string name="userinfo_identity"> real name authentication </string>
+        
+    <string name="userinfo_google">Google Certification</string>
+        
+    <string name="userinfo_buy">Online purchase </string>
+        
+    <string name="userinfo_sell"> online sale </string>
+        
+    <string name="userinfo_jyje"> total amount </string>
+
+        <!--French-->
+        
+    <string name="fabi_buy">Buy</string>
+        
+    <string name="fabi_sell">Sell </string>
+
+        
+    <string name="otc_buy_sell_gujia">Country </string>
+        
+    <string name="otc_buy_sell_jine">amount </string>
+        
+    <string name="otc_buy_sell_zhifu">payment method </string>
+
+        
+    <string name="adv_bianji">edit </string>
+        
+    <string name="adv_status"> status: </string>
+
+        
+    <string name="trade_huankuang">payment</string>
+    <string name="entrust_chexiao">Undo </string>
+    status:
+
+        
+    <string name="otc_order_type">order type: </string>
+        
+    <string name="otc_order_status"> status: </string>
+        
+    <string name="otc_order_on">order number: </string>
+        
+    <string name="otc_order_jiaoyi_dx">transaction object: </string>
+
+
+        
+    <string name="pay_method_xiugai">Modify </string>
+
+
+        
+    <string name="pop_entrust_jiaoyiduoi">transaction pair </string>
+        
+    <string name="pop_entrust_danwei">select deposit unit </string>
+        
+    <string name="pop_entrust_order_status">order status </string>
+        
+    <string name="pop_entrust_zhongzhi">Reset </string>
+        
+    <string name="pop_entrust_queren">Confirm </string>
+
+
+        
+    <string name="pop_shenshu">appeal </string>
+        
+    <string name="pop_shenshu_type"> appeal type </string>
+        
+    <string name="pop_shenshu_shuoming"> the other party did not release </string>
+        
+    <string name="pop_shenshu_shuoming1">the other party has not released money</string>
+        
+    <string name="pop_shenshu_yuanying"> Reason for appeal </string>
+        
+    <string name="pop_shenshu_queren">confirm </string>
+
+        
+    <string name="pop_money_tishi">The system will filter the ad containing the target amount </string>
+        
+    <string name="please_login">Please login first </string>
+
+        
+    <string name="pop_fabi_buy">release purchase </string>
+        
+    <string name="pop_fabi_sell">release sale </string>
+        
+    <string name="pop_fabi_adv">Ad Management</string>
+
+
+        
+    <string name="popup_getpicture_photograph">photograph </string>
+        
+    <string name="popup_getpicture_choose_photos">Select photo </string>
+
+        <!--PopupSafeVerifyView-->
+        
+    <string name="popup_safe_verify_tip">Cannot verify \n please contact customer service </string>
+        
+    <string name="popup_safe_verify_verification">secure verification</string>
+        
+    <string name="popup_safe_verify_code"> phone verification code </string>
+        
+    <string name="popup_safe_verify_email">mailbox verification code </string>
+
+
+        <!--InChatAct-->
+        
+    <string name="inchat_saysomething">Talk to the other party </string>
+        
+    <string name="inchat_send">send </string>
+
+        <!--C2C -->
+        
+    <string name="C2CTradeAct_transaction_record">record</string>
+        
+    <string name="C2CFragment_buy">Buy QC</string>
+        
+    <string name="C2CFragment_cny">CNY</string>
+        
+    <string name="C2CFragment_buy_num">buy amount </string>
+        
+    <string name="C2CFragment_need">required </string>
+        
+    <string name="C2CFragment_buy_now">Buy now </string>
+        
+    <string name="C2CFragment_sell">sell QC</string>
+        
+    <string name="C2CFragment_sell_num">sells </string>
+        
+    <string name="C2CFragment_gain"> is available </string>
+        
+    <string name="C2CFragment_now">sell now </string>
+        
+    <string name="C2CFragment_explain"> buying and selling instructions </string>
+        
+    <string name="trade_succese">transaction success </string>
+        
+    <string name="et_trade_num">Please enter the volume of trading </string>
+        
+    <string name="c2c_bank">bank card</string>
+        <!--C2CRecord -->
+        
+    <string name="c2c_trade_record">C2C transaction record </string>
+        
+    <string name="prompt">tip </string>
+        
+    <string name="isno_undo_order">Please confirm whether to cancel the order </string>
+        
+    <string name="payment_info">payment information </string>
+        
+    <string name="dialog_title">wallet account password confirmation </string>
+        
+    <string name="dialog_cancel">Cancel </string>
+        
+    <string name="dialog_commit">OK</string>
+        
+    <string name="dialog_tip">Unable to provide the function of retrieving or resetting the password. Please confirm that the password has been saved properly? </string>
+        
+    <string name="LookC2CDialogFragment_title">payment information </string>
+        
+    <string name="LookC2CDialogFragment_bank_name"> bank name </string>
+        
+    <string name="LookC2CDialogFragment_bank_cart">Bank card number </string>
+        
+    <string name="LookC2CDialogFragment_user_name"> account opening name </string>
+        
+    <string name="LookC2CDialogFragment_total"> Total amount </string>
+        
+    <string name="LookC2CDialogFragment_sn"> serial number </string>
+        
+    <string name="C2CRecordAdapter_price">price: </string>
+        
+    <string name="C2CRecordAdapter_num">Volume: </string>
+        
+    <string name="C2CRecordAdapter_cancel"> withdrawal order </string>
+        
+    <string name="C2CRecordAdapter_look">View </string>
+        
+    <string name="buy1">buy </string>
+        
+    <string name="sell1">sell </string>
+    <!--Bank Card Management-->
+        
+    <string name="BankManagerAct_add_bank_mes"> add bank </string>
+        
+    <string name="bank_manager">Bank card </string>
+        
+    <string name="no_bank">No bank card</string>
+        
+    <string name="isno_remove_bank"> whether to delete the bank card </string>
+        
+    <string name="create_copy">copy </string>
+        
+    <string name="create_commit">confirm </string>
+        
+    <string name="AddorEditBankAct_remark_name">Remarks nickname </string>
+        
+    <string name="AddorEditBankAct_remark_name_hint">Please enter a note nickname </string>
+        
+    <string name="AddorEditBankAct_bank_name"> bank name </string>
+        
+    <string name="AddorEditBankAct_bank_name_hint">Please enter the bank name </string>
+        
+    <string name="AddorEditBankAct_bank_address"> bank opening </string>
+        
+    <string name="AddorEditBankAct_bank_address_hint">Please enter the bank </string>
+        
+    <string name="AddorEditBankAct_bank_cart">Bank card number </string>
+        
+    <string name="AddorEditBankAct_bank_cart_hint">Please enter the bank card number </string>
+        
+    <string name="AddorEditBankAct_bank_user"> account opening name </string>
+        
+    <string name="AddorEditBankAct_bank_user_hint">Please enter the account name </string>
+        
+    <string name="AddorEditBankAct_pw"> security password </string>
+        
+    <string name="AddorEditBankAct_pw_hint">Please enter a secure password</string>
+        
+    <string name="AddorEditBankAct_commint">submit </string>
+        
+    <string name="add_bank">Add a bank card</string>
+
+        
+    <string name="login_register">login/register </string>
+        
+    <string name="login_more">Log in now to view more content</string>
+
+        
+    <string name="yijiaoyi">closed deals %s</string>
+        
+    <string name="chengjiaolv"> / turnover rate </string>
+
+
+        
+    <string name="shat_select_pic">Please select the picture </string>
+        
+    <string name="chat_no_msg">Cannot send empty information</string>
+
+        
+    <string name="bind_email">bind mailbox</string>
+        
+    <string name="change_emial">Modify the mailbox </string>
+        
+    <string name="bind_phone">bind phone </string>
+        
+    <string name="change_phone"> modify the phone </string>
+
+
+        
+    <string name="jinxingz">in progress</string>
+        
+    <string name="end"> is over </string>
+
+        
+    <string name="sold_out">been removed</string>
+
+
+        
+    <string name="jiaoyi_jine">tranding amount :</string>
+        
+    <string name="order_no">order number :</string>
+
+        
+    <string name="shangjia_beizhu">Remarks: </string>
+        
+    <string name="jiaoyi_num">transaction amount </string>
+        
+    <string name="yi_shiming_renz">real name authentication </string>
+
+
+        
+    <string name="price_cny">Price (%s) </string>
+        
+    <string name="money_cny">amount (CNY) </string>
+        
+    <string name="trade_time">transaction time </string>
+
+        
+    <string name="chat_order_no">order number: </string>
+
+
+        
+    <string name="verify_method">Authentication method </string>
+        
+    <string name="phone_verify">Mobile Verification</string>
+        
+    <string name="email_verify">Mailbox authentication </string>
+        
+    <string name="google_verify">Google Verification</string>
+
+        <!--new -->
+        
+    <string name="jys_tx">Total </string>
+        
+    <string name="number_tx">volume</string>
+        
+    <string name="send_erro">Send failed, please try or log back in later</string>
+        
+    <string name="chat_connecterro">Chat server connection failed</string>
+        
+    <string name="newmessage_tx">You have new news!</string>
+        
+    <string name="newmessage_tip1">View </string>
+        
+    <string name="newmessage_tip2">ignore </string>
+        
+    <string name="homepage_tip1">Fiat transaction </string>
+        
+    <string name="homepage_tip2">Multiple Fiat transactions, support multiple payment </string>
+
+
+        
+    <string name="xian_bind_email">Please bind the mailbox first </string>
+        
+    <string name="xian_bind_phone">Please bind the phone first </string>
+        
+    <string name="xian_bind_google">Please bind Google first</string>
+
+
+        
+    <string name="lianxi">Contact the other party </string>
+
+        
+    <string name="safe_verify"> security verification </string>
+        <!--UserSetting-->
+        
+    <string name="UserSetting_tv1">valuation method</string>
+    <!--C2c-->
+        
+    <string name="c2c_tv1">Buy price (¥) </string>
+        
+    <string name="c2c_tv2">buy amount (%s) </string>
+        
+    <string name="c2c_tv3">Please select bank </string>
+        
+    <string name="c2c_tv4">Select Bank </string>
+        
+    <string name="c2c_tv5">Operation Instructions </string>
+        
+    <string name="c2c_cx">Are you sure to revoke?</string>
+
+        
+    <string name="menu_tv1">Publish</string>
+        
+    <string name="menu_tv2">Ad Management</string>
+        
+    <string name="menu_tv3">Business application </string>
+
+        <!--Apply_act-->
+        
+    <string name="apply_tv1">I have read and agree </string>
+        
+    <string name="apply_tv2"> "Certified Merchant Agreement" </string>
+        <!--Verify_Act-->
+        
+    <string name="verify_tv1">phone number </string>
+        
+    <string name="verify_tv2">mailbox number </string>
+        
+    <string name="verify_phone">phone verification </string>
+
+        <!--UserCenter_act-->
+        
+    <string name="user_center_tv1">unbound</string>
+        
+    <string name="user_center_tv2"> not open </string>
+        
+    <string name="user_center_tv3"> is turned on </string>
+        
+    <string name="user_center_tv4">Mobile </string>
+        
+    <string name="user_center_tv5">mailbox </string>
+        
+    <string name="user_center_tv6">fund password </string>
+        
+    <string name="rank">sort </string>
+        
+    <string name="user_center_tv7">Uncertified</string>
+        
+    <string name="user_center_tv8">certified </string>
+        <!--SlideMenu-->
+        
+    <string name="slide_menu_tv1">Market list </string>
+        <!--Entrust-->
+        
+    <string name="entrust_tv1">amount </string>
+        
+    <string name="entrust_tv2">volume </string>
+        
+    <string name="entrust_tv3">delegation price </string>
+        
+    <string name="entrust_tv4">total</string>
+        
+    <string name="entrust_tv5">price </string>
+        
+    <string name="entrust_tv6">time</string>
+        
+    <string name="entrust_tv7"> average </string>
+
+        
+    <string name="transaction"> deal </string>
+        
+    <string name="unit">(%s)</string>
+        <!--Screen-->
+        
+    <string name="screen_tv1">Please enter the amount </string>
+        
+    <string name="all">All </string>
+        <!--UserInfo-->
+        
+    <string name="user_info_tv1">Certified Merchant | </string>
+        
+    <string name="user_info_tv2"> registration time %s</string>
+        
+    <string name="user_info_tv3">transaction num </string>
+        
+    <string name="user_info_tv4">success </string>
+        
+    <string name="user_info_tv5"> turnover rate </string>
+        
+    <string name="user_info_tv6"> registration time: </string>
+        
+    <string name="buy_or_sell_tv1">How much do you want to buy?</string>
+        
+    <string name="buy_or_sell_tv2">How much do you want to sell?</string>
+        <!--ChangePwd-->
+        
+    <string name="change_pwd_tv1">new password</string>
+        
+    <string name="change_pwd_tv2">Confirm password </string>
+        <!--RName-->
+        
+    <string name="r_name_tv1">Nickname </string>
+        
+    <string name="r_name_tv2">Please enter a new nickname </string>
+        
+    <string name="r_name_tv3">Modify nickname </string>
+        
+    <string name="deal_yet">not sold</string>
+        
+    <string name="deal_has">partial deal</string>
+
+
+        
+    <string name="email_certification">Email approve</string>
+        
+    <string name="phone_certification">Mobile approve</string>
+        
+    <string name="idcard_certification">ID approve </string>
+
+        
+    <string name="buy_or_sell_time">The order needs to be paid within </string>
+        
+    <string name="buy_or_sell_time2"></string>
+        
+    <string name="bank">bank card</string>
+        
+    <string name="zfb"> Alipay </string>
+        
+    <string name="wechat">WeChat </string>
+        
+    <string name="max_able_buy">Up to</string>
+        
+    <string name="max">Most</string>
+    <string name="max_able_sell">Up to</string>
+        
+    <string name="all_buy">Buy all</string>
+        
+    <string name="all_sell">Sell all</string>
+        
+    <string name="hint_want_buy">Please enter the total amount of the currency you want to purchase</string>
+        
+    <string name="hint_want_sell">Please enter the total amount of the currency you want to sell</string>
+        
+    <string name="hint_want_buy_num">Please enter the volume you want to purchase</string>
+        
+    <string name="hint_want_sell_num">Please enter the volume to be sold </string>
+
+        
+    <string name="xiadan">place order</string>
+    <string name="add_pay_name">Please enter a name</string>
+        
+    <string name="kaihu_address"> account opening address (Optional) </string>
+        
+    <string name="et_kaihu_address">Please enter the address of bank account</string>
+        
+    <string name="add_pay">Add </string>
+        
+    <string name="add_bank_zhuangzhang">Add bank transfer</string>
+        
+    <string name="add_pay_code">QR code </string>
+
+        <!--AddZfbOrWxAct-->
+        
+    <string name="add_zfb_title">Add Alipay</string>
+        
+    <string name="add_zfb_account"> Alipay account </string>
+        
+    <string name="add_zfb_hint">Please enter Alipay account </string>
+        
+    <string name="add_zfb_qr_code"> Alipay QR code </string>
+
+        <!--WelfareAct-->
+        
+    <string name="activation_record">Record </string>
+        
+    <string name="the_distribution_of">will be issued </string>
+        
+    <string name="underway">in progress</string>
+        
+    <string name="finished"> is over </string>
+
+        <!--WelfareRecordAct-->
+        
+    <string name="welfare_record_msg">Are you sure you want to get it?</string>
+        
+    <string name="welfare_record_welfare">welfare status: </string>
+        
+    <string name="welfare_record_hold_coin">holding currency: </string>
+        
+    <string name="welfare_record_award_coin">reward currency: </string>
+        
+    <string name="welfare_record_hold_count">hold the number :</string>
+        
+    <string name="welfare_record_award_count">Number of rewards: </string>
+        
+    <string name="welfare_record_draw_time">Receipt time: </string>
+        
+    <string name="welfare_record_get">receive </string>
+
+        <!--MessageCenterAct-->
+        
+    <string name="message_center_title">Message Center </string>
+
+        
+    <string name="business">transaction </string>
+        
+    <string name="ramark">remarks</string>
+
+        
+    <string name="UseriDentify_tip"> Tips: Please upload the picture of your ID card include front and back. Please do not crop or change to ensure that the identity information is clear. Otherwise, the audit will not pass</string>
+        <!--InviteRecord-->
+        
+    <string name="invite_tv1">username </string>
+        
+    <string name="invite_tv2">currency</string>
+
+        <!--ArticleAct-->
+        
+    <string name="article_title">Details</string>
+
+
+        <!--MentionRecordAct-->
+        
+    <string name="not_pass">failed </string>
+
+        <!--WelfareFrag-->
+        
+    <string name="name_of_activity">Name: </string>
+        
+    <string name="distributing_rules">Rules: </string>
+        
+    <string name="expiration_date"> Deadline: </string>
+        
+    <string name="distribution_requirements">Requirements:<Data><![CDATA[<font color="#8f9ba2">%s</font>]]></Data> </string>
+
+        <!--MentionRecord-->
+        
+    <string name="metionrecord_tv1">Are you sure to cancel the coin order? </string>
+
+    <string name="chat_num">number (%s) </string>
+    <string name="chat_price">price (%s) </string>
+    <string name="chat_money">amount (%s) </string>
+    <string name="chat_img">[image]</string>
+    <string name="password">password</string>
+    <string name="userlogin_tv1">Mobile phone number / mailbox</string>
+    <string name="country_area">Country Code</string>
+
+
+    <string name="security_verification">Need to enter every transaction</string>
+    <string name="security_verification2">Only need to enter once for each login</string>
+    <string name="security_verification3">No need to enter for each transaction</string>
+
+    <string name="buy_name">Buyer：</string>
+    <string name="sell_name">Seller：</string>
+    <string name="zhanghuxiangqing">Account details</string>
+
+
+    <string name="login_existing_account">Existing account?</string>
+        
+    <string name="register_email_code">mail account </string>
+        
+    <string name="register_tv4">Clicking Register means you agree to the agreement: </string>
+
+        
+    <string name="register_tv2">UID </string>
+        
+    <string name="register_tv3">Please enter a UID (Required) </string>
+
+        
+    <string name="register_tv1">Please confirm the login password </string>
+        
+    <string name="value">price </string>
+
+        
+    <string name="OrderDetialAct_tv1">Please wait for the other party to pay </string>
+        
+    <string name="OrderDetialAct_tv2">Please collect money from the following users</string>
+        
+    <string name="OrderDetialAct_tv3">Please wait for the other party to receive payment </string>
+        
+    <string name="OrderDetialAct_tv4"> transaction amount </string>
+        
+    <string name="order_detail_er_code">receiving two-dimensional code </string>
+        
+    <string name="tradechat_deep">depth </string>
+        
+    <string name="tradechat_transaction"> deal </string>
+        
+    <string name="tradechat_introduction">Introduction</string>
+        
+    <string name="tradechat_tv1">buy </string>
+        
+    <string name="tradechat_tv2"> sell </string>
+        
+    <string name="tradechat_tv3">direction </string>
+        
+    <string name="tradechat_tv4">release time </string>
+        
+    <string name="tradechat_tv5"> official website link </string>
+        
+    <string name="tradechat_tv6"> white paper </string>
+        
+    <string name="tradechat_tv7">block query </string>
+        
+    <string name="popup_safe_verify_guge">Google verification code </string>
+
+        
+    <string name="c2c_tv6">sells (%s) </string>
+        
+    <string name="c2c_tv7">listing price (¥) </string>
+
+        
+    <string name="verify_tv3">Google Authentication </string>
+
+
+    <string name="audit">Frozen </string>
+    <string name="traverse">Completed  </string>
+    <string name="refuse">Refuse</string>
+
+
+    <string name="psw_6">Security password cannot be lower than 6 digits</string>
+
+    <string name="sub_tip">New currency subscription</string>
+    <string name="subscription">Subscription</string>
+    <string name="placement">Placing</string>
+    <string name="subscription_price">Sub price</string>
+    <string name="subscription_num">Sub num</string>
+    <string name="subscription_et">Please enter the subscription quantity</string>
+    <string name="placement_price">Placing price</string>
+    <string name="placement_num">Placing num</string>
+    <string name="placement_et">Please enter the quantity to be placed</string>
+    <string name="zhehe_usdt">Equivalent(%1$s)</string>
+    <string name="xiadan_time">Order time</string>
+    <string name="usdt_cash">1 %1$s cash&#160;&#160;</string>
+
+
+    <string name="version">Version</string>
+    <string name="new_version">Already the latest version</string>
+    <string name="confirm_suocang">confirm </string>
+    <string name="coin">currency</string>
+        
+    <string name="rocord_num">number </string>
+        
+    <string name="yingfan_lixi"> should return interest </string>
+        
+    <string name="yifan_lixi">Earned gains</string>
+        
+    <string name="cunru_time">Start time </string>
+        
+    <string name="zhouqi1">period </string>
+        
+    <string name="fanli_time">End time </string>
+        
+    <string name="zhuangtai"> Status </string>
+
+        
+    <string name="suocang_record">record </string>
+        
+    <string name="suocang"> pledge mining </string>
+        
+    <string name="record">record </string>
+        
+
+        
+    <string name="suocang_no_kaifang">The currency is not open</string>
+
+    <string name="trade_zhiya"> Pledge </string>
+        
+    <string name="suocang_coin">Pledged currency</string>
+        
+    <string name="suocang_num">revenue currency</string>
+        
+    <string name="et_suocang_num">Please enter the quantity </string>
+        
+    <string name="suocang_zhouqi">Please select the period </string>
+        
+    <string name="suocang_tv1">Please select the income currency </string>
+        
+    <string name="suocang_tv2">Total revenue</string>
+        
+    <string name="suocang_tv3">Daily earnings</string>
+
+    <string name="zhouqi">Pledge cycle</string>
+
+    <string name="suoc_suc">Successful operation</string>
+
+    <string name="suog_tv1">Handling fee (USDT): </string>
+        
+    <string name="suog_tv2">Required USDT (including handling fee): </string>
+    <!--Encryption-->
+        
+    <string name="RSAUtils_string"> without this algorithm </string>
+        
+    <string name="RSAUtils_string1">Illegal public key </string>
+        
+    <string name="RSAUtils_string2"> public key data is empty </string>
+        
+
+    <string name="userlogin_identify">Document number </string>
+    <string name="userlogin_input_identify">No real name authentication can be filled out </string>
+
+    <string name="myassetact_tab4">Pledged account</string>
+
+    <string name="jijia_method">Valuation methods</string>
+    <string name="jilu">record</string>
+    <string name="rengou">subscribe</string>
+    <string name="please_rengou_num">Please enter the subscription amount</string>
+    <string name="tijiao_rengou">Submission of subscription</string>
+    <string name="rengou_price">subscribe price(USDT)</string>
+    <string name="peishou">placement</string>
+    <string name="please_peishou_price">Please enter the placing quantity</string>
+    <string name="tijiao_peishou">Submit an application for placing</string>
+    <string name="peishou_price">Placement price(USDT)</string>
+    <string name="rengou_jilu">Subscribe record</string>
+    <string name="peishou_jilu">Placement record</string>
+    <string name="yichexiao">canceled</string>
+    <string name="rengou_num">subscription amount</string>
+    <string name="peishou_num">placing quantity</string>
+    <string name="shiji_rengou_num">Actual subscription quantity</string>
+    <string name="shiji_peishou_num">Actual placing quantity</string>
+    <string name="dongjie_jine">Amount frozen</string>
+    <string name="sxf">poundage</string>
+    <string name="chexiao">undo</string>
+    <string name="zhehe">Equivalent</string>
+
+    <string name="yijia">premium</string>
+    <string name="guding">fixed</string>
+    <string name="please_price">Please enter price</string>
+
+    <string name="customer_service">Customer Service</string>
+     <string name="tradechat_buy_jia">Buy price </string>
+    <string name="tradechat_buy_number">buy amount </string>
+    <string name="tradechat_sell_jia">sell price </string>
+    <string name="tradechat_sell_number">sell amount </string>
+    <string name="login_get_shegnyu">Remaining</string>
+</resources>

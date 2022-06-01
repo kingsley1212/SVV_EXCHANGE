@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_131e30"
+    >
+
+    <LinearLayout
+        android:id="@+id/btm_ll"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/c_182841"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/toBuy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/c_01cb8f"
+            android:gravity="center"
+            android:text="@string/tradechat_buy"
+            android:textColor="@color/c_ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/toSell"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/c_ff5b4b"
+            android:gravity="center"
+            android:text="@string/tradechat_sell"
+            android:textColor="@color/c_ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btm_ll"
+        android:layout_alignParentTop="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/titlebar_ly"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/shape_titlebar_tradechat_gradient">
+
+                <RelativeLayout
+                    android:id="@+id/leftImg_ly"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true">
+
+                    <ImageView
+                        android:id="@+id/leftImg"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:background="@mipmap/ic_arrow_left_white"/>
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:maxEms="9"
+                    android:minEms="2"
+                    android:textColor="#ffffffff"
+                    android:textSize="18sp"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/basedata_ll"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/titlebar_ly"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                >
+
+
+                <TextView
+                    android:id="@+id/np_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:maxWidth="200dp"
+                    android:textColor="@color/c_01cb8f"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    />
+
+
+                <TextView
+                    android:id="@+id/cny_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/np_tv"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/c_627b99"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/cnyp_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/np_tv"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/cny_tv"
+                    android:textColor="@color/c_01cb8f"
+                    android:textSize="15sp"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/basedata_rl_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/np_tv"
+                    >
+
+                    <TextView
+                        android:id="@+id/highp_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/c_ffffff"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@id/highp_tv"
+                        android:text="@string/tradechat_high"
+                        android:textColor="@color/c_627b99"
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/basedata_rl_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/basedata_rl_1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/np_tv"
+                    >
+
+                    <TextView
+                        android:id="@+id/lowp_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/c_ffffff"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@id/lowp_tv"
+                        android:text="@string/tradechat_low"
+                        android:textColor="@color/c_627b99"
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/basedata_rl_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/basedata_rl_2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/np_tv"
+                    >
+
+                    <TextView
+                        android:id="@+id/tradeamount_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/c_ffffff"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@id/tradeamount_tv"
+                        android:text="@string/tradechat_24"
+                        android:textColor="@color/c_627b99"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/stime_ll"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/basedata_ll"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/min_rl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/min_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/tradechat_time_division"
+                        android:textColor="@color/c_989898"
+                        />
+
+                    <View
+                        android:id="@+id/min_vw"
+                        android:layout_width="15dp"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/c_ffffff"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/min15_rl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/min15_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableBottom="@drawable/selector_homepagetab_line"
+                        android:gravity="center"
+                        android:text="@string/tradechat_fifteen_minutes"
+                        android:textColor="@color/c_627b99"
+                        />
+
+                    <View
+                        android:id="@+id/min15_vw"
+                        android:layout_width="15dp"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/c_ffffff"
+                        android:visibility="gone"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/hour_rl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/hour_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableBottom="@drawable/selector_homepagetab_line"
+                        android:gravity="center"
+                        android:text="@string/tradechat_one_hour"
+                        android:textColor="@color/c_627b99"
+                        />
+
+                    <View
+                        android:id="@+id/hour_vw"
+                        android:layout_width="15dp"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/c_ffffff"
+                        android:visibility="gone"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/hour4_rl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/hour4_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableBottom="@drawable/selector_homepagetab_line"
+                        android:gravity="center"
+                        android:text="@string/tradechat_four_hours"
+                        android:textColor="@color/c_627b99"
+                        />
+
+                    <View
+                        android:id="@+id/hour4_vw"
+                        android:layout_width="15dp"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/c_ffffff"
+                        android:visibility="gone"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/day_rl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/day_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableBottom="@drawable/selector_homepagetab_line"
+                        android:gravity="center"
+                        android:text="@string/tradechat_a_day"
+                        android:textColor="@color/c_627b99"
+                        />
+
+                    <View
+                        android:id="@+id/day_vw"
+                        android:layout_width="15dp"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/c_ffffff"
+                        android:visibility="gone"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/other_rl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:id="@+id/other_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:drawableBottom="@drawable/selector_homepagetab_line"
+                        android:gravity="center"
+                        android:text="@string/tradechat_other"
+                        android:textColor="@color/c_627b99"
+                        />
+
+                    <View
+                        android:id="@+id/other_vw"
+                        android:layout_width="15dp"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/c_ffffff"
+                        android:visibility="gone"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_below="@id/stime_ll"
+                android:background="@color/c_091724"
+                />
+
+            <!--<com.github.mikephil.charting.charts.CombinedChart-->
+            <!--android:id="@+id/combinedchart"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_weight="2"></com.github.mikephil.charting.charts.CombinedChart>-->
+
+            <!--<com.github.mikephil.charting.charts.BarChart-->
+            <!--android:id="@+id/barchart"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="180dp"-->
+            <!--android:layout_weight="1"></com.github.mikephil.charting.charts.BarChart>-->
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_transparent"
+    android:orientation="horizontal"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_close"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:background="@color/c_ffffff">
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="48dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="30dp"
+                android:focusableInTouchMode="true"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/otc_buy_sell_jine"
+                    android:textColor="@color/main_little_title"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/jine_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_8f9ba2"
+                    android:hint="@string/screen_tv1"
+                    android:inputType="numberDecimal"
+                    android:lines="1"
+                    android:paddingLeft="15dp"
+                    android:text=""
+                    android:textColor="@color/main_little_title"
+                    android:textColorHint="@color/thin_tx" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/otc_buy_sell_zhifu"
+                    android:textColor="@color/main_little_title"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/pay_all_tv"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/selector_screen"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="@string/all"
+                    android:textColor="@drawable/text_selector_screen" />
+
+                <com.svv.jys.code.common.view.selfview.MyGridView
+                    android:id="@+id/pay_gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnWidth="80dp"
+                    android:numColumns="3"
+                    android:stretchMode="spacingWidthUniform"
+                    android:verticalSpacing="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/otc_buy_sell_gujia"
+                    android:textColor="@color/main_little_title"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/country_all_tv"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/selector_screen"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="@string/all"
+                    android:textColor="@drawable/text_selector_screen" />
+
+                <com.svv.jys.code.common.view.selfview.MyGridView
+                    android:id="@+id/country_gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnWidth="80dp"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:id="@+id/reset_tv"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@color/c_9fb8cf"
+                android:textColor="@color/c_ffffff"
+                android:text="@string/pop_entrust_zhongzhi"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/screen_tv"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_screen"
+                android:textColor="@color/c_ffffff"
+                android:text="@string/shaishuna"
+                android:gravity="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/main_bg_color">
+    <include layout="@layout/include_top_title_bar"
+        android:id="@+id/view_transfer"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/view_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/mf_item_bg"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TabLayout
+                app:tabIndicatorColor="?attr/tab_select"
+                android:background="?attr/mt_item_bg"
+                app:tabSelectedTextColor="?attr/mt_title_tab_tc_s"
+                app:tabTextAppearance="@style/TabLayoutStyle"
+                app:tabTextColor="?attr/mt_title_tab_tc_uns"
+                android:id="@+id/tab_market4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:tabIndicatorHeight="2dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/tv_jiaoyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/myassetact_tab2"
+                    android:textColor="?attr/text_white_hei2" />
+
+                <ImageView
+                    android:id="@+id/iv_huhuan"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="16dp"
+                    android:src="?attr/huhuan_pic" />
+
+                <TextView
+                    android:id="@+id/tv_lt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/myassetact_tab1"
+                    android:textColor="?attr/text_white_hei2" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/num"
+                android:textColor="?attr/text_white_hei2"
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/et_transfer_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:inputType="numberDecimal|number"
+                    android:maxLength="20"
+                    android:textColor="?attr/mt_title_tc"
+                    android:textColorHint="@color/c_d5d5d5"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/business_trade_all"
+                    android:textColor="#4b8efa"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+
+            <View
+                style="@style/divider_line"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/popupBusinessSubmit_tx4"
+                android:textColor="?attr/text_white_hei2"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/et_transfer_psw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:hint="@string/safepsw6"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textColor="?attr/mt_title_tc"
+                android:textColorHint="@color/c_d5d5d5"
+                android:textSize="12sp" />
+
+            <View
+                style="@style/divider_line"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/tv_transfer_comfir"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/btn_bg"
+        android:textColor="@color/c_white"
+        android:layout_alignParentBottom="true"
+        android:text="@string/assat4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp" />
+</RelativeLayout>

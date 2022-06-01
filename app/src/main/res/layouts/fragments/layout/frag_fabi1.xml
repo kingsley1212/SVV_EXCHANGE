@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_jys"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/c_ffffff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/c_ffffff">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/buy_fabi_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:paddingRight="15dp"
+                android:textStyle="bold"
+                android:text="@string/OtcBuyOrSellFrag_goumai"
+                android:textColor="@color/c_1ede89"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sell_fabi_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:textStyle="bold"
+                android:text="@string/OtcBuyOrSellFrag_chushou"
+                android:textColor="@color/c_8f9ba2"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/order_type_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/order_type_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="@string/fabi_buy"
+                android:textColor="@color/main_little_title"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/ic_drop_down" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/tl_fabi_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="4dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@mipmap/fabi_add" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/screen_rl"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/tl_fabi_more">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/ic_screen" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_fabi_order"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:background="@mipmap/fabi_order" />
+
+            <TextView
+                android:id="@+id/notice_tv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/bg_red_dot"
+                android:gravity="center"
+                android:textColor="@color/c_ffffff"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_coin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/c_ffffff"
+        app:tabIndicatorColor="#2183c9"
+        app:tabIndicatorHeight="1.5dp"
+        app:tabSelectedTextColor="#2183c9"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        app:tabTextColor="@color/tag_tv" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_otc_trade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/c_white"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_new_top_bar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingStart="25dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="25dp"
+            android:text="@string/userlogin_tv1"
+            android:textColor="@color/c_8f9ba2"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/mobile_et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:hint="@string/userlogin_input_username"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/c_1a456d"
+            android:textColorHint="@color/c_bbcce1"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:background="@color/c_dcedfd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/login_checkcode"
+            android:textColor="@color/c_8f9ba2"
+            android:textSize="12sp" />
+
+
+        <RelativeLayout
+            style="@style/item_style"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <LinearLayout
+                style="@style/item_style"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5">
+
+                    <EditText
+                        android:id="@+id/right_checkCode_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:hint="@string/login_input_checkcode"
+                        android:inputType="number"
+                        android:textColor="@color/main_little_title"
+                        android:textColorHint="@color/thin_tx"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/getCheckCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:text="@string/login_get_checkcode"
+                        android:textColor="#ff4a7cf6"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/c_dcedfd" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="25dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="25dp"
+            android:text="@string/userlogin_identify"
+            android:textColor="@color/c_8f9ba2"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/identify_et"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:hint="@string/userlogin_input_identify"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/c_1a456d"
+            android:textColorHint="@color/c_bbcce1"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:background="@color/c_dcedfd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/password"
+            android:textColor="@color/c_8f9ba2"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            style="@style/item_style"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/c_dcedfd" />
+
+            <EditText
+                android:id="@+id/right_pwd_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/pwd_eye_iv"
+                android:background="@null"
+                android:digits="1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+                android:hint="@string/register_input_pwd"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:textColor="@color/main_little_title"
+                android:textColorHint="@color/thin_tx"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/pwd_eye_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/selector_eyes" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/change_pwd_tv2"
+            android:textColor="@color/c_8f9ba2"
+
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            style="@style/item_style"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/c_dcedfd" />
+
+            <EditText
+
+                android:id="@+id/right_repwd_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/re_eye_iv"
+                android:background="@null"
+                android:hint="@string/register_tv1"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:textColor="@color/main_little_title"
+                android:textColorHint="@color/thin_tx"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/re_eye_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/selector_eyes" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/Commit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/btn_login_selector"
+            android:gravity="center"
+            android:text="@string/forgetLoginPw_title"
+            android:textColor="@color/c_white"
+            android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

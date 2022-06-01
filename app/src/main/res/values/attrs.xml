@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ercode所需配置-->
+    <declare-styleable name="innerrect">
+        <attr name="inner_width" format="dimension"/>
+        <attr name="inner_height" format="dimension"/>
+        <attr name="inner_margintop" format="dimension"/>
+        <attr name="inner_corner_color" format="color"/>
+        <attr name="inner_corner_length" format="dimension"/>
+        <attr name="inner_corner_width" format="dimension"/>
+        <attr name="inner_scan_bitmap" format="reference"/>
+        <attr name="inner_scan_speed" format="integer"/>
+        <attr name="inner_scan_iscircle" format="boolean"/>
+    </declare-styleable>
+
+    <!--弹性下拉配置-->
+    <declare-styleable name="FlingLayout">
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--主题属性-->
+    <!-- 背景色,主色调 -->
+    <attr name="main_bg_color" format="color|reference" />
+    <attr name="main_tab_color" format="color|reference" />
+    <attr name="main_tab_tx_color" format="color|reference" />
+    <attr name="main_tab_1" format="reference" />
+    <attr name="main_tab_2" format="reference" />
+    <attr name="main_tab_3" format="reference" />
+    <attr name="main_tab_4" format="reference" />
+    <attr name="main_tab_5" format="reference" />
+    <attr name="hp_centerview_bg" format="reference" />
+    <attr name="hp_centerview_bg_2" format="color|reference" />
+    <attr name="hp_centerview_img1" format="reference" />
+    <attr name="hp_centerview_tc_1" format="color|reference" />
+    <attr name="hp_centerview_tc_2" format="color|reference" />
+    <attr name="hp_centerview_myassetitem_bg" format="color|reference" />
+    <attr name="hp_centerview_myassetitem_tc_1" format="color|reference" />
+
+    <attr name="cb_title_bg" format="color" />
+    <attr name="cb_title_tc" format="color" />
+    <attr name="cb_center_bg" format="color" />
+    <attr name="cb_center_stroke_1" format="color|reference" />
+    <attr name="cb_center_selector_1" format="color|reference" />
+
+    <attr name="mt_title_tc" format="color" />
+    <attr name="mt_title_bg" format="color" />
+    <attr name="mt_title_tab_bg" format="color" />
+    <attr name="mt_title_tab_tc_uns" format="color" />
+    <attr name="mt_title_tab_tc_s" format="color" />
+    <attr name="mt_item_bg" format="color|reference" />
+    <attr name="mt_item_buy_tc" format="color|reference" />
+    <attr name="mt_item_sell_tc" format="color|reference" />
+    <attr name="mt_item_tc_1" format="color|reference" />
+    <attr name="mt_item_tc_2" format="color|reference" />
+
+    <attr name="mf_top_bg" format="color|reference" />
+    <attr name="mf_item_bg" format="color|reference" />
+    <attr name="mf_item_tc" format="color|reference" />
+    <attr name="mf_item_logo_1" format="reference" />
+    <attr name="mf_item_logo_2" format="reference" />
+    <attr name="mf_item_logo_3" format="reference" />
+    <attr name="mf_item_logo_4" format="reference" />
+    <attr name="mf_item_logo_5" format="reference" />
+    <attr name="mf_item_logo_6" format="reference" />
+    <attr name="mf_item_logo_7" format="reference" />
+    <attr name="mf_item_logo_8" format="reference" />
+    <attr name="mf_item_logo_9" format="reference" />
+
+    <attr name="linecolor_1" format="reference" />
+    <attr name="linecolor_2" format="color|reference" />
+    <attr name="linecolor_3" format="color|reference" />
+    <attr name="nonmal_tc_1" format="color|reference" />
+    <attr name="nonmal_tc_2" format="color|reference" />
+    <attr name="nonmal_tc_3" format="color|reference" />
+    <attr name="title_bg" format="color|reference"/>
+    <attr name="btn_bg" format="color|reference"/>
+    <attr name="btn_bg_nocorner" format="color|reference"/>
+    <attr name="text_white_hei1" format="color|reference"/>
+    <attr name="text_white_hei2" format="color|reference"/>
+    <attr name="tab_select" format="color|reference"/>
+    <attr name="assat_top" format="color|reference"/>
+    <attr name="assat_vp_bg" format="reference|color"/>
+    <attr name="assat_search_tv" format="reference|color"/>
+    <attr name="assat_item" format="color|reference"></attr>
+    <attr name="lt_top_bg" format="reference|color"></attr>
+    <attr name="lt_top_bg1" format="reference|color"></attr>
+    <attr name="hei_2c" format="reference|color"></attr>
+    <attr name="huhuan_pic" format="color|reference" />
+    <attr name="slide_text" format="color" />
+    <attr name="collect" format="color|reference" />
+    <attr name="mune_pic" format="color|reference" />
+    <attr name="pop_touming" format="color|reference" />
+    <attr name="news" format="color|reference" />
+    <attr name="jiyi" format="color|reference" />
+    <attr name="assat_item1" format="color|reference"></attr>
+    <attr name="fabi" format="color|reference"></attr>
+    <attr name="fabi_title_buy" format="color|reference"></attr>
+    <attr name="fabi_add" format="color|reference"></attr>
+    <attr name="fabi_title_bg" format="color|reference"></attr>
+    <attr name="fabi_order" format="color|reference"></attr>
+    <attr name="fabi_title_sell" format="color|reference"></attr>
+    <attr name="fabu" format="color|reference"></attr>
+    <attr name="fabi_btn_bg" format="color|reference"/>
+    <attr name="order_type" format="color|reference"/>
+    <attr name="fabu_jiaoyi_num" format="color|reference"/>
+    <attr name="sell_buy_btn" format="color|reference"/>
+    <attr name="add_pay_btn" format="color|reference"/>
+    <attr name="kai_guan" format="color|reference"/>
+    <attr name="chat_img" format="color|reference"/>
+    <attr name="chat_send_tx" format="color|reference"/>
+    <attr name="chat_send_bg" format="color|reference"/>
+    <attr name="adv_pic" format="color|reference"/>
+    <attr name="adv_shangjia" format="color|reference"/>
+    <declare-styleable name="Banner">
+        <attr name="delay_time" format="integer" />
+        <attr name="scroll_time" format="integer" />
+        <attr name="is_auto_play" format="boolean" />
+        <attr name="is_loop" format="boolean" />
+        <attr name="title_background" format="color|reference" />
+        <attr name="title_textcolor" format="color" />
+        <attr name="title_textsize" format="dimension" />
+        <attr name="title_height" format="dimension" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_padding" format="dimension" />
+        <attr name="indicator_drawable_selected" format="reference" />
+        <attr name="indicator_drawable_unselected" format="reference" />
+        <attr name="banner_default_image" format="reference" />
+        <!-- 设置左右2边缩进距离 -->
+        <attr name="page_left_margin" format="dimension" />
+        <attr name="page_right_margin" format="dimension" />
+        <attr name="arc_height" format="dimension" />
+        <attr name="arc_background" format="color|reference" />
+        <attr name="arc_direction" format="enum">
+            <enum name="up" value="0" />
+            <enum name="down" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

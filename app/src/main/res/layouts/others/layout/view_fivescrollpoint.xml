@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fiveScrollTouch_ly"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="center_vertical"
+            android:background="#ffe6e6e6" />
+        <View
+            android:id="@+id/changesBar"
+            android:layout_width="1dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_vertical"
+            android:background="#ff2a90d7"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/fiveStepImg1_ly"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#ffffffff" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00ffffff" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/fiveStepImg1"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:background="#ffffffff"
+                        android:padding="1dp"
+                        android:src="@mipmap/ic_fivestep_state_3"/>
+                </RelativeLayout>
+            </FrameLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/fiveStepImg2_ly"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/fiveStepImg2"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:background="#ffffffff"
+                    android:padding="1dp"
+                    android:src="@mipmap/ic_fivestep_state_3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fiveStepImg3_ly"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/fiveStepImg3"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:background="#ffffffff"
+                    android:padding="1dp"
+                    android:src="@mipmap/ic_fivestep_state_3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fiveStepImg4_ly"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/fiveStepImg4"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:background="#ffffffff"
+                    android:padding="1dp"
+                    android:src="@mipmap/ic_fivestep_state_3" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/fiveStepImg5_ly"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#00ffffff" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#ffffffff" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/fiveStepImg5"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:background="#ffffffff"
+                        android:padding="1dp"
+                        android:src="@mipmap/ic_fivestep_state_3" />
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/fivePointLeftText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/fivePointRightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="0 BTC" />
+    </RelativeLayout>
+
+</LinearLayout>

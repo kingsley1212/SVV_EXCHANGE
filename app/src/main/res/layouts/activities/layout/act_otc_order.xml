@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/main_bg_color"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:background="?attr/title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:id="@+id/leftImg_ly"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/leftImg"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:background="@mipmap/ic_arrow_left_white" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:minEms="2"
+            android:maxEms="9"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="@string/shaishuna"
+            android:textSize="16sp"
+            android:textColor="@color/c_white"
+            android:gravity="center"
+            android:layout_marginRight="16dp"/>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:background="?attr/main_bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/xrv_otc_order"/>
+
+        <include
+            android:id="@+id/no_data_ly"
+            layout="@layout/include_nodata"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+</LinearLayout>

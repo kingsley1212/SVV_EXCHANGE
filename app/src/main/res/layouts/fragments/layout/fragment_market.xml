@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_jys"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/c_ffffff" />
+    <RelativeLayout
+        android:id="@+id/titlebar_ly"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/c_ffffff">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:maxEms="9"
+            android:minEms="2"
+            android:text="@string/marketbusiness_title"
+            android:textColor="@color/main_little_title"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@color/c_white"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/marketTab1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@drawable/selector_myasset_tab_text"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/marketTab1_line"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/selector_tab_line" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/marketTab2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/marketbusiness_tab2"
+                android:textColor="@drawable/selector_myasset_tab_text"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/marketTab2_line"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/selector_tab_line" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_market"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/c_ffffff"
+        app:tabIndicatorColor="#2183c9"
+        app:tabIndicatorHeight="1.5dp"
+        app:tabSelectedTextColor="#2183c9"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        app:tabTextColor="@color/tag_tv" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/c_white"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:text="@string/marketbusiness_mainarea"
+            android:textColor="#ff2459e5" />
+
+        <TextView
+            android:id="@+id/toMainAreaIntroduce"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingRight="12dp"
+            android:text="@string/marketbusiness_mainarea_introduce"
+            android:textColor="@color/c_text_slight" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp">
+
+        <LinearLayout
+            android:id="@+id/coin_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marketbusiness_tv1"
+                android:textColor="@color/c_9fb8cf"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/coin_iv"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_sort" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:paddingRight="10dp"
+                android:id="@+id/price_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/up_down_ll"
+                android:gravity="right|center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/marketbusiness_tv2"
+                    android:textColor="@color/c_9fb8cf"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/price_iv"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_sort" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/up_down_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/marketbusiness_tv3"
+                    android:textColor="@color/c_9fb8cf"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/up_down_iv"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_sort" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/market_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMarketList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</LinearLayout>

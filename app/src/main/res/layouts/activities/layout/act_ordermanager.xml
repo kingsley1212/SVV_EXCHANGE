@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_jys"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/titlebar_ly"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/c_ffffff">
+
+        <RelativeLayout
+            android:id="@+id/leftImg_ly"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/leftImg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:background="@mipmap/ic_arrow_left" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/filter_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:src="@mipmap/ic_filter"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/titles_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="10dp">
+         <TextView
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/c_1a456d"
+             android:textSize="18sp"
+             android:text="@string/OrderManagerAct_face_wt"
+             android:layout_marginRight="20dp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/c_8f9ba2"
+            android:textSize="14sp"
+            android:text="@string/OrderManagerAct_yesterday_wt"
+            android:layout_marginRight="20dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/c_8f9ba2"
+            android:textSize="14sp"
+            android:text="@string/OrderManagerAct_allrocde"
+            />
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

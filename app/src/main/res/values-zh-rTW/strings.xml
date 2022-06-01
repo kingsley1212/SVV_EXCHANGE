@@ -1,0 +1,1351 @@
+<resources>
+    <string name="app_name">SVV</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="again_finish">再按一次退出</string>
+    <string name="complete">完成</string>
+    <string name="nodata">親！暫無記錄哦~</string>
+    <string name="nodata_no_sj">暫無數據</string>
+    <string name="xx_RMB">$1$s￥</string>
+    <string name="up_xx_percent">+$1$s%</string>
+    <string name="down_xx_percent">-$1$s%</string>
+    <string name="app_is_downloading">APP正在下載中，請稍後。 </string>
+    <string name="app_download_error">下載失敗，請再次打開app重新下載。 </string>
+    <string name="app_download_path">已下載到“文件管理”</string>
+    <string name="no_more_data">沒有更多數據了</string>
+    <string name="data_defult">---</string>
+    <string name="fbprice_data">≈%1$s&#160;</string>
+    <string name="data_not_yet">數據暫未獲取完畢</string>
+    <string name="getting_data">正在獲取數據中</string>
+    <string name="email">郵箱</string>
+    <string name="setting">設置</string>
+    <string name="simplified_chinese">簡體中文</string>
+    <string name="simplified">簡體</string>
+    <string name="chinese_traditional">繁體中文</string>
+    <string name="complex_font">繁體</string>
+    <string name="ok">好</string>
+    <string name="password">密碼</string>
+    <string name="common">常用</string>
+    <string name="myself_presion_center">個人中心</string>
+    <string name="business_xiangjia">限價</string>
+    <string name="business_shijia">市價</string>
+    <string name="business_trade_all">全部</string>
+    <string name="business_trade_not">交易中</string>
+    <string name="business_trade_yet">已完成</string>
+    <string name="register_please_register">請註冊</string>
+    <string name="business_zuiyoujia">以當前最優價格交易</string>
+    <string name="business_zuiyoujia2">當前最優價格</string>
+    <string name="business_inputnum">請輸入數量</string>
+    <string name="ys_plus">&#043;</string>
+    <string name="ys_min">&#045;</string>
+    <!--SplashAct-->
+    <string name="splashact_select_explore">請用瀏覽器打開。 </string>
+    <string name="splashact_welcome_text1">全球領先的</string>
+    <string name="splashact_welcome_text2">時尚健康品牌</string>
+
+    <!-- PopupVersionSelectView.java -->
+    <string name="versionupdate">有新版本可用，建議更新</string>
+    <string name="wifitip">更新下載將會使用流量,確認在wifi環境或者足夠流量下執行此操作!</string>
+
+    <!-- getNewMsg.java -->
+    <string name="getnewmsg">你有一條新信息</string>
+    <string name="getnewmsg_goto">前往</string>
+    <string name="getnewmsg_dis">忽略</string>
+    <!--MainAct-->
+    <string name="mainact_tab1">首頁</string>
+    <string name="mainact_tab2">行情</string>
+    <string name="mainact_tab3">幣幣</string>
+    <string name="mainact_tab4">法幣</string>
+    <string name="mainact_tab6">我的</string>
+    <string name="mainact_tab5">我的</string>
+    <string name="mainact_more">更多</string>
+    <string name="mainact_test_system">測試系統</string>
+    <string name="mainact_bounced_permissions">需要手動開啟彈框權限，否則無法提示訂單信息！ </string>
+    <string name="mainact_to_open">前往開啟</string>
+    <string name="no_tishi">不再提示</string>
+
+    <!--RegisterAct-->
+    <string name="login_regist">註冊</string>
+    <string name="login_login">登錄</string>
+    <string name="login_email_register">郵箱註冊</string>
+    <string name="login_mobileregist">手機註冊</string>
+    <string name="login_area">國籍</string>
+    <string name="login_area_code">中國 China</string>
+    <string name="login_inputmobile">請輸入手機號碼</string>
+    <string name="login_input_email">請輸入郵箱地址</string>
+    <string name="login_inputpassword">請輸入新密碼</string>
+    <string name="login_inputrepassword">請確認新密碼</string>
+    <string name="login_checkcode">驗證碼</string>
+    <string name="login_input_checkcode">請輸入驗證碼</string>
+    <string name="login_get_checkcode">獲取驗證碼</string>
+    <string name="login_forgetpsw"><u>忘記密碼？ </u></string>
+    <string name="login_success">登錄成功</string>
+    <string name="login_fail">登錄失敗</string>
+    <string name="login_update">登錄密碼修改</string>
+    <string name="login_forgetpw">忘記密碼？ </string>
+    <string name="login_protocal1">已閱讀並同意</string>
+    <string name="login_protocal2">點擊“註冊”即代表您同意協議：《註冊協議》</string>
+    <string name="login_existing_account">已有賬號?</string>
+    <string name="register_email_code">郵箱賬號</string>
+    <string name="register_tv4">點擊“註冊”即代表您同意協議：</string>
+
+    <!--UserLoginAct-->
+    <string name="userlogin_title">登錄</string>
+    <string name="userlogin_forget_pw">忘記密碼?</string>
+    <string name="userlogin_register">註冊賬號</string>
+    <string name="userlogin_input_username">請輸入手機號/郵箱</string>
+    <string name="userlogin_input_password">請輸入登錄密碼</string>
+    <string name="userlogin_login">登錄</string>
+    <string name="userlogin_tv1">手機號/郵箱</string>
+    <!--ForgetLoginPwAct-->
+    <string name="forgetLoginPw_title">找回密碼</string>
+    <string name="forgetLoginPw_phone">手機找回</string>
+    <string name="forgetLoginPw_email">郵箱找回</string>
+    <string name="forgetLoginPw_area">國家/區號:</string>
+    <string name="forgetLoginPw_area_code">中國 +86</string>
+    <string name="forgetLoginPw_input_mobile">請輸入手機號碼</string>
+    <string name="forgetLoginPw_input_email">請輸入郵箱地址</string>
+    <string name="forgetLoginPw_input_email_input_code">請輸入驗證碼</string>
+    <string name="forgetLoginPw_check_code">驗證碼</string>
+    <string name="forgetLoginPw_input_password">請輸入密碼</string>
+    <string name="forgetLoginPw_input_re_password">請再次輸入密碼</string>
+    <string name="forgetLoginPw_commit">提交</string>
+    <string name="forgetLoginPw_time_meter">秒後可重發</string>
+    <string name="forgetLoginPw_code_success">發送驗證碼成功</string>
+    <string name="forgetLoginPw_code_fail">發送驗證碼失敗</string>
+    <string name="forgetLoginPw_commit_success">修改成功</string>
+    <string name="forgetLoginPw_commit_fail">修改失敗</string>
+
+    <string name="register_title">手機註冊</string>
+    <string name="register_login">登錄</string>
+    <string name="register_country">國家/區號:</string>
+    <string name="register_way">認證方式:</string>
+    <string name="register_type">證件類型:</string>
+    <string name="register_p1">證件正面照:</string>
+    <string name="register_p2">證件反面照:</string>
+    <string name="register_p3">證件手持照:</string>
+    <string name="register_area_code">中國 +86</string>
+    <string name="register_checkcode">獲取驗證碼</string>
+    <string name="register_agreementpassed">已閱讀並同意</string>
+    <string name="register_agreementname">《用戶註冊協議》</string>
+    <string name="register_nextStep">下一步</string>
+    <string name="register_commit">註冊</string>
+    <string name="country_area">國家區號</string>
+
+    <string name="register_input_no">請輸入會員賬號</string>
+    <string name="register_input_pwd">請輸入登錄密碼</string>
+    <string name="register_input_pwd_re">請再次輸入登錄密碼</string>
+    <string name="register_input_paypwd">請輸入資金密碼</string>
+    <string name="register_input_paypwd_re">請再次輸入資金密碼</string>
+    <string name="regster_input_mobile">請輸入手機號碼</string>
+    <string name="regster_input_vcode">請輸入邀請碼</string>
+    <string name="regster_input_code">請輸入驗證碼</string>
+
+    <string name="register_commit_address">請選擇國家/地區</string>
+    <string name="register_commit_nocheck">請先同意註冊協議</string>
+    <string name="register_commit_nousername">請輸入會員賬號</string>
+    <string name="register_commit_nousermobile">請輸入手機號碼</string>
+    <string name="register_commit_nopwd">請輸入登錄密碼</string>
+    <string name="register_commit_pwdunsame">兩次輸入登錄密碼不一樣</string>
+    <string name="register_commit_nopaypwd">請輸入資金密碼</string>
+    <string name="register_commit_paypwdunsame">兩次輸入資金密碼不一樣</string>
+    <string name="register_commit_code">請輸入驗證碼</string>
+    <string name="register_code_success">發送驗證碼成功</string>
+    <string name="register_code_fail">發送驗證碼失敗</string>
+    <string name="register_commit_success">註冊成功</string>
+    <string name="register_commit_fail">註冊失敗</string>
+    <string name="register_time_meter">秒後可重發</string>
+
+    <string name="register_tv2">UID</string>
+    <string name="register_tv3">請輸入UID(必填)</string>
+
+    <!--myselffragment-->
+    <string name="myselffragment_title">我的</string>
+    <string name="myselffragment_item1">我的資產</string>
+    <string name="myselffragment_item2">訂單管理</string>
+    <string name="myselffragment_item3">身份認證</string>
+    <string name="myselffragment_item4">安全中心</string>
+    <string name="mine_problem">常見問題</string>
+    <string name="myselffragment_item5">邀請二維碼</string>
+    <string name="myselffragment_item6">提幣地址</string>
+    <string name="myselffragment_item7">關於我們</string>
+    <string name="myselffragment_item8">退出</string>
+    <string name="myselffragment_please_login">請登錄</string>
+    <string name="myselffragment_titl">登出</string>
+    <string name="myselffragment_conten">你確定要退出登錄嗎</string>
+    <string name="myselffragment_left_text">取消</string>
+    <string name="myselffragment_right_text">確定</string>
+    <string name="MyselfFragment_yqCode">邀請碼：</string>
+    <string name="MyselfFragment_ctowc">C2C交易</string>
+    <string name="Login_out">退出登錄</string>
+    <string name="myselffragment_select_the_area">選擇區號</string>
+    <string name="myselffragment_candy_activities">糖果活動</string>
+    <!--AboutUsAct-->
+    <string name="aboutus_title">關於我們</string>
+    <string name="aboutus_item1">聯繫電話</string>
+    <string name="aboutus_item2">電子郵箱</string>
+    <string name="aboutus_content">.@2018數字貨幣交易</string>
+
+    <!--MyAddressAct-->
+    <string name="myaddressact_title">添加%s地址</string>
+    <string name="myaddressact_item1">姓名</string>
+    <string name="myaddressact_item1_hint">您的姓名</string>
+    <string name="myaddressact_item2">手機號碼</string>
+    <string name="myaddressact_item2_hint">手機號碼</string>
+    <string name="myaddressact_item3">所在地區</string>
+    <string name="myaddressact_item4">詳細地址</string>
+    <string name="myaddressact_item4_hint">街道、小區門、牌號</string>
+    <string name="myaddressact_item5">設為默認地址</string>
+    <string name="myaddressact_save">保存</string>
+    <string name="myaddressact_please_input_bq">請輸入地址標籤</string>
+    <!--ReimbursementAct-->
+    <string name="ReimbursementAct_gj">共借：</string>
+    <string name="ReimbursementAct_hk_sy">剩餘還款：</string>
+    <string name="ReimbursementAct_has_also">已還：</string>
+    <string name="shenyu">剩餘</string>
+    <!--BuyOrSellAct-->
+    <string name="BuyOrSellAct_buy">購買</string>
+    <string name="BuyOrSellAct_sell">出售</string>
+    <string name="BuyOrSellAct_xiane">限額</string>
+    <string name="BuyOrSellAct_single_price">單價</string>
+    <string name="BuyOrSellAct_number">數量</string>
+    <string name="BuyOrSellAct_input_money">輸入金額或數量</string>
+    <string name="BuyOrSellAct_cz_success">訂單創建成功</string>
+    <string name="BuyOrSellAct_authentication">認證商家</string>
+    <string name="BuyOrSellAct_quota">限額：</string>
+    <string name="BuyOrSellAct_number1">數量：</string>
+
+    <!--UserCenterAct-->
+    <string name="usercenter_title">安全中心</string>
+    <string name="usercenter_item1">頭像</string>
+    <string name="usercenter_item2">暱稱</string>
+    <string name="usercenter_item3">性別</string>
+    <string name="usercenter_item4">個性簽名</string>
+    <string name="UserCenterAct_setting_sec_psw">設置暱稱與安全密碼</string>
+    <string name="UserCenterAct_change_psw">修改密碼</string>
+    <string name="UserCenterAct_yes_renz">已經認證過了！親</string>
+    <string name="UserCenterAct_witle_height">高傲白</string>
+    <string name="UserCenterAct_black_low">低調黑</string>
+
+
+    <!--MyAssetAct-->
+    <string name="myassetact_title">我的資產</string>
+    <string name="myassetact_tab1">槓桿賬戶</string>
+    <string name="myassetact_tab2">交易賬戶</string>
+    <string name="myassetact_tab3">法幣賬戶</string>
+    <string name="myassetact_list_item1">幣種</string>
+    <string name="myassetact_list_item2">可用</string>
+    <string name="myassetact_list_item3">已借</string>
+    <string name="myassetact_tv1">幣幣賬戶</string>
+    <string name="from">從</string>
+    <string name="arrive">到</string>
+    <string name="myassetact_tv2">請輸入劃轉數量</string>
+    <string name="myassetact_tv3">可用%1$s %2$s</string>
+    <string name="myassetact_tv4">進行賬戶劃轉時，資產即時到賬且不收取手續費</string>
+    <string name="myassetact_search">搜索</string>
+    <string name="suochagn_zhagnhu">鎖倉賬戶</string>
+
+    <!--ChargeMoneyAct-->
+    <string name="charge_act_tv1">充幣地址: </string>
+    <string name="charge_act_tv2">地址標籤</string>
+    <!--assat-->
+    <string name="assat_hz">資產合計</string>
+    <string name="assat_equivalent">總資產折合(&#160;%1$s&#160;)</string>
+    <string name="assat_search">搜索資產</string>
+    <string name="assat_hide">隱藏0資產</string>
+    <string name="assat_can_use">可用</string>
+    <string name="assat_cool_merry">凍結</string>
+    <string name="assat_zhehe_usdt">折合(%s)</string>
+
+    <!--CountDetailAct-->
+    <string name="countdetailact_btn1">借貸</string>
+    <string name="countdetailact_btn2">賣出</string>
+    <string name="countdetailact_btn3">去交易</string>
+    <string name="countdetailact_item_percent_xx">風險率 —— %1$s</string>
+    <string name="countdetailact_item_type">類型</string>
+    <string name="countdetailact_item_coin1">BTC</string>
+    <string name="countdetailact_item_coin2">USDT</string>
+    <string name="countdetailact_item_type1">可用</string>
+    <string name="countdetailact_item_type2">凍結</string>
+    <string name="countdetailact_item_type3">已借</string>
+    <string name="countdetailact_appeal">當前申請</string>
+    <string name="countdetailact_appeal_all">全部</string>
+    <string name="countdetailact_coin_ubb">幣種：UBB</string>
+    <string name="countdetailact_count">數量：0.00000</string>
+    <string name="countdetailact_time">時間：2018-10-10</string>
+    <string name="countdetailact_type">類型：轉入</string>
+    <!--UserIdentifyAct-->
+    <string name="useridentify_title">實名認證</string>
+    <string name="useridentify_content1">確保交易安全，保障您的合法權益，請您完成身份驗證！ </string>
+    <string name="useridentify_hint1">請輸入姓名</string>
+    <string name="useridentify_hint2">請輸入證件號碼</string>
+    <string name="useridentify_content2">我承諾提交的信息屬於本人所有，不存在盜用他人證件的行為</string>
+    <string name="UserIdentifyAct_input_code">請輸入驗證碼</string>
+    <string name="UserIdentifyAct_input_name_z">請輸入真實姓名</string>
+    <string name="UserIdentifyAct_input_sfz">請輸入身份證號碼</string>
+    <string name="UserIdentifyAct_image">請上傳正反，手持身份證三張圖片</string>
+    <string name="UserIdentifyAct_reset">請勿上傳原來圖片或者空圖</string>
+    <string name="UserIdentifyAct_xing">請輸入姓氏</string>
+    <string name="UserIdentifyAct_city">請輸入城市</string>
+    <string name="UserIdentifyAct_address">請輸入詳細地址</string>
+    <string name="UserIdentifyAct_tony">請同意協議</string>
+    <string name="UserIdentifyAct_wite_successs">申請成功，請等待審核</string>
+    <string name="useridentify_tv1">身份證號</string>
+    <string name="useridentify_tv2">姓氏</string>
+    <string name="useridentify_tv3">城市</string>
+    <string name="useridentify_tv4">詳細地址</string>
+    <!--MarketIntroduceAct-->
+    <string name="marketintroduce_title">主區</string>
+    <string name="marketintroduce_content1">區塊鏈資產交易分區說明</string>
+    <string name="marketintroduce_content2">數字貨幣......</string>
+    <string name="marketintroduce_content3">風險提示</string>
+    <string name="marketintroduce_content4">投資關於......</string>
+    <!--SlideMenuAct-->
+    <string name="SlideMenuAct_zixuan">自選</string>
+
+
+    <!--MarketBusinessFragment-->
+    <string name="marketbusiness_title">行情</string>
+    <string name="marketbusiness_tab1">幣貝網</string>
+    <string name="marketbusiness_tab2">HADAX</string>
+    <string name="marketbusiness_tab1_1">自選</string>
+    <string name="marketbusiness_tab1_2">USDT</string>
+    <string name="marketbusiness_tab1_3">BTC</string>
+    <string name="marketbusiness_tab1_4">ETH</string>
+    <string name="marketbusiness_mainarea">主區</string>
+    <string name="marketbusiness_mainarea_introduce">主區介紹 ></string>
+    <string name="marketbusiness_liagn">24H 量 </string>
+    <string name="marketbusiness_tv1">幣種</string>
+    <string name="marketbusiness_tv2">最新價</string>
+    <string name="marketbusiness_tv3">24H跌漲</string>
+    <!--BusinessOrderAct-->
+    <string name="BusinessOrderAct_time">時間：</string>
+    <string name="BusinessOrderAct_sl">數量：</string>
+    <string name="BusinessOrderAct_all_price">總價：</string>
+    <string name="BusinessOrderAct_single_price">單價：</string>
+    <!--XieyiAct-->
+    <string name="XieyiAct_title">註冊協議</string>
+    <!--AddressManagerAct-->
+    <string name="AddressManagerAct_ti_address">地址：</string>
+    <string name="AddressManagerAct_address_bq">地址標籤：</string>
+    <string name="address">地址</string>
+    <string name="address_tv1">輸入或長按粘貼地址</string>
+    <string name="address_tv2">備註</string>
+    <string name="address_tv3">輸入地址備註</string>
+    <!--HomeFragment-->
+    <string name="homefragment_toptext_hint">請輸入查詢內容</string>
+    <string name="homefragment_myasset">我的資產</string>
+    <string name="homefragment_currency_type1">BTC/USDT</string>
+    <string name="homefragment_currency_type2">ETH/USDT</string>
+    <string name="homefragment_currency_type3">HT/USDT</string>
+    <string name="homefragment_currency_listtype1">漲幅指數</string>
+    <string name="homefragment_currency_listtype2">新幣榜</string>
+    <string name="homefragment_digital_currency_exchange">數字資產交易所</string>
+    <string name="homefragment_theme">輕鬆購買數字資產</string>
+    <string name="homefragment_invite_friends">邀請好友</string>
+    <string name="homefragment_help_center">幫助中心</string>
+    <string name="homefragment_name">名稱</string>
+    <string name="homefragment_recent_quotation">最新價</string>
+    <string name="homefragment_write_ups_and_downs">漲跌幅</string>
+
+
+    <!--CoinBusinessFragment -->
+    <string name="coinbusinessfragment_coinname">BTC/USDT</string>
+    <string name="coinbusinessfragment_notlogin">登錄</string>
+    <string name="coinbusinessfragment_buy">買入</string>
+    <string name="coinbusinessfragment_sell">賣出</string>
+    <string name="coinbusinessfragment_count">數量</string>
+    <string name="coinbusinessfragment_type1">限價</string>
+    <string name="coinbusinessfragment_type2">盤口</string>
+    <string name="coinbusinessfragment_type3">價格</string>
+    <string name="coinbusinessfragment_type4">數量</string>
+    <string name="coinbusinessfragment_business_count">交易額</string>
+    <string name="coinbusinessfragment_business_count_deep">深度</string>
+    <string name="coinbusinessfragment_business_delegate">當前委託</string>
+    <string name="coinbusinessfragment_business_all">全部</string>
+    <string name="coinbusinessfragment_price">價格：</string>
+    <string name="coinbusinessfragment_number">數量：</string>
+    <string name="coinbusinessfragment_wt_all">委託總額：</string>
+    <string name="coinbusinessfragment_yi_business">已交易：</string>
+    <string name="coinbusinessfragment_yi_state">交易狀態：</string>
+    <string name="coinbusinessfragment_yi_time">交易時間：</string>
+    <string name="coinbusinessfragment_cx_success">撤銷成功</string>
+    <string name="coinbusinessfragment_tip">提示</string>
+    <string name="coinbusinessfragment_you_cxwt">請確認是否撤銷該委託</string>
+    <!--BarBusinessFragment-->
+    <string name="barbusinessfragment_risk_probability">風險率:%1$s</string>
+    <string name="barbusinessfragment_coin1">可用%1$s</string>
+    <string name="barbusinessfragment_coin2">可用%1$s</string>
+    <string name="barbusinessfragment_storage_price">爆倉價</string>
+    <string name="barbusinessfragment_price">價格：</string>
+    <string name="barbusinessfragment_number">數量：</string>
+    <string name="barbusinessfragment_wt_all">委託總額：</string>
+    <string name="barbusinessfragment_yi_business">已交易：</string>
+    <string name="barbusinessfragment_yi_state">交易狀態：</string>
+    <string name="barbusinessfragment_yi_time">交易時間：</string>
+    <string name="barbusinessfragment_cx_success">撤銷成功</string>
+    <string name="barbusinessfragment_tip">提示</string>
+    <string name="barbusinessfragment_you_cxwt">你確定撤銷這條委託</string>
+    <string name="barbusinessfragment_transaction_status">交易狀態：已完成</string>
+    <string name="barbusinessfragment_price1">價格：0.00056</string>
+    <!--CurrentEntrustAct-->
+    <string name="CurrentEntrustAct_title">當前委託</string>
+    <!--登錄註冊提示-->
+    <string name="login_prompt">請輸入用戶名和密碼</string>
+    <string name="register_succese">註冊成功</string>
+    <string name="register_psw_prompt">請輸入密碼</string>
+    <string name="register_psw_agian_prompt">請再次輸入密碼</string>
+    <string name="register_code_prompt">請輸入驗證碼</string>
+    <string name="register_code_prompt1">驗證碼不一致</string>
+    <string name="register_phone_prompt">請輸入手機號</string>
+    <string name="register_email_prompt">請輸入郵箱號</string>
+    <string name="register_protocol_prompt">需同意協議</string>
+    <string name="register_code_succese_prompt">驗證碼發送成功</string>
+    <string name="register_tv1">請確認登錄密碼</string>
+
+
+    <!-- PopupBusinessSubmit -->
+    <string name="popupBusinessSubmit_title">委託確認</string>
+    <string name="popupBusinessSubmit_tx1_buy">購買價格:</string>
+    <string name="popupBusinessSubmit_tx1_sell">出售價格:</string>
+    <string name="popupBusinessSubmit_tx3_buy">購買數量:</string>
+    <string name="popupBusinessSubmit_tx3_sell">出售數量:</string>
+    <string name="popupBusinessSubmit_tx4">安全密碼:</string>
+    <string name="popupBusinessSubmit_cancle">放棄委託</string>
+    <string name="popupBusinessSubmit_sure">確認委託</string>
+    <string name="popupBusinessSubmit_success">購買成功</string>
+    <string name="popupBusinessSubmit_fail">購買失敗</string>
+    <string name="popupBusiness_pwnull">請輸入安全密碼</string>
+
+    <string name="homePage_getCode_error">解析二維碼失敗</string>
+    <string name="homePage_from_setting_come_back">從設置頁面返回...</string>
+    <string name="popupBusinessSubmit_tx5">交易額:</string>
+    <!--QRCodeAct-->
+    <string name="qrcode_title">我的二維碼</string>
+    <string name="qrcode_pic_baocun">保存</string>
+    <string name="qrcode_tishi">是否保存該圖片</string>
+    <string name="qrcode_no">否</string>
+    <string name="qrcode_sucesse">保存成功!</string>
+    <string name="qrcode_record">邀請記錄</string>
+    <string name="qrcode_commission_record">返佣記錄</string>
+    <string name="qrcode_invited_friends">已邀請好友</string>
+    <string name="qrcode_paid_commission">已獲取佣金</string>
+
+    <!--MySelfFragment-->
+    <string name="mysele_renz">已經實名認證過了！親</string>
+    <string name="mysele_safe_ts">請先設置安全密碼</string>
+    <string name="mysele_out">退出</string>
+    <string name="mysele_renz_wait">已申請認證，等待審核</string>
+    <string name="mysele_renz_jujue">申請被拒絕，請重新填寫真實信息</string>
+    <string name="mysele_business">商家訂單</string>
+    <string name="shaishuna">篩選</string>
+    <string name="mysele_coinlist_search">搜索幣種</string>
+    <string name="mysele_coinshow_pricing_manner">計價方式</string>
+    <string name="mysele_keyword">請輸入關鍵字</string>
+
+
+    <!--SafePswAct-->
+    <string name="safepsw1">修改登錄密碼</string>
+    <string name="safepsw2">請輸入原登錄密碼</string>
+    <string name="safepsw3">設置安全密碼</string>
+    <string name="safepsw4">修改安全密碼</string>
+    <string name="safepsw5">請輸入原安全密碼</string>
+    <string name="safepsw6">請輸入新安全密碼</string>
+    <string name="safepsw15">請輸入安全密碼</string>
+    <string name="safepsw7">請再次輸入安全密碼</string>
+    <string name="safepsw8">請輸入驗證碼</string>
+    <string name="safepsw9">安全密碼設置成功</string>
+    <string name="safepsw10">登錄密碼修改成功</string>
+    <string name="safepsw11">安全密碼修改成功</string>
+    <string name="safepsw12">請輸入新登錄密碼</string>
+    <string name="safepsw13">請再次輸入登錄密碼</string>
+    <string name="safepsw14">請輸入暱稱</string>
+    <!--order-->
+    <string name="time">時間</string>
+    <string name="num">數量</string>
+    <string name="price">單價</string>
+    <string name="total">總價</string>
+    <string name="value">價格</string>
+
+    <!--register-->
+    <string name="register1">區號</string>
+    <string name="register2">請選擇國籍</string>
+    <string name="register3">請選擇國家</string>
+    <string name="register4">請選擇區號</string>
+    <string name="register5">請選擇國籍</string>
+
+    <string name="forgetpsw1">請輸入驗證碼</string>
+    <string name="forgetpsw2">請輸入密碼</string>
+    <string name="forgetpsw3">請再次輸入密碼</string>
+    <string name="forgetpsw4">請輸入圖片驗證碼</string>
+    <string name="forgetpsw5">圖片驗證碼不一致</string>
+    <string name="forgetpsw6">密碼找回成功</string>
+    <string name="forgetpsw7">請輸入賬號</string>
+    <string name="forgetpsw8">請輸入要找回的賬號</string>
+    <string name="forgetpsw9">如果帳戶未實名認證，證件號碼可不填寫</string>
+    <!-- OtcBuyOrSellFragmentFrag-->
+    <string name="OtcBuyOrSellFrag_xiane">限額</string>
+    <string name="OtcBuyOrSellFrag_number">數量: </string>
+    <string name="OtcBuyOrSellFrag_chushou">出售</string>
+    <string name="OtcBuyOrSellFrag_goumai">購買</string>
+    <string name="OtcBuyOrSellFrag_all_zffs">全部支付方式</string>
+    <string name="OtcBuyOrSellFrag_bank_zhuanz">銀行卡</string>
+    <string name="OtcBuyOrSellFrag_zfb">支付寶</string>
+    <string name="OtcBuyOrSellFrag_vchact">微信</string>
+    <string name="OtcBuyOrSellFrag_xjck">現金存款</string>
+    <string name="OtcBuyOrSellFrag_all">全部</string>
+    <!--UserInfoAct-->
+    <string name="UserInfoAct_xiane">限額</string>
+    <string name="UserInfoAct_goumai">購買</string>
+    <string name="UserInfoAct_chushou">出售</string>
+    <!--address-->
+    <string name="address1">請填寫地區</string>
+    <string name="address2">請輸入提幣地址</string>
+    <string name="address3">地址添加成功</string>
+    <string name="address4">地址管理</string>
+    <string name="address5">暫無地址</string>
+    <string name="address6">提示</string>
+    <string name="address7">您是否刪除該條地址</string>
+    <string name="address8">刪除成功</string>
+    <string name="address9">顯示二維碼</string>
+
+    <!--assat-->
+    <string name="assat1">日誌</string>
+    <string name="assat2">劃轉記錄</string>
+    <string name="assat3">借貸記錄</string>
+    <string name="assat4">劃轉</string>
+    <string name="assat5">劃轉成功</string>
+    <string name="assat6">最多可轉</string>
+    <string name="assat7">請輸入劃轉金額</string>
+    <string name="assat8">還款</string>
+    <string name="assat9">請輸入還款金額</string>
+    <string name="assat10">還款成功</string>
+    <string name="assat11">借貸成功</string>
+    <string name="assat12">請輸入借款數量</string>
+    <string name="assat13">可藉</string>
+    <string name="assat14">利率</string>
+    <string name="assat15">利息</string>
+    <string name="assat16">已還</string>
+    <string name="assat17">財務明細</string>
+    <string name="assat18">充幣記錄</string>
+    <string name="assat19">提幣記錄</string>
+    <string name="assat20">實際到賬</string>
+    <string name="assat21">手續費</string>
+    <string name="assat22">狀態</string>
+    <string name="assat23">充幣</string>
+    <string name="assat24">複製成功</string>
+    <string name="assat25">生成二維碼</string>
+    <string name="assat26">複製地址</string>
+    <string name="assat27">提幣</string>
+    <string name="assat28">請輸入提幣數量</string>
+    <string name="assat29">請輸入手機驗證碼</string>
+    <string name="assat30">請輸入郵箱驗證碼</string>
+    <string name="assat31">你還沒綁定手機號</string>
+    <string name="assat32">你還沒綁定郵箱號</string>
+    <string name="assat33">提幣成功</string>
+    <string name="assat34">最小提幣數量</string>
+    <string name="assat35">驗證碼已發送成功</string>
+    <string name="assat36">輸入或長按粘貼地址</string>
+    <string name="assat37">到賬數量</string>
+    <string name="assat38">法幣交易</string>
+    <string name="assat39">購買</string>
+    <string name="assat40">出售</string>
+    <string name="assat41">訂單詳情</string>
+    <string name="assat42">訂單</string>
+    <string name="assat43">您向</string>
+    <string name="assat44">付款參考號</string>
+    <string name="assat45">1、您的匯款將直接進入賣方賬戶，交易過程中賣方出售的數字資產由平台託管保護。 </string>
+    <string name="assat46">2、請在規定時間內完成付款，並務必點擊“我已付款”，賣方確認收款後，系統會將數字資產劃轉到您的賬戶。 </string>
+    <string name="assat47">3、如果買方當日取消訂單達3次，將會被限制當日的買入功能</string>
+    <string name="assat48">1、您所出售的數字資產，已交由平台託管凍結。請在確定收到對方付款後，點擊“我已收款”支付數字資產！ </string>
+    <string name="assat49">2、請不要相信任何催促放幣的理由，確認收到款項後再釋放數字資產，避免造成損失 ！ </string>
+    <string name="assat50">3、在收到賬短信後，請務必登錄網上銀行或手機銀行確認款項是否入賬，避免因收到詐騙短信錯誤釋放數字資產！ </string>
+    <string name="asset1">資產明細</string>
+    <string name="asset2">提幣數量</string>
+    <string name="anquan_yanz">安全驗證</string>
+    <!--google-->
+    <string name="google1">谷歌驗證器是一款動態口令工具，工作原理類似短信動態驗證。綁定後每30s生成一個動態驗證碼，驗證碼可用於登錄、提現等操作的安全驗證 。 </string>
+    <string name="google2">安卓用戶登錄應用商店或使用手機瀏覽器搜索“谷歌驗證器”下載。 </string>
+    <string name="google3">打開谷歌驗證器，掃描下方二維碼或手動輸入下述密鑰添加驗證令牌。 </string>
+    <string name="google4">密鑰用於手機更換或遺失時找回谷歌驗證器，綁定前請務必將下述密鑰備份保存。 </string>
+    <string name="google5">下載谷歌驗證器APP</string>
+    <string name="google6">在谷歌驗證器中添加密鑰並備份</string>
+    <string name="google7">輸入谷歌驗證器中6位驗證碼</string>
+    <string name="google8">密鑰</string>
+    <string name="google9">請輸入谷歌驗證碼</string>
+    <string name="google10">綁定</string>
+    <string name="google11">綁定谷歌驗證器</string>
+
+    <!--SellTypeAdsAct-->
+    <string name="selltype_adsact_title">發佈出售廣告</string>
+    <string name="selltype_item0">選擇幣種</string>
+    <string name="selltype_item1">所&#160;&#160;&#160;在&#160;&#160;&#160;地</string>
+    <string name="selltype_item2">交易貨幣</string>
+    <string name="selltype_item3">溢&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;价</string>
+    <string name="selltype_item3hint">根據市場的溢價比例</string>
+    <string name="selltype_item4">價&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;格</string>
+    <string name="selltype_item5">最&#160;&#160;低&#160;&#160;價</string>
+    <string name="selltype_item5hint">廣告最低可成交的價格</string>
+    <string name="selltype_item6">最&#160;&#160;小&#160;&#160;量</string>
+    <string name="selltype_item6hint">每一筆交易額的最小限額</string>
+    <string name="selltype_item7">最&#160;&#160;大&#160;&#160;量</string>
+    <string name="selltype_item7hint">每一筆交易額的最大限額</string>
+    <string name="selltype_item8">支付方式</string>
+    <string name="selltype_item9">收款期限</string>
+    <string name="selltype_item10hint">廣告留言（下單前後都可見）\n請說明有關您交易的相關條款或備註您的支付方式，如微信號、支付寶號等，以便對方可以快速和您交易</string>
+    <string name="selltype_item11">高級設置</string>
+    <string name="selltype_item11_1">(選填)</string>
+    <string name="selltype_publish">發布</string>
+    <string name="otc_fs_act_tv1">溢價價格</string>
+    <string name="otc_fs_act_tv2">固定價格</string>
+    <!--BuyTypeAdsAct-->
+    <string name="buytypeads_title">發布購買廣告</string>
+    <string name="buytypeads_item0">選擇幣種</string>
+    <string name="buytypeads_item1">所&#160;&#160;在&#160;&#160;地</string>
+    <string name="buytypeads_home">選擇所在地</string>
+    <string name="buytypeads_item2">貨&#160;&#160;&#160;&#160;&#160;&#160;幣</string>
+    <string name="buytypeads_currency">選擇貨幣</string>
+    <string name="buytypeads_item3">溢&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;價</string>
+    <string name="buytypeads_item3hint">根據市場溢價比例</string>
+    <string name="buytypeads_item4">價&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;格</string>
+    <string name="buytypeads_item5">最&#160;低&#160;價</string>
+    <string name="buytypeads_item5hint">廣告最低可成交的價格</string>
+    <string name="buytypeads_item6">最&#160;小&#160;量</string>
+    <string name="buytypeads_item6hint">每一筆交易額的最小限額</string>
+    <string name="buytypeads_item7">最&#160;大&#160;量</string>
+    <string name="buytypeads_item7hint">每一筆交易額的最大限額</string>
+    <string name="buytypeads_item8">付款方式</string>
+    <string name="buytypeads_item9">付款期限</string>
+    <string name="buytypeads_item9hint">請輸入付款期限</string>
+    <string name="buytypeads_item9_unit">分鐘</string>
+    <string name="buytypeads_item10hint">廣告留言（下單前後都可見）\n請說明有關您交易的相關條款或備註您的支付方式，如微信號、支付寶號等，以便對方可以快速和您交易</string>
+    <string name="buytypeads_item11">高級設置</string>
+    <string name="buytypeads_item11_1">(選填)</string>
+    <string name="buytypeads_publish">發布</string>
+    <string name="buytypeads_publish_overmax">最大溢價不能高於99.99</string>
+    <string name="buytypeads_publish_overmin">最低溢價不能低於-99.99</string>
+    <string name="publish_success">發布成功</string>
+    <string name="publish_fail">發布失敗</string>
+    <string name="publish_num">數&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;量</string>
+    <string name="OrderDetailAct_wo_fk">標記為已付款</string>
+    <string name="OrderDetailAct_yi_shoukuan">我已收款</string>
+    <string name="OrderDetailAct_yes_shens">確認申訴</string>
+    <string name="OrderDetailAct_qux_shen">取消申訴</string>
+    <string name="OrderDetailAct_bank_kah">銀行卡卡號</string>
+    <string name="OrderDetailAct_zhagnhao">賬號</string>
+    <string name="OrderDetailAct_df_wfx">對方未放行</string>
+    <string name="OrderDetailAct_df_wfk">對方未放款</string>
+    <string name="OrderDetialAct_tv1">請等待對方付款</string>
+    <string name="OrderDetialAct_tv2">請向以下用戶收款</string>
+    <string name="OrderDetialAct_tv3">請等待對方收款</string>
+    <string name="OrderDetialAct_tv4">交易金額</string>
+    <!--DetailFrag-->
+    <string name="DetailFrag_zw_jyjl">暫無交易記錄</string>
+    <string name="DetailFrag_price">價格：</string>
+    <string name="DetailFrag_number">數量：</string>
+    <string name="DetailFrag_all_weit">委託總額：</string>
+    <string name="DetailFrag_type_mr">交易類型：買入</string>
+    <string name="DetailFrag_turn_out">交易類型：賣出</string>
+    <string name="DetailFrag_time">時間：</string>
+    <string name="DetailFrag_fee">手續費：</string>
+    <!--EntrustFrag-->
+    <string name="EntrustFrag_zw_jyjl">暫無委託記錄</string>
+    <string name="EntrustFrag_price">價格：</string>
+    <string name="EntrustFrag_number">數量：</string>
+    <string name="EntrustFrag_all_weit">委託總額：</string>
+    <string name="EntrustFrag_yes_business">已交易：</string>
+    <string name="EntrustFrag_time">時間：</string>
+    <string name="EntrustFrag_tip">提示</string>
+    <string name="EntrustFrag_are_you_sure">你確定撤銷這條委託</string>
+    <string name="EntrustFrag_business_state">交易狀態：</string>
+    <!--OrderManagerAct-->
+    <string name="OrderManagerAct_order_manege">訂單管理</string>
+    <string name="OrderManagerAct_face_wt">當前委託</string>
+    <string name="OrderManagerAct_yesterday_wt">歷史委託</string>
+    <string name="OrderManagerAct_allrocde">成交記錄</string>
+    <!--BindActivity-->
+    <string name="BindActivity_email_bind">郵箱綁定</string>
+    <string name="BindActivity_please_input_email">請輸入要綁定的郵箱號</string>
+    <string name="BindActivity_mobile_bind">手機綁定</string>
+    <string name="BindActivity_please_input_mobile">請輸入要綁定的手機號</string>
+    <string name="BindActivity_bind_input_mobile">請輸入要綁定的號碼</string>
+    <string name="BindActivity_please_quhao">請選擇區號</string>
+    <string name="BindActivity_input_bind_number">請輸入要綁定的號碼</string>
+    <string name="BindActivity_input_psw">請輸入安全密碼</string>
+    <string name="BindActivity_input_code">請輸入驗證碼</string>
+    <string name="BindActivity_bind_success">綁定成功</string>
+    <!--GoogleRenzAct-->
+    <string name="GoogleRenzAct_bind_success">綁定成功</string>
+    <string name="GoogleRenzAct_please_gg_code">請輸入谷歌驗證碼</string>
+    <!--AddPayAct-->
+    <string name="AddPayAct_bank_zz">銀行轉賬</string>
+    <string name="AddPayAct_alpaly">支付寶</string>
+    <string name="AddPayAct_vchact_paly">微信支付</string>
+    <string name="AddPayAct_cash_ck">現金存款</string>
+    <string name="AddPayAct_add_select">添加支付方式</string>
+    <string name="AddPayAct_change_paly">修改支付方式</string>
+    <string name="AddPayAct_add_bank">銀行卡號</string>
+    <string name="AddPayAct_input_username">請輸入用戶名</string>
+    <string name="AddPayAct_please_input_bank">請輸入開戶銀行</string>
+    <string name="AddPayAct_input_kh_bank">請輸入開戶支行</string>
+    <string name="AddPayAct_input_zh">請輸入賬號</string>
+    <string name="AddPayAct_input_psw">請輸入安全密碼</string>
+    <string name="AddPayAct_bank_number">銀行卡號</string>
+    <string name="AddPayAct_input_bank_hao">請輸入銀行卡號</string>
+    <string name="AddPayAct_please_input">請輸入</string>
+    <string name="AddPayAct_zhagnhao">賬號</string>
+    <!--PayMethedAct-->
+    <string name="PayMethedAct_pay_select">收款方式</string>
+    <string name="PayMethedAct_no_pay">暫無支付方式</string>
+    <string name="PayMethedAct_delete">刪除</string>
+    <string name="PayMethedAct_yes_detele">確定刪除該條記錄</string>
+    <string name="PayMethedAct_qux">取消</string>
+    <string name="PayMethedAct_delete_success">刪除成功</string>
+
+
+    <string name="otc_buy">購買</string>
+    <string name="otc_my_adv">我的廣告</string>
+    <string name="otc_adv_ts">提示</string>
+    <string name="otc_adv_xiajia">是否下架該廣告</string>
+    <string name="otc_adv_shangjia">是否上架該廣告</string>
+    <string name="otc_adv_xiajia_succese">下架廣告成功</string>
+    <string name="otc_adv_shangjia_succese">上架廣告成功</string>
+    <string name="otc_sell">出售</string>
+    <string name="otc_please_bz">請選擇幣種</string>
+    <string name="otc_please_address">請選擇所在地</string>
+    <string name="otc_please_select_b">請選擇貨幣</string>
+    <string name="otc_please_input_number">請輸入數量</string>
+    <string name="otc_please_yj">請輸入溢價價格</string>
+    <string name="otc_please_zuixiao">請輸入最小限額</string>
+    <string name="otc_please_zuigao">請輸入最高限額</string>
+    <string name="otc_please_zf_fangs">請選擇支付方式</string>
+    <string name="otc_please_jg">請輸入價格</string>
+    <string name="otc_please_input_ly">請輸入留言</string>
+    <string name="otc_please_fb_success">發布成功</string>
+    <string name="otc_adv_type">廣告類型：</string>
+    <string name="otc_adv_coin">幣種：</string>
+    <string name="otc_adv_limit">限額</string>
+    <string name="otc_adv_price">單價</string>
+    <string name="otc_adv_num">數\u3000\u3000量</string>
+    <string name="otc_adv_time">創建時間</string>
+    <string name="otc_adv_status_xiajia">下架</string>
+    <string name="otc_adv_status_shangjia">上架</string>
+    <string name="fanmang">系統繁忙</string>
+
+
+    <string name="msg_code">短信已發送,請稍後點擊</string>
+    <string name="msg_code_null">內容不能為空</string>
+
+    <string name="picutil_shibai">獲取圖片失敗</string>
+
+    <string name="permission_1">請授權後再進入掃碼</string>
+    <string name="permission_2">請允許授權</string>
+
+
+    <string name="addpay_method">支付方式</string>
+    <string name="addpay_method1">銀行轉賬</string>
+    <string name="addpay_xingming">姓名</string>
+    <string name="addpay_xingming1">姓&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;名</string>
+    <string name="addpay_et_xingming">請輸入姓名</string>
+    <string name="addpay_kai_bank">開戶銀行</string>
+    <string name="addpay_kai_et_bank">請輸入開戶銀行</string>
+    <string name="addpay_kai_zhihang">開戶支行</string>
+    <string name="addpay_kai_et_zhihang">請輸入開戶支行</string>
+    <string name="addpay_bank_zhanghao">銀行卡號</string>
+    <string name="addpay_bank_et_zhanghao">請輸入銀行卡號</string>
+    <string name="addpay_bank_psw">安全密碼</string>
+    <string name="addpay_bank_et_psw">請輸入安全密碼</string>
+    <string name="addpay_bank_queren">確認</string>
+
+
+    <string name="bind1">請選擇國家/區號</string>
+    <string name="bind2">請選擇區號</string>
+    <string name="bind_psw">請輸入安全密碼</string>
+    <string name="bind">綁定</string>
+
+    <string name="otc_buy_sell_method">支付方式</string>
+    <string name="otc_buy_sell_money">輸入金額</string>
+    <string name="otc_buy_sell_num">輸入數量</string>
+    <string name="otc_buy_sell_psw">請輸入安全密碼</string>
+    <string name="otc_buy_sell">購買</string>
+
+
+    <string name="countdetail_jie">借貸</string>
+    <string name="countdetail_hua">劃轉</string>
+
+
+    <string name="address_biaoqian">地址標籤</string>
+    <string name="address_et_biaoqian">輸入或長按複製粘貼地址標籤</string>
+    <string name="address_psw">安全密碼</string>
+    <string name="address_et_psw">請輸入安全密碼</string>
+    <string name="address_verify"> (請務必填寫並仔細核對) </string>
+
+
+    <string name="myassat">我的資產</string>
+
+    <string name="order_detail_price">單 價</string>
+    <string name="order_detail_total">總 價</string>
+    <string name="order_detail_no">訂單編號</string>
+    <string name="order_detail_pay">銀行支付</string>
+    <string name="order_detail_type">切換方式</string>
+    <string name="order_detail_bankinfo">銀行卡信息</string>
+    <string name="order_detail_fenhang">分行</string>
+    <string name="order_detail_shoukuan">收款人</string>
+    <string name="order_detail_bank_account">銀行卡卡號</string>
+    <string name="order_detail_fukuang_no">參考號</string>
+    <string name="order_detail_bank_quxiao">取消交易</string>
+    <string name="order_detail_shenshu">確認申訴</string>
+    <string name="order_detail_account_number">請向對方賬號付款</string>
+    <string name="order_detail_tips">如您已向賣家轉賬付款，請務必點擊右下角“我的已付款”按鈕，否則有可能造成資金損失。 </string>
+    <string name="order_detail_quxiao_order">取消訂單</string>
+    <string name="order_detail_text1">請在</string>
+    <string name="order_detail_text2">時間內付款給對方</string>
+    <string name="order_detail_er_code">收款二維碼</string>
+
+
+    <string name="otc_fabu_num">請輸入數量</string>
+    <string name="otc_fabu_opponents_to_limit">對手限制</string>
+    <string name="otc_fabu_single_limit">單筆限額</string>
+    <string name="otc_fabu_credit_period">請選擇付款期限</string>
+    <string name="otc_fabu_remark">交易備註</string>
+    <string name="otc_fabu_remark_text">這裡是廣告留言佔位符，用戶客戶為自己的廣告介紹或者留言</string>
+    <string name="otc_fabu_release">立即發布</string>
+    <string name="otc_fabu_purchase_quantity">請輸入購買數量</string>
+    <string name="otc_fabu_sell_quantity">請輸入出售數量</string>
+
+    <string name="otc_fabu_sell_buy">我要購買</string>
+    <string name="otc_fabu_sell_sell">我要出售</string>
+
+
+    <string name="addpaymethod">添加支付方式</string>
+
+    <string name="my_codeqr">好友邀請</string>
+    <string name="my_code_copy_lianjie">複製鏈接</string>
+
+
+    <string name="register_yaoqingma">請輸入邀請碼(選填)</string>
+
+    <string name="select_pay_queren">確認</string>
+
+    <string name="trade_chongbi">充幣</string>
+    <string name="trade_tibi">提幣</string>
+    <string name="trade_keyong">可用</string>
+    <string name="trade_dongjie">凍結</string>
+    <string name="trade_zhehe">折合(CNY)</string>
+    <string name="trade_record">財務記錄</string>
+    <string name="tradechat_buy">買入</string>
+    <string name="tradechat_sell">賣出</string>
+    <string name="tradechat_high">高</string>
+    <string name="tradechat_low">低</string>
+    <string name="tradechat_24">24H量</string>
+    <string name="tradechat_time_division">分時</string>
+    <string name="tradechat_fifteen_minutes">15分鐘</string>
+    <string name="tradechat_one_hour">1小時</string>
+    <string name="tradechat_four_hours">4小時</string>
+    <string name="tradechat_a_day">1天</string>
+    <string name="tradechat_other">其他</string>
+    <string name="tradechat_deep">深度</string>
+    <string name="tradechat_transaction">成交</string>
+    <string name="tradechat_introduction">簡介</string>
+    <string name="tradechat_tv1">買盤</string>
+    <string name="tradechat_tv2">賣盤</string>
+    <string name="tradechat_tv3">方向</string>
+    <string name="tradechat_tv4">發行時間</string>
+    <string name="tradechat_tv5">官網鏈接</string>
+    <string name="tradechat_tv6">白皮書</string>
+    <string name="tradechat_tv7">區塊查詢</string>
+    <string name="usercentre_safe_set">安全設置</string>
+    <string name="usercentre_paw_set">安全密碼設置</string>
+    <string name="usercentre_login_ppsw">修改登錄密碼</string>
+    <string name="usercentre_bindemail">綁定郵箱</string>
+    <string name="usercentre_bindphone">綁定手機</string>
+    <string name="usercentre_google">谷歌驗證器</string>
+    <string name="usercentre_pay">支付方式</string>
+    <string name="usercentre_fengge">切換風格</string>
+    <string name="usercentre_languange">切換語言</string>
+    <string name="usercentre_help">幫助中心</string>
+
+    <string name="identity_xingshi">請輸入姓氏</string>
+    <string name="identity_city">請輸入城市</string>
+    <string name="identity_address">請輸入詳細地址</string>
+    <string name="identity_shuoming">上傳正反，手持三張圖片</string>
+    <string name="identity_tv1">證件上傳</string>
+    <string name="UseriDentify_code_send">身份證上傳:</string>
+    <string name="UseriDentify_zhengmian">上傳身份證正面</string>
+    <string name="UseriDentify_fanmian">上傳身份證反面</string>
+    <string name="UseriDentify_qingxidu">保持圖片的清晰可讀</string>
+    <string name="UseriDentify_shouchi">上傳手持照片</string>
+    <string name="UseriDentify_shili">示例：</string>
+
+    <string name="userinfo_phone_renz">手機認證</string>
+    <string name="userinfo_email_renz">郵箱認證</string>
+    <string name="userinfo_identity">實名認證</string>
+    <string name="userinfo_google">谷歌認證</string>
+    <string name="userinfo_buy">在線購買</string>
+    <string name="userinfo_sell">在線出售</string>
+    <string name="userinfo_jyje">交易總額</string>
+
+    <!--法幣-->
+    <string name="fabi_buy">我要買</string>
+    <string name="fabi_sell">我要賣</string>
+
+    <string name="otc_buy_sell_gujia">國家</string>
+    <string name="otc_buy_sell_jine">金額</string>
+    <string name="otc_buy_sell_zhifu">支付方式</string>
+
+    <string name="adv_bianji">編輯</string>
+    <string name="adv_status">狀態：</string>
+
+    <string name="trade_huankuang">還款</string>
+
+    <string name="entrust_chexiao">撤銷</string>狀態：
+
+    <string name="otc_order_type">訂單類型：</string>
+    <string name="otc_order_status">狀態：</string>
+    <string name="otc_order_on">訂單號：</string>
+    <string name="otc_order_jiaoyi_dx">交易對象：</string>
+
+
+    <string name="pay_method_xiugai">修改</string>
+
+
+    <string name="pop_entrust_jiaoyiduoi">交易對</string>
+    <string name="pop_entrust_danwei">選擇計價單位</string>
+    <string name="pop_entrust_order_status">訂單狀態</string>
+    <string name="pop_entrust_zhongzhi">重置</string>
+    <string name="pop_entrust_queren">確認</string>
+
+
+    <string name="pop_shenshu">申訴</string>
+    <string name="pop_shenshu_type">申訴類型</string>
+    <string name="pop_shenshu_shuoming">對方未放行</string>
+    <string name="pop_shenshu_shuoming1">對方未放款</string>
+    <string name="pop_shenshu_yuanying">申訴原因</string>
+    <string name="pop_shenshu_queren">確認</string>
+
+    <string name="pop_money_tishi">系統會為您篩選包含目標金額的廣告</string>
+    <string name="please_login">請先登錄</string>
+
+    <string name="pop_fabi_buy">發布購買</string>
+    <string name="pop_fabi_sell">發佈出售</string>
+    <string name="pop_fabi_adv">廣告管理</string>
+    <string name="popup_getpicture_photograph">拍照</string>
+    <string name="popup_getpicture_choose_photos">選擇照片</string>
+
+    <!--PopupSafeVerifyView-->
+    <string name="popup_safe_verify_tip">驗證不了\n請聯繫客服</string>
+    <string name="popup_safe_verify_verification">安全驗證</string>
+    <string name="popup_safe_verify_code">手機驗證碼</string>
+    <string name="popup_safe_verify_email">郵箱驗證碼</string>
+    <string name="popup_safe_verify_guge">谷歌驗證碼</string>
+
+
+    <!--InChatAct-->
+    <string name="inchat_saysomething">跟對方說點什麼吧</string>
+    <string name="inchat_send">發送</string>
+
+    <!--C2C -->
+    <string name="C2CTradeAct_transaction_record">交易記錄</string>
+    <string name="C2CFragment_buy">買入QC</string>
+    <string name="C2CFragment_cny">CNY</string>
+    <string name="C2CFragment_buy_num">買入量</string>
+    <string name="C2CFragment_need">需要</string>
+    <string name="C2CFragment_buy_now">立即買入</string>
+    <string name="C2CFragment_sell">賣出QC</string>
+    <string name="C2CFragment_sell_num">賣出量</string>
+    <string name="C2CFragment_gain">可得</string>
+    <string name="C2CFragment_now">立即賣出</string>
+    <string name="C2CFragment_explain">買賣說明</string>
+    <string name="trade_succese">交易成功</string>
+    <string name="et_trade_num">請輸入交易數量</string>
+    <string name="c2c_bank">銀行卡</string>
+    <!--C2CRecord -->
+    <string name="c2c_trade_record">C2C交易記錄</string>
+    <string name="prompt">提示</string>
+    <string name="isno_undo_order">請確認是否撤銷該訂單</string>
+    <string name="payment_info">付款信息</string>
+    <string name="dialog_title">錢包賬戶密碼確認</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_commit">確定</string>
+    <string name="dialog_tip">無法提供找回或重置密碼功能，請您確認已妥善保存改密碼？ </string>
+    <string name="LookC2CDialogFragment_title">付款信息</string>
+    <string name="LookC2CDialogFragment_bank_name">銀行名稱</string>
+    <string name="LookC2CDialogFragment_bank_cart">銀行卡號</string>
+    <string name="LookC2CDialogFragment_user_name">開戶姓名</string>
+    <string name="LookC2CDialogFragment_total">總金額</string>
+    <string name="LookC2CDialogFragment_sn">流水號</string>
+    <string name="C2CRecordAdapter_price">價格：</string>
+    <string name="C2CRecordAdapter_num">數量：</string>
+    <string name="C2CRecordAdapter_cancel">撤單</string>
+    <string name="C2CRecordAdapter_look">查看</string>
+    <string name="buy1">買</string>
+    <string name="sell1">賣</string>
+
+    <!--銀行卡管理-->
+    <string name="BankManagerAct_add_bank_mes">添加銀行</string>
+    <string name="bank_manager">銀行卡</string>
+    <string name="no_bank">暫無銀行卡</string>
+    <string name="isno_remove_bank">是否刪除該條銀行卡</string>
+    <string name="create_copy">複製</string>
+    <string name="create_commit">確認</string>
+    <string name="AddorEditBankAct_remark_name">備註暱稱</string>
+    <string name="AddorEditBankAct_remark_name_hint">請輸入備註暱稱</string>
+    <string name="AddorEditBankAct_bank_name">銀行名稱</string>
+    <string name="AddorEditBankAct_bank_name_hint">請輸入銀行名稱</string>
+    <string name="AddorEditBankAct_bank_address">開戶行</string>
+    <string name="AddorEditBankAct_bank_address_hint">請輸入開戶行</string>
+    <string name="AddorEditBankAct_bank_cart">銀行卡號</string>
+    <string name="AddorEditBankAct_bank_cart_hint">請輸入銀行卡號</string>
+    <string name="AddorEditBankAct_bank_user">開戶姓名</string>
+    <string name="AddorEditBankAct_bank_user_hint">請輸入開戶姓名</string>
+    <string name="AddorEditBankAct_pw">安全密碼</string>
+    <string name="AddorEditBankAct_pw_hint">請輸入安全密碼</string>
+    <string name="AddorEditBankAct_commint">提交</string>
+    <string name="add_bank">添加銀行卡</string>
+
+    <string name="login_register">登錄/註冊</string>
+    <string name="login_more">立即登錄查看更多內容</string>
+
+    <string name="yijiaoyi">已交易%s單</string>
+    <string name="chengjiaolv">/成交率</string>
+
+
+    <string name="shat_select_pic">請選擇圖片</string>
+    <string name="chat_no_msg">不能發送空信息</string>
+
+    <string name="bind_email">綁定郵箱</string>
+    <string name="change_emial">修改郵箱</string>
+    <string name="bind_phone">綁定手機</string>
+    <string name="change_phone">修改手機</string>
+
+
+    <string name="jinxingz">進行中</string>
+    <string name="end">已結束</string>
+
+    <string name="sold_out">已下架</string>
+
+
+    <string name="jiaoyi_jine">交易金額：</string>
+    <string name="order_no">訂單編號：</string>
+
+    <string name="shangjia_beizhu">備註：</string>
+    <string name="jiaoyi_num">交易數額</string>
+    <string name="yi_shiming_renz">已實名認證</string>
+
+
+    <string name="price_cny">價格(%s)</string>
+    <string name="money_cny">金額(CNY)</string>
+    <string name="trade_time">交易時間</string>
+
+    <string name="chat_order_no">訂單編號 ：</string>
+
+
+    <string name="verify_method">驗證方式</string>
+    <string name="phone_verify">手機驗證</string>
+    <string name="email_verify">郵箱驗證</string>
+    <string name="google_verify">谷歌身份驗證</string>
+    <!--new -->
+    <string name="jys_tx">交易額</string>
+    <string name="number_tx">數量</string>
+    <string name="send_erro">發送失敗,請稍後嘗試或重新登錄</string>
+    <string name="chat_connecterro">聊天服務器連接失敗</string>
+    <string name="newmessage_tx">你有新的消息!</string>
+    <string name="newmessage_tip1">查看</string>
+    <string name="newmessage_tip2">忽略</string>
+    <string name="homepage_tip1">法幣交易</string>
+    <string name="homepage_tip2">多種法幣交易,支持多種支付</string>
+
+
+    <string name="xian_bind_email">請先綁定郵箱</string>
+    <string name="xian_bind_phone">請先綁定手機</string>
+    <string name="xian_bind_google">請先綁定谷歌</string>
+
+
+    <string name="lianxi">聯繫對方</string>
+
+    <string name="safe_verify">安全驗證</string>
+    <!--UserSetting-->
+    <string name="UserSetting_tv1">計價方式</string>
+    <!--C2c-->
+    <string name="c2c_tv1">買入價（￥）</string>
+    <string name="c2c_tv2">買入量（%s）</string>
+    <string name="c2c_tv6">賣出量（%s）</string>
+    <string name="c2c_tv7">賣出價（￥）</string>
+    <string name="c2c_tv3">請選擇銀行</string>
+    <string name="c2c_tv4">選擇銀行</string>
+    <string name="c2c_tv5">操作說明</string>
+    <string name="c2c_cx">確定撤銷嗎</string>
+
+    <string name="menu_tv1">發布廣告</string>
+    <string name="menu_tv2">廣告管理</string>
+    <string name="menu_tv3">商家申請</string>
+
+    <!--Apply_act-->
+    <string name="apply_tv1">我已閱讀並同意</string>
+    <string name="apply_tv2">《認證商家協議》</string>
+    <!--Verify_Act-->
+    <string name="verify_tv1">手機號</string>
+    <string name="verify_tv2">郵箱號</string>
+    <string name="verify_phone">手機驗證</string>
+    <string name="verify_tv3">谷歌身份驗證</string>
+
+    <!--UserCenter_act-->
+    <string name="user_center_tv1">未綁定</string>
+    <string name="user_center_tv2">未開啟</string>
+    <string name="user_center_tv3">已開啟</string>
+    <string name="user_center_tv4">手機</string>
+    <string name="user_center_tv5">郵箱</string>
+    <string name="user_center_tv6">資金密碼</string>
+    <string name="rank">排序</string>
+    <string name="user_center_tv7">未認證</string>
+    <string name="user_center_tv8">已認證</string>
+    <!--SlideMenu-->
+    <string name="slide_menu_tv1">市場列表</string>
+    <!--Entrust-->
+    <string name="entrust_tv1">委託量</string>
+    <string name="entrust_tv2">成交量</string>
+    <string name="entrust_tv3">委託價格</string>
+    <string name="entrust_tv4">成交總額</string>
+    <string name="entrust_tv5">委託價</string>
+    <string name="entrust_tv6">委託時間</string>
+    <string name="entrust_tv7">成交均價</string>
+
+    <string name="transaction">成交</string>
+    <string name="unit">(%s)</string>
+    <!--Screen-->
+    <string name="screen_tv1">請輸入金額</string>
+    <string name="all">全部</string>
+    <!--UserInfo-->
+    <string name="user_info_tv1">認證商家 |</string>
+    <string name="user_info_tv2"> 註冊時間 %s</string>
+    <string name="user_info_tv3">交易次數</string>
+    <string name="user_info_tv4">交易成功</string>
+    <string name="user_info_tv5">成交率</string>
+    <string name="user_info_tv6">註冊時間：</string>
+    <string name="buy_or_sell_tv1">你想購買多少?</string>
+    <string name="buy_or_sell_tv2">你想出售多少?</string>
+    <!--ChangePwd-->
+    <string name="change_pwd_tv1">新密碼</string>
+    <string name="change_pwd_tv2">確認密碼</string>
+    <!--RName-->
+    <string name="r_name_tv1">暱稱</string>
+    <string name="r_name_tv2">請輸入新暱稱</string>
+    <string name="r_name_tv3">修改暱稱</string>
+    <string name="deal_yet">未成交</string>
+    <string name="deal_has">部分成交</string>
+
+
+    <string name="email_certification">郵箱認證</string>
+    <string name="phone_certification">手機認證</string>
+    <string name="idcard_certification">身份認證</string>
+
+    <string name="buy_or_sell_time">該訂單需要您在</string>
+    <string name="buy_or_sell_time2">內支付</string>
+    <string name="bank">銀行卡</string>
+    <string name="zfb">支付寶</string>
+    <string name="wechat">微信</string>
+    <string name="max_able_buy">最大可買</string>
+    <string name="max">最多</string>
+    <string name="max_able_sell">最大可賣</string>
+    <string name="all_buy">全部買入</string>
+    <string name="all_sell">全部賣出</string>
+    <string name="hint_want_buy">請輸入欲購買法幣總額</string>
+    <string name="hint_want_sell">請輸入欲出售法幣總額</string>
+    <string name="hint_want_buy_num">請輸入欲購買數量</string>
+    <string name="hint_want_sell_num">請輸入欲出售數量</string>
+
+    <string name="xiadan">下單</string>
+
+    <string name="add_pay_name">請輸入姓名</string>
+    <string name="kaihu_address">開戶地址(選填)</string>
+    <string name="et_kaihu_address">請輸入開戶地址</string>
+    <string name="add_pay">添加</string>
+    <string name="add_bank_zhuangzhang">添加銀行轉賬</string>
+    <string name="add_pay_code">二維碼</string>
+
+    <!--AddZfbOrWxAct-->
+    <string name="add_zfb_title">添加支付寶</string>
+    <string name="add_zfb_account">支付寶賬號</string>
+    <string name="add_zfb_hint">請輸入支付寶賬號</string>
+    <string name="add_zfb_qr_code">支付寶二維碼</string>
+    <!--WelfareAct-->
+    <string name="activation_record">活動記錄</string>
+    <string name="the_distribution_of">即將發放</string>
+    <string name="underway">進行中</string>
+    <string name="finished">已結束</string>
+
+    <!--WelfareRecordAct-->
+    <string name="welfare_record_msg">確定要領取嗎</string>
+    <string name="welfare_record_welfare">福利狀態 ：</string>
+    <string name="welfare_record_hold_coin">持有幣種 ：</string>
+    <string name="welfare_record_award_coin">獎勵幣種 ：</string>
+    <string name="welfare_record_hold_count">持有數量 ：</string>
+    <string name="welfare_record_award_count">獎勵數量 ：</string>
+    <string name="welfare_record_draw_time">領取時間 ：</string>
+    <string name="welfare_record_get">領取</string>
+
+    <!--MessageCenterAct-->
+    <string name="message_center_title">消息中心</string>
+
+    <string name="business">交易</string>
+    <string name="ramark">備註</string>
+
+    <string name="UseriDentify_tip">溫馨提示:請上傳原始的身份證正反面,請勿裁剪塗改,保證身份信息清晰顯示,否則無法通過審核</string>
+    <!--InviteRecord-->
+    <string name="invite_tv1">用戶名</string>
+    <string name="invite_tv2">幣種</string>
+
+    <!--ArticleAct-->
+    <string name="article_title">詳情</string>
+
+
+    <!--MentionRecordAct-->
+    <string name="not_pass">未通過</string>
+
+    <!--WelfareFrag-->
+    <string name="name_of_activity">活動名稱：</string>
+    <string name="distributing_rules">派發規則：</string>
+    <string name="expiration_date">截止日期：</string>
+    <string name="distribution_requirements">派发要求：
+    <Data><![CDATA[<font color="#8f9ba2">%s</font>]]></Data></string>
+    <!--MentionRecord-->
+    <string name="metionrecord_tv1">您確定撤銷提幣訂單？ </string>
+
+
+    <string name="chat_num">數量(%s)</string>
+    <string name="chat_price">價格(%s)</string>
+    <string name="chat_money">金額(%s)</string>
+    <string name="chat_img">[圖片]</string>
+
+
+    <string name="security_verification">每次交易都需要輸入</string>
+    <string name="security_verification2">每次登錄只需要輸入一次</string>
+    <string name="security_verification3">每次交易都不需要輸入</string>
+
+
+    <string name="buy_name">買家：</string>
+    <string name="sell_name">賣家：</string>
+    <string name="zhanghuxiangqing">賬戶詳情</string>
+
+
+    <string name="audit">已凍結</string>
+    <string name="traverse">已完成</string>
+    <string name="refuse">拒絕</string>
+
+    <string name="psw_6">安全密碼不能低於6位</string>
+
+
+    <string name="sub_tip">新幣認購</string>
+    <string name="subscription">認購</string>
+    <string name="placement">配售</string>
+    <string name="subscription_price">認購價</string>
+    <string name="subscription_num">認購數量</string>
+    <string name="subscription_et">請輸入認購數量</string>
+    <string name="placement_price">配售價</string>
+    <string name="placement_num">配售數量</string>
+    <string name="placement_et">請輸入配售數量</string>
+    <string name="zhehe_usdt">折合(%1$s)</string>
+    <string name="xiadan_time">下單時間</string>
+    <string name="usdt_cash">1 %1$s 兌&#160;&#160;</string>
+    <string name="version">版本號</string>
+    <string name="new_version">已是最新版本</string>
+
+    <string name="suocang_coin">鎖倉幣種</string>
+    <string name="suocang_num">收益幣種</string>
+    <string name="et_suocang_num">請輸入數量</string>
+    <string name="suocang_zhouqi">請選擇週期</string>
+    <string name="suocang_tv1">請選擇收益幣種</string>
+    <string name="suocang_tv2">總收益</string>
+    <string name="suocang_tv3">每日收益</string>
+
+    <string name="confirm_suocang">確認</string>
+    <string name="coin">幣 種</string>
+    <string name="rocord_num">數 量</string>
+    <string name="yingfan_lixi">應返利息</string>
+    <string name="yifan_lixi">已得收益</string>
+    <string name="cunru_time">開始時間</string>
+    <string name="zhouqi1">週 期</string>
+
+    <string name="zhuangtai">狀 態</string>
+
+    <string name="suocang_record">記錄</string>
+    <string name="suocang">鎖倉生息</string>
+    <string name="record">記錄</string>
+    <string name="zhouqi">鎖倉週期</string>
+
+    <string name="suocang_no_kaifang">該幣種未開放</string>
+    <string name="suoc_suc">操作成功</string>
+    <string name="fanli_time">結束時間</string>
+    <!--加密-->
+    <string name="RSAUtils_string">無此算法</string>
+    <string name="RSAUtils_string1">公鑰非法</string>
+    <string name="RSAUtils_string2">公鑰數據為空</string>
+
+    <string name="userlogin_identify">證件號</string>
+    <string name="userlogin_input_identify">沒有實名認證可不填寫</string>
+
+    <string name="myassetact_tab4">質押賬戶</string>
+
+    <string name="suog_tv1">手續費(USDT)：</string>
+        
+    <string name="suog_tv2">所需USDT(含手續費)：</string>
+        
+    <string name="trade_zhiya">質押</string>
+
+    <string name="jijia_method">計價方式</string>
+        
+    <string name="jilu">記錄</string>
+        
+    <string name="rengou">認購</string>
+        
+    <string name="please_rengou_num">請輸入認購數量</string>
+        
+    <string name="tijiao_rengou">提交認購申請</string>
+        
+    <string name="rengou_price">認購價格(USDT)</string>
+        
+    <string name="peishou">配售</string>
+        
+    <string name="please_peishou_price">請輸入配售數量</string>
+        
+    <string name="tijiao_peishou">提交配售申請</string>
+        
+    <string name="peishou_price">配售價格(USDT)</string>
+
+        
+    <string name="rengou_jilu">認購記錄</string>
+        
+    <string name="peishou_jilu">配售記錄</string>
+        
+    <string name="yichexiao">已撤消</string>
+        
+    <string name="rengou_num">認購數量</string>
+        
+    <string name="peishou_num">配售數量</string>
+        
+    <string name="shiji_rengou_num">實際認購數量</string>
+        
+    <string name="shiji_peishou_num">實際配售數量</string>
+        
+    <string name="dongjie_jine">凍結金額</string>
+        
+    <string name="sxf">手續費</string>
+        
+    <string name="chexiao">撤銷</string>
+        
+    <string name="zhehe">折合</string>
+        
+    <string name="yijia">溢價</string>
+        
+    <string name="guding">固定</string>
+        
+    <string name="please_price">請輸入價格</string>
+
+    <string name="customer_service">客服中心</string>
+    <string name="tradechat_buy_jia">買入價</string>
+    <string name="tradechat_buy_number">買入量</string>
+    <string name="tradechat_sell_jia">賣出價</string>
+    <string name="tradechat_sell_number">賣出量</string>
+    <string name="login_get_shegnyu">剩餘</string>
+</resources>
+

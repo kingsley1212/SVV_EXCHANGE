@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_ffffff"
+    android:orientation="vertical">
+    <include layout="@layout/include_new_top_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/titlebar_ly">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/account_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/verify_tv1"
+                    android:textColor="@color/c_1a456d"
+                    android:textSize="14sp"/>
+
+               <TextView
+                   android:id="@+id/account_tv"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=""
+                   android:textColor="@color/c_8f9ba2"
+                   android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <View
+           android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/verify_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_verify"
+                android:textColor="@color/c_1a456d"
+                android:textSize="14sp"/>
+
+            <CheckBox
+                android:id="@+id/status_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:background="@drawable/ic_switch" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color1"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

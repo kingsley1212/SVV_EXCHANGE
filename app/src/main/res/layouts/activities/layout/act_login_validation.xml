@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/main_bg_color"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="?attr/hp_centerview_tc_1"
+        android:textSize="18dp"
+        android:text="@string/safe_verify"
+        android:gravity="center"/>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:background="?attr/mf_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal">
+        <EditText
+            android:textColor="?attr/mt_title_tc"
+            android:textColorHint="@color/c_d5d5d5"
+            android:inputType="number"
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="@string/BindActivity_input_code"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/getcode"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_get_check_code"
+            android:gravity="center"
+            android:text="@string/login_get_checkcode"
+            android:textColor="#ff4a7cf6"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv_confir"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/btn_bg"
+        android:textColor="@color/c_ffffff"
+        android:textSize="18sp"
+        android:text="@string/forgetLoginPw_commit"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp" />
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/iv_welfare_pic"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp" />
+    <TextView
+        android:id="@+id/tv_welfare_status"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:background="@color/c_8f9ba2"
+        android:gravity="center"
+        android:textColor="@color/c_white"
+        android:layout_width="wrap_content"
+        android:paddingRight="17dp"
+        android:paddingLeft="17dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_marginRight="16dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:textColor="@color/c_1a456d"
+        android:id="@+id/tv_act_name"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/name_of_activity"
+        android:layout_toRightOf="@id/iv_welfare_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/c_1a456d"
+        android:layout_below="@id/tv_act_name"
+        android:layout_marginLeft="8dp"
+        android:text="@string/distributing_rules"
+        android:layout_toRightOf="@id/iv_welfare_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_welfare_guize"
+        android:layout_marginRight="16dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/c_8f9ba2"
+        android:layout_below="@id/tv_act_name"
+        android:layout_toRightOf="@id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/c_1a456d"
+        android:layout_below="@id/tv_1"
+        android:layout_marginLeft="8dp"
+        android:text="@string/expiration_date"
+        android:layout_toRightOf="@id/iv_welfare_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_welfare_time"
+        android:layout_marginRight="16dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/c_8f9ba2"
+        android:layout_below="@id/tv_1"
+        android:layout_toRightOf="@id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_3"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/c_1a456d"
+        android:layout_below="@id/tv_2"
+        android:layout_marginLeft="8dp"
+        android:text="@string/distribution_requirements"
+        android:layout_toRightOf="@id/iv_welfare_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/tv_welfare_yaoqiu"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/c_1a456d"
+        android:layout_below="@id/tv_2"
+        android:layout_toRightOf="@id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+       android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/c_dcedfd"/>
+</RelativeLayout>

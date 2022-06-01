@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_market2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:tabIndicatorColor="@color/c_0296ff"
+        app:tabIndicatorHeight="2dp"
+        app:tabSelectedTextColor="@color/c_ffffff"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        app:tabTextColor="@color/c_6e7797"
+        android:background="@color/main_bg_night"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_adv_select"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="?attr/main_bg_color"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll_otc_country"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp">
+
+            <TextView
+                android:id="@+id/tv_otc_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/otc_buy_sell_gujia"
+                android:textColor="?attr/text_white_hei2"
+                android:textSize="13sp"/>
+
+            <ImageView
+                android:id="@+id/iv_otc_country"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:src="@drawable/selector_san"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_otc_money"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/otc_buy_sell_jine"
+                android:textColor="?attr/text_white_hei2"
+                android:textSize="13sp"/>
+
+            <ImageView
+                android:id="@+id/iv_otc_money"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:src="@drawable/selector_san"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_otc_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp">
+
+            <TextView
+                android:id="@+id/tv_otc_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/otc_buy_sell_zhifu"
+                android:textColor="?attr/text_white_hei2"
+                android:textSize="13sp"/>
+
+            <ImageView
+                android:id="@+id/iv_otc_pay"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:src="@drawable/selector_san"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/xrv_buy_sell"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <include
+            android:id="@+id/no_data_ly"
+            layout="@layout/include_nodata"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

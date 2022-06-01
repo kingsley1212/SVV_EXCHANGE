@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <include layout="@layout/include_top_title_bar" />
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+            <EditText
+                android:id="@+id/et_search"
+                android:textSize="12sp"
+                android:maxLength="10"
+                android:hint="@string/myassetact_search"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_search" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/c_white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/myassetTab1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/myassetact_tab2"
+                android:textColor="@drawable/selector_myasset_tab_text"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/myassetTab1_line"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/selector_tab_line" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/myassetTab2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/myassetact_tab1"
+                android:textColor="@drawable/selector_myasset_tab_text"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/myassetTab2_line"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/selector_tab_line" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/myassetTab3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/myassetact_tab3"
+                android:textColor="@drawable/selector_myasset_tab_text"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/myassetTab3_line"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/selector_tab_line" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:visibility="gone"
+            android:id="@+id/rvListCount1"
+            android:background="@color/c_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/rvListCount2"
+            android:background="@color/c_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/rvListCount3"
+            android:background="@color/c_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <include
+            android:visibility="gone"
+            android:id="@+id/no_data_ly"
+            layout="@layout/include_nodata" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

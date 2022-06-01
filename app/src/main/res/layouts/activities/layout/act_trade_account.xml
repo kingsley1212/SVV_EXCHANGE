@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_jys"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_top_title_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/c_ffffff"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:id="@+id/coin_iv"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/tv_trade_account_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text=""
+                android:textColor="@color/c_8f9ba2"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/top_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:text="@string/trade_keyong"
+                android:textColor="@color/c_8f9ba2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="@string/trade_dongjie"
+                android:textColor="@color/c_8f9ba2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_unit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/trade_zhehe"
+                android:textColor="@color/c_8f9ba2"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/tv_trade_account_able"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="0.00000"
+                android:textColor="@color/c_1a456d"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_trade_account_freeze"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="0.00000"
+                android:textColor="@color/c_1a456d"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_trade_account_zhehe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:lines="1"
+                android:text="0.00000"
+                android:textColor="@color/c_1a456d"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp"
+            android:textSize="16sp"
+            android:textColor="@color/c_1a456d"
+            android:gravity="center_vertical"
+            android:text="@string/trade_record"
+            android:background="@color/c_ffffff"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color1"/>
+
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/xrv_trade_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <include
+            android:id="@+id/no_data_ly"
+            layout="@layout/include_nodata"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:background="@color/c_ffffff">
+        <TextView
+            android:id="@+id/cb_tv"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@color/c_1ede89"
+            android:text="@string/trade_chongbi"
+            android:gravity="center"
+            android:textColor="@color/c_ffffff"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/tb_tv"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="#F76A41"
+            android:text="@string/trade_tibi"
+            android:gravity="center"
+            android:textColor="@color/c_ffffff"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/hz_tv"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="#F76A41"
+            android:text="@string/assat4"
+            android:gravity="center"
+            android:textColor="@color/c_ffffff"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_suocang"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:background="#38a1f4"
+            android:gravity="center"
+            android:text="@string/suocang"
+            android:textColor="@color/c_white"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_rengou"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="44dp"
+            android:background="#2E8DF0"
+            android:gravity="center"
+            android:text="@string/rengou"
+            android:textColor="@color/c_white"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tv_peishou"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="44dp"
+            android:background="#929292"
+            android:gravity="center"
+            android:text="@string/peishou"
+            android:textColor="@color/c_white"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="29dp">
+
+    <LinearLayout
+        android:id="@+id/pankou_rl"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/pankouprice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:layout_marginRight="10dp"
+            android:gravity="left|center_vertical"
+            android:lines="1"
+            android:text="---"
+            android:textColor="@color/c_ff676a"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/pankounum"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical|end"
+            android:lines="1"
+            android:text="---"
+            android:textColor="@color/tag_tv"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/pankouNo"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical|end"
+            android:paddingLeft="5dp"
+            android:lines="1"
+            android:text="---"
+            android:textColor="@color/tag_tv"
+            android:textSize="10sp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bg_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#15ff5755" />
+</RelativeLayout>

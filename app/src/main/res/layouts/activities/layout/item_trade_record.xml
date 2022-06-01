@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/mf_item_bg">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="?attr/text_white_hei2"
+            android:id="@+id/tv_record_name"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/countdetailact_coin_ubb"/>
+        <TextView
+            android:textColor="?attr/text_white_hei2"
+            android:id="@+id/tv_record_num"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/countdetailact_count"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="?attr/text_white_hei2"
+            android:id="@+id/tv_record_time"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/countdetailact_time"/>
+        <TextView
+
+            android:textColor="?attr/text_white_hei2"
+            android:id="@+id/tv_record_type"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/countdetailact_type"/>
+    </RelativeLayout>
+    <TextView
+        android:textColor="?attr/text_white_hei2"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_record_mone"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentRight="true"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View style="@style/divider_line"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+</LinearLayout>

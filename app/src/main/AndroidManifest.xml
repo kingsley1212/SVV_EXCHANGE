@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.svv.jys">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" /><!--切换语言权限-->
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.svv.jys.code.module.app.MAppliaction"
+        android:allowBackup="true"
+        android:configChanges="locale"
+        android:icon="@mipmap/ic_applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_applogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.svv.jys.code.module.main.MainAct"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="com.svv.jys.code.module.splash.SplashAct"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--登录-->
+        <activity
+            android:name="com.svv.jys.code.module.myself.login.base.RegisterAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.login.forgetpw.ForgetLoginPwAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.aboutus.base.AboutUsAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myaddress.base.MyAddressAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.usercenter.base.UserCenterAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.base.MyAssetAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.base2.MyAsset2Act"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".code.module.business.tradechat.base3.TradeChat3Act"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.useridentify.base.UserIdentifyAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.ordermanage.base.OrderManagerAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.qrcode.QRCodeAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.countdetail.CountDetailAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.market.marketintroduce.MarketIntroduceAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.market.detail.MarketDetailAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.business.barbusiness.base.entrust.CurrentEntrustAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.login.userlogin.UserLoginAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.market.slidemenu.SlideMenuAct"
+            android:theme="@style/TranslucentTheme_Night" />
+
+        <activity
+            android:name="com.svv.jys.code.module.fabi.screen.ScreenAct"
+            android:theme="@style/TranslucentTheme_Night" />
+
+        <activity
+            android:name="com.svv.jys.code.module.myself.myaddress.base.coin.CoinAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myaddress.base.addresslist.AddressManagerAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.login.forgetpsw2.ForgetPsw2Act"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.base.safapsw.SafePswAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.home.article.ArticleAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.countdetail.borrow.BorrowAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.countdetail.transfer.TransferAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.jiaoyi.TradingAccountAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.jiaoyi.mentionmoney.MentionMoneyAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.countdetail.reimbursement.ReimbursementAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.business.tradechat.base.TradeChatAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.business.tradechat.base2.TradeChat2Act"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.zxing.activity.CaptureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.jiaoyi.chargemoney.ChargeMoneyAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.usercenter.base.bind.BindActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.OtcDetailAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctransfer.OtcTransferAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.base.OtcTradeAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.buyorsell.BuyOrSellAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.fabu.sell.OtcFabuSellAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.order.OtcOrderAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.orderdetail.OrderDetailAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.businessorder.BusinessOrderAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.usercenter.base.pay.PayMethedAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.usercenter.base.pay.addpay.AddPayAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.usercenter.base.google.GoogleRenzAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.fragment.userinfo.UserInfoAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.login.xieyi.XieyiAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.business.c2cbusiness.base.C2CTradeAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.business.c2cbusiness.record.base.C2CRecordAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.bank.base.BankManagerAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.bank.aoe.AddorEditBankAct"
+            android:windowSoftInputMode = "adjustResize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.usercenter.help.HelpAct"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.svv.jys.code.module.home.link.LinkAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.otcsetting.SelectCoinAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.otcsetting.SelectMoneyCoinAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.otcsetting.SelectAddressAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.otcsetting.SelectPayMethodAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myadv.MyAdvAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.server.chatserver.act.InChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.businessorder2.BusinessOrderAct2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.order1.OtcOrderAct1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.usercenter.base.verifymethod.VerifyMethodAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.country.CountryAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svv.jys.code.module.myself.area.AreaAct"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.svv.jys.code.module.myself.loginvalidation.LoginValidationAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.setting.UserSettingAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.coinshow.CoinShowAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.coin.coinlist.CoinListAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.c2c.C2cAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.apply.ApplyAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.usercenter.verify.VerifyAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.usercenter.pwd.ChangePwdAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.login.sjxy.SjxyAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.rname.RNameAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.usercenter.base.pay.addzfborwx.AddZfbOrWxAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.usercenter.base.pay.addbank.AddBankAct"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.svv.jys.code.module.home.message_center.MessageCenterAct"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.svv.jys.code.module.myself.myasset.jiaoyi.mentionrecord.MentionRecordAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.welfare.WelfareAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.welfarerecord.WelfareRecordAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.myasset.transfer.TransferRecordAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.inviterecord.InviteRecordAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.myasset.jiaoyi.chargerecord.ChargeRecordAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.usercenter.securityverification.SecurityVerificationAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.myasset.otc.otctrading.code.CodeAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.subscription.SubscriptionAct"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.svv.jys.code.module.myself.myasset.jiaoyi.suocangrecord.SuoCangRecordAct" />
+        <activity android:name="com.svv.jys.code.module.myself.myasset.jiaoyi.suocang.SuocangAct" />
+        <activity android:name="com.svv.jys.code.module.myself.myasset.jiaoyi.rengou.RenGouAct" />
+        <activity android:name="com.svv.jys.code.module.myself.myasset.jiaoyi.rengourecord.RenGouRecordAct" />
+
+        <service android:name="com.svv.jys.code.module.server.dataserver.DataService" />
+        <service android:name="com.svv.jys.code.module.server.chatserver.server.ChatService" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.svv.jys.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!--<meta-data-->
+        <!--android:name="com.flb.jys.code.common.base.gilde.OkHttpGlideModule"-->
+        <!--android:value="GlideModule"-->
+        <!--/>-->
+        <meta-data
+            android:name="com.svv.jys.code.common.base.gilde4.OkHttpGlideModule"
+            android:value="GlideModule" />
+
+    </application>
+
+</manifest>

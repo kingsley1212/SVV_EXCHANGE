@@ -1,0 +1,80 @@
+.header-chart-panel-content .group {
+    float: left
+}
+
+.header-chart-panel-content .group .buttons.selected {
+    background: #134d6a;
+    color: #c7cce6;
+}
+
+.header-chart-panel-content .group .buttons {
+    color: #4a4a4a;
+    background: inherit !important;
+    border: none !important;
+    display: block;
+    position: relative;
+    float: left;
+    cursor: default;
+    padding: 7px 7px;
+    border-color: #dadde0;
+    height: 14px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.chart-page .buttons.selected, .chart-page .buttons.active {
+    background-color: #e09e03 !important;
+    color: #fff !important;
+}
+
+.chart-page .tv-side-toolbar .header-group-properties, .chart-page .tv-side-toolbar .header-group-indicators, .chart-page .header-chart-panel .header-group-properties, .chart-page .header-chart-panel .header-group-indicators {
+    float: none;
+}
+
+.chart-page .header-chart-panel .header-group-fullscreen {
+    float: right;
+}
+
+.chart-page .header-chart-panel-content .group .button {
+    background-color: inherit !important;
+}
+
+.drawingToolbar-2CoOuCv8- {
+    background-color: #fff;
+}
+
+.chart-style-widget svg, .button svg, .pane-legend .expand, .pane-legend-icon svg {
+    fill: #7d7d7d !important;
+}
+
+.main-properties {
+    height: 250px !important;
+}
+
+.dialog-buttons {
+    height: 50px;
+}
+
+.main-properties-aftertabs {
+    height: 50px !important;
+}
+
+body.chart-page, html.feature-js {
+    background-color: #FFF !important;
+}
+
+.header-chart-panel .header-chart-panel-content span, .header-chart-panel .header-chart-panel-content a {
+    background-color: #e09e03 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.header-chart-panel-content .button.indicators svg {
+    fill: #7d7d7d !important;
+}
+.chart-page .layout__area--center .chart-container {
+    border-color: #fff !important;
+}
+._tv-dialog{
+    display: none !important;
+}

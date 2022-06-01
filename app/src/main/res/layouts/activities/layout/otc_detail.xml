@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/main_bg_color">
+
+    <LinearLayout
+        android:id="@+id/bottom_transfer_ly"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View style="@style/divider_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_otc_transfer1"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_myasset_btn1"
+                android:gravity="center"
+                android:text="@string/assat4"
+                android:textColor="@color/c_white"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/tv_otc_jiaoyi"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_myasset_btn2"
+                android:gravity="center"
+                android:text="@string/assat38"
+                android:textColor="@color/c_white"
+                android:textSize="17sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ll3"
+        layout="@layout/include_top_title_bar"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_transfer_ly"
+        android:layout_below="@id/ll3">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/mf_item_bg"
+                app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed|enterAlwaysCollapsed">
+
+                <LinearLayout
+                    android:id="@+id/ll_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_otc_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="20dp"
+                        android:text="UUDG"
+                        android:textColor="?attr/tab_select"
+                        android:textSize="25dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="1"
+                            android:text="@string/trade_keyong"
+                            android:textColor="?attr/text_white_hei2"
+                            android:textSize="12sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:text="@string/trade_dongjie"
+                            android:textColor="?attr/text_white_hei2"
+                            android:textSize="12sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/trade_zhehe"
+                            android:textColor="?attr/text_white_hei2"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/tv_otc_able"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_weight="1"
+                            android:text="0.00000"
+                            android:textColor="?attr/text_white_hei2"
+                            android:textSize="12sp"/>
+
+                        <TextView
+                            android:id="@+id/tv_otc_freeze"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1"
+                            android:text="0.00000"
+                            android:textColor="?attr/text_white_hei2"
+                            android:textSize="12sp"/>
+
+                        <TextView
+                            android:id="@+id/tv_otc_zhehe"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="0.00000"
+                            android:textColor="?attr/text_white_hei2"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/trade_record"
+                android:textColor="?attr/assat_item"
+                android:textSize="14sp"/>
+        </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_transfer_ly"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <com.jcodecraeer.xrecyclerview.XRecyclerView
+                android:id="@+id/xrv_trade_account"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <include
+                android:id="@+id/no_data_ly"
+                layout="@layout/include_nodata"
+                android:visibility="gone"/>
+        </FrameLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

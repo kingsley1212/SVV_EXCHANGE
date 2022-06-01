@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="145dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_ffffff"
+    android:layout_gravity="end"
+   >
+    <LinearLayout
+        android:id="@+id/tv_pop_fabu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/c_1a456d"
+            android:textSize="15sp"
+            android:text="@string/menu_tv1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tv_pop_guanli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/c_1a456d"
+            android:textSize="15sp"
+            android:text="@string/menu_tv2"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tv_pop_shanj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/c_1a456d"
+            android:textSize="15sp"
+            android:text="@string/menu_tv3"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tv_order_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/c_1a456d"
+            android:textSize="15sp"
+            android:text="@string/OrderManagerAct_order_manege"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/tv_pop_shouk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/c_1a456d"
+            android:textSize="15sp"
+            android:text="@string/selltype_item8"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

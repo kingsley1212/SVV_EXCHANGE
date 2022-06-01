@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/main_bg_color">
+    <include layout="@layout/include_top_title_bar"
+        android:id="@+id/view_borrow"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/view_borrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="?attr/mf_item_bg"
+            android:paddingBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.design.widget.TabLayout
+                app:tabIndicatorColor="?attr/tab_select"
+                android:background="?attr/mt_item_bg"
+                app:tabSelectedTextColor="?attr/mt_title_tab_tc_s"
+                app:tabTextAppearance="@style/TabLayoutStyle"
+                app:tabTextColor="?attr/mt_title_tab_tc_uns"
+                android:id="@+id/tab_market5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:tabIndicatorHeight="2dp"
+                />
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="13sp"
+                    android:textColor="?attr/text_white_hei2"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/myassetact_list_item3"/>
+                <TextView
+                    android:textSize="13sp"
+                    android:textColor="?attr/text_white_hei2"
+                    android:id="@+id/tv_borrow_already"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="13sp"
+                    android:textColor="?attr/text_white_hei2"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/assat13"/>
+                <TextView
+                    android:textSize="13sp"
+                    android:textColor="?attr/text_white_hei2"
+                    android:id="@+id/tv_borrow_max"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="13sp"
+                    android:textColor="?attr/text_white_hei2"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/assat14"/>
+                <TextView
+                    android:textSize="13sp"
+                    android:textColor="?attr/text_white_hei2"
+                    android:id="@+id/tv_borrow_rote"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+        <TextView
+            android:background="?attr/mf_item_bg"
+            android:textSize="13sp"
+            android:textColor="?attr/text_white_hei2"
+            android:paddingLeft="16dp"
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/num"/>
+        <RelativeLayout
+            android:background="?attr/mf_item_bg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <EditText
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:paddingLeft="16dp"
+                android:textColor="?attr/mt_title_tc"
+                android:textColorHint="@color/c_d5d5d5"
+                android:inputType="numberDecimal|number"
+                android:hint="@string/assat12"
+                android:id="@+id/et_borrow_max"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp" />
+            <View style="@style/divider_line"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:id="@+id/tv_borrow_confir"
+        android:layout_marginBottom="20dp"
+        android:background="?attr/btn_bg"
+        android:textColor="@color/c_white"
+        android:layout_alignParentBottom="true"
+        android:text="@string/countdetailact_btn1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp" />
+</RelativeLayout>

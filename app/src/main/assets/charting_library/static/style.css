@@ -1,0 +1,133 @@
+.header-chart-panel-content .group {
+    float: left
+}
+
+.header-chart-panel-content .group .buttons.selected, .header-chart-panel span, .header-chart-panel a {
+    background: #e09e03;
+    color: #fff;
+    background-color: #e09e03 !important;
+}
+
+.header-chart-panel-content .group .buttons {
+    color: #fff;
+    background: inherit !important;
+    border: none !important;
+    display: block;
+    position: relative;
+    float: left;
+    cursor: default;
+    padding: 7px 12px;
+    border-color: #dadde0;
+    height: 14px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.chart-page .buttons.selected, .chart-page .buttons.active {
+    background-color: #e09e03 !important;
+}
+
+.chart-page .tv-side-toolbar .header-group-properties, .chart-page .tv-side-toolbar .header-group-indicators, .chart-page .header-chart-panel .header-group-properties, .chart-page .header-chart-panel .header-group-indicators {
+    float: none;
+}
+
+.chart-page .header-chart-panel .header-group-fullscreen {
+    float: right;
+}
+
+.chart-page .header-chart-panel-content .group .button {
+    background-color: inherit !important;
+}
+
+.drawingToolbar-2CoOuCv8- {
+    background-color: #092532;
+}
+
+.chart-style-widget svg, .button svg, .pane-legend .expand, .pane-legend-icon svg {
+    fill: #fff !important;
+}
+
+.main-properties {
+    height: 250px !important;
+}
+
+.dialog-buttons {
+    height: 50px;
+}
+
+.main-properties-aftertabs {
+    height: 50px !important;
+}
+
+body, html, .chart-page {
+    background-color: #252323 !important;
+}
+
+.scrollWrap-2Regigv6-.noScrollBar-a2JtQ0sE- {
+    background: #252323;
+}
+
+.separator-3cgsM4c1- {
+    background-color: #1a1717 !important;
+}
+
+.chart-page .layout__area--center .chart-container {
+    border-color: #4a3e21 !important;
+}
+
+.tv-tabs {
+    background: #201d1e;
+}
+
+.properties-tabs a.properties-tabs-label.active:after {
+    background-color: #e09e03 !important;
+}
+
+._tv-dialog {
+    border-width: 0 !important;
+}
+
+.main-properties {
+    background: #252323 !important;
+}
+
+.property-page, ._tv-dialog-content label {
+    color: #c7cce6 !important;
+}
+
+.feature-no-touch ._tv-button.ok:active, .feature-touch ._tv-button.ok:active, .feature-no-touch ._tv-button.ok:hover, ._tv-button.ok, html.theme-dark ._tv-button.ok {
+    background: #e09e03 !important;
+    color: #fff !important;
+}
+
+.dialog-buttons ._tv-button.cancel, .feature-no-touch .dialog-buttons ._tv-button.cancel:not(.disabled):active, .feature-touch .dialog-buttons ._tv-button.cancel:not(.disabled):active, .feature-no-touch .dialog-buttons ._tv-button.cancel:not(.disabled):hover {
+    background: #f1e5de !important;
+    color: #583e02 !important;
+}
+
+.tv-tabs:before {
+    background: transparent !important;
+}
+
+.properties-tabs a.properties-tabs-label, .feature-no-touch .tv-tabs__tab:active, .feature-no-touch .tv-tabs__tab:hover, .feature-touch .tv-tabs__tab:active, .tv-tabs__tab.i-active, .tv-tabs__tab.i-hover {
+    color: #c7cce6 !important;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #201d1e;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 2px solid #201d1e;
+    background: #312f2f;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    border: 2px solid #201d1e;
+    background: #312f2f;
+}

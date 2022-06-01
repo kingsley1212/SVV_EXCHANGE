@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <LinearLayout
+        android:background="#3c4257"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_pop_fabu"
+            android:gravity="center"
+            android:text="@string/pop_fabi_buy"
+            android:textColor="@color/c_ffffff"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/c_27263b"/>
+        <TextView
+            android:id="@+id/tv_pop_chushou"
+            android:gravity="center"
+            android:text="@string/pop_fabi_sell"
+            android:textColor="@color/c_ffffff"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp" />
+        <View
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/c_27263b"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_pop_guanli"
+            android:gravity="center"
+            android:text="@string/pop_fabi_adv"
+            android:textColor="@color/c_ffffff"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp" />
+    </LinearLayout>
+
+</LinearLayout>

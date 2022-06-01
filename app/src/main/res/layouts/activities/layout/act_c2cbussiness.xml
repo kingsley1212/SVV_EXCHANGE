@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/include_top_title_bar"/>
+
+        <TextView
+            android:id="@+id/tv_c2c_record"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/C2CTradeAct_transaction_record"
+            android:textColor="@color/c_ffffff"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_c2c"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/mt_item_bg"
+        app:tabIndicatorColor="?attr/tab_select"
+        app:tabIndicatorHeight="2dp"
+        app:tabSelectedTextColor="?attr/mt_title_tab_tc_s"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        app:tabTextColor="?attr/mt_title_tab_tc_uns"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_c2c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

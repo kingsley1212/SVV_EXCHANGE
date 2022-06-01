@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--头部间距-->
+    <dimen name="title_view_height">48dp</dimen>
+
+    <!--普通间距 LV_0-->
+    <dimen name="marginlv0_commsize">5dp</dimen>
+    <!--普通间距 LV_0-->
+    <dimen name="marginlv5_commsize">3dp</dimen>
+    <!--普通间距 LV_1-->
+    <dimen name="marginlv1_commsize">10dp</dimen>
+    <!--普通间距 LV_2-->
+    <dimen name="marginlv2_commsize">8dp</dimen>
+    <!--普通间距 LV_3-->
+    <dimen name="marginlv3_commsize">20dp</dimen>
+    <!--普通间距 LV_4-->
+    <dimen name="marginlv4_commsize">25dp</dimen>
+
+
+    <!--个人中心 icon大小-->
+    <dimen name="myself_iconsize">25dp</dimen>
+</resources>

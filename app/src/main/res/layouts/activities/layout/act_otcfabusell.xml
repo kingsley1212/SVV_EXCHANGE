@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/include_top_title_bar" />
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/tab_publish_adv"
+        android:layout_width="match_parent"
+        app:tl_indicator_corner_radius="1.5dp"
+        android:layout_height="50dp"
+        app:tl_indicator_width="80dp"
+        app:tl_indicator_color="@color/c_1ede89"
+        app:tl_indicator_height="3dp"
+        app:tl_tab_space_equal="true"
+        app:tl_textSelectColor="@color/c_1ede89"
+        app:tl_textUnselectColor="@color/c_8f9ba2"
+        app:tl_textsize="17sp" />
+    <!--<android.support.design.widget.TabLayout-->
+        <!--android:id="@+id/tab_publish_adv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@color/c_ffffff"-->
+        <!--app:tabIndicatorHeight="1.5dp"-->
+        <!--app:tabSelectedTextColor="#2183c9"-->
+        <!--app:tabTextAppearance="@style/TabLayoutStyle2"-->
+        <!--app:tabIndicatorColor="#2183c9"-->
+        <!--app:tabTextColor="@color/tag_tv"-->
+        <!--/>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_publish_adv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

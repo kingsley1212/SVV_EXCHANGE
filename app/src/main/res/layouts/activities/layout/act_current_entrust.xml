@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/include_top_title_bar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@color/c_white"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_entrust_in"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/coinbusinessfragment_buy"
+                android:textColor="@drawable/selector_myasset_tab_text"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/line_entrust_in"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/selector_tab_line" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_entrust_ont"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/coinbusinessfragment_sell"
+                android:textColor="@drawable/selector_myasset_tab_text"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/line_entrust_ont"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/selector_tab_line" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/xrv_entrust"/>
+</LinearLayout>

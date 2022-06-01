@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_white">
+    <include layout="@layout/include_top_title_bar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mysele_coinshow_pricing_manner"
+        android:textSize="30sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/c_1a456d"/>
+    <android.support.v7.widget.RecyclerView
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/coin_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

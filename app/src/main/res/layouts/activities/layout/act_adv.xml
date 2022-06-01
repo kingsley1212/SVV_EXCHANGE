@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_bg_jys"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/titlebar_ly"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/c_ffffff">
+
+        <RelativeLayout
+            android:id="@+id/leftImg_ly"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/leftImg"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:background="@mipmap/ic_arrow_left" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:minEms="2"
+            android:maxEms="9"
+            android:textColor="@color/c_1a456d"
+            android:textSize="18sp" />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ic_pull_down"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            />
+    </RelativeLayout>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_market2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:tabIndicatorColor="@color/c_0296ff"
+        app:tabIndicatorHeight="2dp"
+        app:tabSelectedTextColor="@color/c_2183c9"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        app:tabTextColor="@color/tag_tv"
+        android:background="@color/c_ffffff"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/xrv_adv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <include layout="@layout/include_nodata"
+            android:visibility="gone"
+            android:id="@+id/no_data_ly"/>
+    </FrameLayout>
+
+</LinearLayout>

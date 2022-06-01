@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/mf_item_bg"
+    android:orientation="horizontal"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:textColor="?attr/text_white_hei2"
+        android:id="@+id/tv_pay_method"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14sp"/>
+    <TextView
+        android:gravity="center"
+        android:textColor="?attr/text_white_hei2"
+        android:layout_weight="1"
+        android:id="@+id/tv_pay_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+    <TextView
+        android:gravity="center"
+        android:layout_weight="2"
+        android:textColor="?attr/text_white_hei2"
+        android:id="@+id/tv_pay_zhanghao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+        <TextView
+            android:textColor="?attr/text_white_hei2"
+            android:gravity="right"
+            android:id="@+id/tv_pay_bankaddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"/>
+
+</LinearLayout>

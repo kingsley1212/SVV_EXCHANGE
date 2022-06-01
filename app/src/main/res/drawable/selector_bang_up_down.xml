@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--榜的涨跌-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <shape>
+            <gradient
+                android:startColor="#ff00c674"
+                android:endColor="#ff01cb8f"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <gradient
+                android:startColor="#ffff595d"
+                android:endColor="#ffff683f"/>
+        </shape>
+    </item>
+</selector>

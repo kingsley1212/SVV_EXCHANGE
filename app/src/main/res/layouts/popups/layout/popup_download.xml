@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/popu_uninsterest3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_is_downloading"
+                android:textColor="@color/c_text_normal"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/downLoadValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/c_yellow"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:text="——"/>
+
+            <com.svv.jys.code.common.view.selfview.ProgressPercentView
+                android:id="@+id/downloadBar"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/dismissPop"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/ok"
+                android:gravity="center"
+                android:visibility="gone"
+                android:textSize="18sp"
+                android:textColor="@color/c_text_normal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
